@@ -1,0 +1,168 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizScrollFlexForm",
+    "DNDConfig": null,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s7b2189b6425461cb0b4eecf1e5ad9b4",
+    "_title_": null,
+    "ad12d214bc0a4cccb803b920657186a3": {
+        "@class": "com.kony.gen.viz.model.component.KVizImage2",
+        "DNDConfig": null,
+        "__UDWInstanceModelForRender__": true,
+        "__instanceKUID__": "j06ad7efbd384e9594e822368369db6e",
+        "__parentReadjusting__": false,
+        "__srcKUID__": "jd3dd7c537594b0a86b44ecf28525d57",
+        "_base64_": null,
+        "_height_": "30dp",
+        "_left_": "0dp",
+        "_margin_": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "_padding_": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "_render_": true,
+        "_skin_": "s5989cfd8ced47f783d2ad0d38fdc1c3",
+        "_src_": "icon_checkbox.png",
+        "_width_": "35dp",
+        "canUpdateUI": true,
+        "centery": "50%",
+        "containerweight": 100,
+        "context": {
+            "channel": "mobile",
+            "formID": "loginpage",
+            "platform": "iphone",
+            "templateType": "forms",
+            "topLevelBox": null
+        },
+        "displayName": "ImageKeepMeLoggedIn",
+        "id": "ad12d214bc0a4cccb803b920657186a3",
+        "imagescalemode": 1,
+        "info": null,
+        "invokedProperty": "src",
+        "isvisible": true,
+        "kuid": "ad12d214bc0a4cccb803b920657186a3",
+        "name": "kony.ui.Image2",
+        "parent": "d411d76b9d0a4a4289a1df8f7e44f4cb",
+        "pf": "loginpage",
+        "srcType": 1,
+        "wType": "Image",
+        "widgetalignment": 5,
+        "zindex": 1
+    },
+    "addWidgetsdone": false,
+    "allboxes": [],
+    "android": {
+        "needAppMenu": false,
+        "psp": {
+            "windowSoftInputMode": 2
+        }
+    },
+    "bounces": false,
+    "bounceszoom": false,
+    "canUpdateUI": true,
+    "children": [
+        "flxLogin",
+        "Popup",
+        "Popup2",
+        "flxTermsPoliciesInfo"
+    ],
+    "containerweight": 100,
+    "controllerInfo": {
+        "default": {
+            "channel": "mobile",
+            "name": "loginpageController"
+        }
+    },
+    "currentLocale": "default",
+    "desktopweb": {
+        "needAppMenu": false
+    },
+    "device": "GalaxyS5",
+    "displayorientation": 1,
+    "enabledforidletimeout": false,
+    "enablescrolling": false,
+    "id": "loginpage",
+    "ide_postShow": "AS_Form_g5394f367b3a45819caad96409d8e371",
+    "info": null,
+    "initdone": false,
+    "inputaccessoryviewtype": 2,
+    "ipad": {
+        "psp": {
+            "inputAccessoryViewType": 4
+        }
+    },
+    "iphone": {
+        "needAppMenu": false,
+        "psp": {
+            "bouncesZoom": false,
+            "inputAccessoryViewType": 3,
+            "titleBarConfig": {
+                "buttonClosureLeftSideView": "",
+                "buttonClosureRightSideView": "",
+                "buttonText": "Edit",
+                "leftButtonText": "Back",
+                "leftTitle": "Back",
+                "prevFormTitle": false,
+                "renderTitleText": true,
+                "rightTitle": "Edit",
+                "titleBarLeftSideView": "button",
+                "titleBarRightSideView": "button",
+                "titleClosureLeftSideView": "",
+                "titleClosureRightSideView": "",
+                "visible": false
+            }
+        },
+        "titleBar": false
+    },
+    "isvisible": true,
+    "kuid": "f47aac8b9fdf47099bf8720d1eee1679",
+    "layouttype": 2,
+    "name": "kony.ui.Form2",
+    "needappmenu": true,
+    "paddinginpixel": false,
+    "platform": "android",
+    "prevDevice": "iPhone6",
+    "prevPlatform": "iphone",
+    "retainscrollposition": false,
+    "shellCSS": "and_GalaxyS5",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "spaan": {
+        "needAppMenu": false
+    },
+    "spabb": {
+        "needAppMenu": false
+    },
+    "spaip": {
+        "needAppMenu": false
+    },
+    "spawinphone8": {
+        "needAppMenu": false
+    },
+    "titleBarSkin": "s3c8df7ab34c49de855210b3177f1cdb",
+    "titlebar": true,
+    "type": 3,
+    "wType": "Form",
+    "winphone8": {
+        "needAppMenu": false
+    }
+}

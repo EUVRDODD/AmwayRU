@@ -1,0 +1,24 @@
+{
+    "AS_Form_ca5cf8951c014ce48d8307c68c261862": {
+        "id": "AS_Form_ca5cf8951c014ce48d8307c68c261862",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "commissionSchedule",
+            "type": "forms",
+            "platform": null,
+            "KUID": "e529257c3f024153b569f2204d4acf34"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__b7ac3ef0256b48739d33a9691b1d1602",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.applyBindings();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

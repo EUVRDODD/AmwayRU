@@ -1,0 +1,24 @@
+{
+    "AS_Form_e9a7125f15fa476fa3132d71f36c1f8d": {
+        "id": "AS_Form_e9a7125f15fa476fa3132d71f36c1f8d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "GIPDiamondPrevYear",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e766b32d99994d489ba4bbdc5ff32686"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__dde5da5977874a189c9155e783ba6515",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.GIPPrevYearListMasterData();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

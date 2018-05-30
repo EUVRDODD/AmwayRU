@@ -1,0 +1,95 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_enabled_": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sbc73049e55c4fe0a4f28c920f8fab7d",
+    "_src_": "icon_abo.png",
+    "_text_": "icon_abo.png",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "accessibilityconfig": {
+        "a11yHidden": false,
+        "a11yHint": "",
+        "a11yLabel": "",
+        "a11yValue": ""
+    },
+    "android": {
+        "@class": "com.kony.gen.viz.model.component.property.image2.AndroidImage2Property",
+        "render": true
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "context": {
+        "channel": "mobile",
+        "formID": "incomeSimulatorLOS",
+        "platform": "iphone",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "hexpand": false,
+    "id": "ImgABO11",
+    "imagescalemode": 1,
+    "info": null,
+    "ipad": {
+        "render": true
+    },
+    "isvisible": true,
+    "kuid": "dca93bd1901b40e392fda1fc104792ec",
+    "margininpixel": false,
+    "name": "kony.ui.Image2",
+    "paddinginpixel": false,
+    "parent": "FlexLOSABO11",
+    "pf": "incomeSimulatorLOS",
+    "spa": {
+        "@class": "com.kony.gen.viz.model.component.property.image2.SPAImage2Property"
+    },
+    "spaandroidtablet": {
+        "render": true
+    },
+    "spabbnth": {
+        "@class": "com.kony.gen.viz.model.component.property.image2.SPABBNTHImage2Property",
+        "render": true
+    },
+    "spaipad": {
+        "render": true
+    },
+    "spawindowstablet": {
+        "render": true
+    },
+    "srcType": 1,
+    "vexpand": false,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "windows8": {
+        "render": true
+    },
+    "zindex": 1
+}

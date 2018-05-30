@@ -1,0 +1,24 @@
+{
+    "AS_Form_f9437d5c98e74262913d2a543e098ae4": {
+        "id": "AS_Form_f9437d5c98e74262913d2a543e098ae4",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "storedetailpage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e80a1b4104354c72b451da996f22a129"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__fd773ff6d32740f494caa8e5a2fd50c8",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.applyBindings();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

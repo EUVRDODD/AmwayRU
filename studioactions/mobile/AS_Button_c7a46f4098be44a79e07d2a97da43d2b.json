@@ -1,0 +1,17 @@
+{
+    "AS_Button_c7a46f4098be44a79e07d2a97da43d2b": {
+        "id": "AS_Button_c7a46f4098be44a79e07d2a97da43d2b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_caa377f5ec24454bb397366e57d09ef1",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.calculateGPV_PPV(eventobject);",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "__markedForDelete__": true,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s49321b522a143d78cc2a041d396c50c",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "28dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "94.96%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "rchOpeningHours",
+    "info": null,
+    "isvisible": true,
+    "kuid": "a24ccb6a8c5042f8bd53a037e09f35de",
+    "name": "kony.ui.RichText",
+    "parent": "FlexContainer0a17a98b901874c",
+    "pf": "storedetailpage",
+    "texti18n": "storedetailpagerchOpeningHours",
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}

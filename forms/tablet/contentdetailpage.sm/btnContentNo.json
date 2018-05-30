@@ -1,0 +1,60 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__markedForDelete__": true,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "number",
+        "value": "15"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sb5ec276adc84093a67019c84a3da7eb",
+    "_text_": "Download Later",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "35%"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "sf68053e0df74a39a73fe6c471755398",
+    "id": "btnContentNo",
+    "info": null,
+    "isvisible": true,
+    "kuid": "e5bab2a109664a91983899bd7e18d168",
+    "name": "kony.ui.Button",
+    "paddinginpixel": false,
+    "parent": "CopyFlexContainer0h606fd2c246d48",
+    "pf": "contentdetailpage",
+    "wType": "Button",
+    "zindex": 3
+}

@@ -1,0 +1,75 @@
+{
+    "classname": "Upgrade",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "paramList": [
+                        {
+                            "name": "data"
+                        }
+                    ],
+                    "propertyKey": "setDisplayMessage",
+                    "pw": {
+                        "displayName": "setDisplayMessage",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ef2cfb9818da4e18a955f4a9b2ce1c32",
+                    "type": "event"
+                },
+                {
+                    "paramList": [],
+                    "propertyKey": "showPopup",
+                    "pw": {
+                        "displayName": "showPopup",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ef2cfb9818da4e18a955f4a9b2ce1c32",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "originalPropertyKey": "onClick",
+                    "propertyKey": "onBtnOkClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onBtnOkClick",
+                        "srcWidget": "btnOk",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "f77abe8b540545bbb9f9185497a478d7"
+                },
+                {
+                    "access": "Enable",
+                    "originalPropertyKey": "onClick",
+                    "propertyKey": "onBtnCancelClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onBtnCancelClick",
+                        "srcWidget": "btnCancel",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "i504fb28a05541e099d4bf38cbb270c4"
+                }
+            ]
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "AppVersion",
+    "version": "1.0.0"
+}

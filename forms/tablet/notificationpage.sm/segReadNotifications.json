@@ -1,0 +1,224 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__markedForDelete__": true,
+    "__parentReadjusting__": false,
+    "_bounces_": false,
+    "_data_": [
+        {
+            "imgDot": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "pageondot.png"
+            },
+            "imgLogo": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "icon_amway.png"
+            },
+            "imgMore": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "icon_hellip.png"
+            },
+            "lblFetchId": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblNotificationTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "AMWAY"
+            },
+            "lblTimeStamp": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Just now"
+            },
+            "lblUnreadMsg": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Unread Message"
+            },
+            "rchTextHidden": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "RichText"
+            },
+            "rchTxtMsg": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Lorem ipsum dolor sit amet, consectetur "
+            }
+        },
+        {
+            "imgDot": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "pageondot.png"
+            },
+            "imgLogo": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "icon_amway.png"
+            },
+            "imgMore": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "icon_hellip.png"
+            },
+            "lblFetchId": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblNotificationTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "AMWAY"
+            },
+            "lblTimeStamp": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Just now"
+            },
+            "lblUnreadMsg": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Unread Message"
+            },
+            "rchTextHidden": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "RichText"
+            },
+            "rchTxtMsg": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Lorem ipsum dolor sit amet, consectetur "
+            }
+        },
+        {
+            "imgDot": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "pageondot.png"
+            },
+            "imgLogo": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "icon_amway.png"
+            },
+            "imgMore": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "icon_hellip.png"
+            },
+            "lblFetchId": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblNotificationTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "AMWAY"
+            },
+            "lblTimeStamp": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Just now"
+            },
+            "lblUnreadMsg": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Unread Message"
+            },
+            "rchTextHidden": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "RichText"
+            },
+            "rchTxtMsg": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Lorem ipsum dolor sit amet, consectetur "
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "02",
+    "disabledSkins": {
+        "rowFocusSkin": "s0f6983ad9504750b0c60507eea96ccf"
+    },
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segReadNotifications",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "bounces": false,
+            "indicator": "none"
+        }
+    },
+    "isvisible": false,
+    "kuid": "b126536a88c94942aa3ff1f79d2684d5",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxRead",
+    "pf": "notificationpage",
+    "retainselection": false,
+    "rowTemplateId": "b7047070106f4534a78bb26bf1b93c13",
+    "rowcounter": 2,
+    "rowskin": "se39a8d4a3a846aba0432f0f041758c3",
+    "rowtemplate": "flxUnreadNotification",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "sec79582323943aebedbd370c119eb36",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": null,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "separatorthickness": 0,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "FlexContainer0cf1443d89d3b42": "FlexContainer0cf1443d89d3b42",
+        "FlexContainer0ef8afec44e1644": "FlexContainer0ef8afec44e1644",
+        "MoreOptions": "MoreOptions",
+        "flxBottom": "flxBottom",
+        "flxDesc": "flxDesc",
+        "flxTop": "flxTop",
+        "flxUnreadNotification": "flxUnreadNotification",
+        "imgDot": "imgDot",
+        "imgLogo": "imgLogo",
+        "imgMore": "imgMore",
+        "lblFetchId": "lblFetchId",
+        "lblNotificationTitle": "lblNotificationTitle",
+        "lblTimeStamp": "lblTimeStamp",
+        "lblUnreadMsg": "lblUnreadMsg",
+        "rchTextHidden": "rchTextHidden",
+        "rchTxtMsg": "rchTxtMsg"
+    },
+    "zindex": 1
+}

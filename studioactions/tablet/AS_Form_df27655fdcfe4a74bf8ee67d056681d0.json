@@ -1,0 +1,18 @@
+{
+    "AS_Form_df27655fdcfe4a74bf8ee67d056681d0": {
+        "id": "AS_Form_df27655fdcfe4a74bf8ee67d056681d0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "PDFBrowser",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d6335432aa544f0ea2b33e849e9ed149"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

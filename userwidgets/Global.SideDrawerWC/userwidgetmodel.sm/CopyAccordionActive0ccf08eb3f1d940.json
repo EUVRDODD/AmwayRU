@@ -1,0 +1,59 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s7c57f38462e41ca9d2c1d23be763f8e",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "CopyAccordionActiveIcon0cbca0724690e4e",
+        "CopyFlexContainer0a92bc926fb2943",
+        "CopyAccordionActiveChevron0fced259b768e40"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "CopyAccordionActive0ccf08eb3f1d940",
+    "info": null,
+    "isvisible": false,
+    "kuid": "ca5c1445ce3f4e06bf0bf44d991a9505",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxOpportunity",
+    "pf": "userwidgetmodel",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

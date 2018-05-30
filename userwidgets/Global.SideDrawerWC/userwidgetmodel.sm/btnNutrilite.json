@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__markedForDelete__": true,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sfdc04c85537418fac7b99ea852bc6bd",
+    "_text_": "",
+    "_width_": {
+        "type": "string",
+        "value": "37%"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sfdc04c85537418fac7b99ea852bc6bd",
+    "id": "btnNutrilite",
+    "info": null,
+    "isvisible": true,
+    "kuid": "2dff8b481f2f44dc9c3ba9420c86f606",
+    "name": "kony.ui.Button",
+    "parent": "CopyFlexContainer0ae0ea04dc13c48",
+    "pf": "userwidgetmodel",
+    "wType": "Button",
+    "zindex": 1
+}

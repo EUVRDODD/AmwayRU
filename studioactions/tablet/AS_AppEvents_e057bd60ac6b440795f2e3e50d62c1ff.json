@@ -1,0 +1,19 @@
+{
+    "AS_AppEvents_e057bd60ac6b440795f2e3e50d62c1ff": {
+        "id": "AS_AppEvents_e057bd60ac6b440795f2e3e50d62c1ff",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__dec75e9e11c44843aee9fee90a3b3e33",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "checkTokenExist();\n\n//createDB();\n// getCategoriesList();\nif(isIOS()){\n  initDownloadManager();\n}\nkony.application.setApplicationBehaviors({\"hideDefaultLoadingIndicator\":true});\n//kony.lang.setUncaughtExceptionHandler(uncaughtExceptionHandler);",
+            "parentId": null,
+            "callbackType": null,
+            "disabled": false
+        }]
+    }
+}

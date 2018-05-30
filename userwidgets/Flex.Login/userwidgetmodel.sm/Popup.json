@@ -1,0 +1,111 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": "100%",
+    "_left_": {
+        "type": "string",
+        "value": "-100%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s835b1e5304e4b7d99d4ccd32ab46295",
+    "_top_": "0dp",
+    "_width_": "100%",
+    "areflexpropsreferenced": false,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "Popup": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "ac883f49e99a4767ae159ecbd05872ad",
+                "srcKUID": "gd95ac52fd1c4f0982420ab9d9e4a609",
+                "wType": "FlexContainer"
+            },
+            "left": {
+                "type": "string",
+                "value": "-100%"
+            }
+        },
+        "btnConfirmation": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "j4347040e32e4cc38ec4369ce6addd6f",
+                "srcKUID": "d7cd9621eab5441a86762ff37e694016",
+                "wType": "Button"
+            }
+        },
+        "flxConfirmation": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c5633ea556e34363b91695c1e0ba3fa4",
+                "srcKUID": "g95895440dae45559843ab0982b9b5c7",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxDevider1": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "j9b2e03790464309bd1b536fb8d74fb6",
+                "srcKUID": "e940fc441f314870905fe469d9e11f32",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxdevider2": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "db473c1230cc48d4964c76c2491dc555",
+                "srcKUID": "h3b1a2495d9644b3a3d9fed98c5377f9",
+                "wType": "FlexContainer"
+            }
+        },
+        "lblInfo": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "fa8f9b10443344bbb5201ee626b1e51d",
+                "srcKUID": "a00952bf78124398a775f1b2017d7296",
+                "wType": "Label"
+            }
+        },
+        "lblInfoComment": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b2deb024341249b5bc247eb0bd4b828d",
+                "srcKUID": "d4fb8e3c72ee4f2ab994c0edbc6ea747",
+                "wType": "Label"
+            },
+            "i18n_text": "InvalidCredentialsMessage"
+        }
+    },
+    "id": "Popup",
+    "info": null,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "ib87b5b156bc4e5390713a0773aee697",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxLogin",
+    "pf": "userwidgetmodel",
+    "snaptogrid": true,
+    "sourceUserWidget": "gd95ac52fd1c4f0982420ab9d9e4a609",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

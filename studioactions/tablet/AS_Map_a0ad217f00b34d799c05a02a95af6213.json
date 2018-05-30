@@ -1,0 +1,12 @@
+{
+    "AS_Map_a0ad217f00b34d799c05a02a95af6213": {
+        "id": "AS_Map_a0ad217f00b34d799c05a02a95af6213",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": []
+    }
+}

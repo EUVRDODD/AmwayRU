@@ -1,0 +1,27 @@
+{
+    "AS_TextField_c7713e8a9807497ebb763e7fb7b7786c": {
+        "id": "AS_TextField_c7713e8a9807497ebb763e7fb7b7786c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "searchresultspage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "bd05789ba1554547982ce969ea946f8a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__h44938c2577d49a7ba321cf780b6ba8f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxRecentSearchWraper.zIndex = 2;\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

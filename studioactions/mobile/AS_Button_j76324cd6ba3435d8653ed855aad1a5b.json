@@ -1,0 +1,24 @@
+{
+    "AS_Button_j76324cd6ba3435d8653ed855aad1a5b": {
+        "id": "AS_Button_j76324cd6ba3435d8653ed855aad1a5b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "incomeSimulatorLOS",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b93cd434e25d4cf9a8c8b064fdd5a65e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__be34739618f046b284caf825bf68ec60",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//alert(\"helo\");\nthis.showPopup(eventobject);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizListBox",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "40%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_skin_": "sce50c668c8a447ea510a3d71fd24f38",
+    "_width_": {
+        "type": "string",
+        "value": "30%"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "context": {
+        "channel": "mobile",
+        "formID": "uwu1352b43f2214ee7ab1be7e916c7181c",
+        "ispercent": "",
+        "templateType": "userwidgets",
+        "topLevelBox": null
+    },
+    "groupcells": false,
+    "id": "lstLanguage",
+    "info": null,
+    "isvisible": true,
+    "kuid": "b99d7141d5ee4c9982f3d3b70ed30e93",
+    "masterdata": [
+        [
+            "en_IN",
+            "English"
+        ],
+        [
+            "hi_IN",
+            "Hindi"
+        ]
+    ],
+    "name": "kony.ui.ListBox",
+    "parent": "PersonalisationButton",
+    "pf": "userwidgetmodel",
+    "selectedkey": "en_IN",
+    "selectedkeys": null,
+    "selectedkeyvalue": [
+        "en_IN",
+        "English"
+    ],
+    "selectedkeyvalues": null,
+    "size": 18,
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "ListBox",
+    "zindex": 1
+}

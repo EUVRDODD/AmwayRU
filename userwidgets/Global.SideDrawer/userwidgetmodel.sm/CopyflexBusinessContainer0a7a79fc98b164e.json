@@ -1,0 +1,66 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "82dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s15bafe233aa4de199a471d538aaf7ce",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "CopyflexBorderContainer0fe2ec5cd17704a",
+        "linkContactUs",
+        "CopyflexBorderContainer0e33ab27229b246",
+        "CopyAccordion0aa78eadbc09142",
+        "linkStoreLocator",
+        "CopyflexBorderContainer0hf85c0f6764941",
+        "CopyAccordion0eb9d32176ab243",
+        "linkFAQ",
+        "CopyflexBorderContainer0h8ce556ecf584e",
+        "CopyAccordion0j850ec5e175b45"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "CopyflexBusinessContainer0a7a79fc98b164e",
+    "info": null,
+    "isvisible": true,
+    "kuid": "f970235c80424fc8bb12955d5b86729c",
+    "layouttype": 4,
+    "name": "kony.ui.FlexContainer",
+    "parent": "scrollSideDrawerContainer",
+    "pf": "userwidgetmodel",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

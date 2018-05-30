@@ -1,0 +1,214 @@
+{
+    "classname": "Settings",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "paramList": [],
+                    "propertyKey": "goToLogOutConfirm",
+                    "pw": {
+                        "displayName": "goToLogOutConfirm",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "cffcafefe20e4bf3bf310d6c813600c0",
+                    "type": "event"
+                },
+                {
+                    "paramList": [],
+                    "propertyKey": "changeLocale",
+                    "pw": {
+                        "displayName": "changeLocale",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "cffcafefe20e4bf3bf310d6c813600c0",
+                    "type": "event"
+                },
+                {
+                    "paramList": [],
+                    "propertyKey": "notificationButtonClick",
+                    "pw": {
+                        "displayName": "notificationButtonClick",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "cffcafefe20e4bf3bf310d6c813600c0",
+                    "type": "event"
+                },
+                {
+                    "paramList": [],
+                    "propertyKey": "gotoChangeUserConfirm",
+                    "pw": {
+                        "displayName": "gotoChangeUserConfirm",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "cffcafefe20e4bf3bf310d6c813600c0",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "originalPropertyKey": "isVisible",
+                    "propertyKey": "showlbl",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "showlbl",
+                        "srcWidget": "lblNotificationCount",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "f65aed75c5504fc4827c4a81c500bd5b"
+                },
+                {
+                    "access": "Enable",
+                    "originalPropertyKey": "text",
+                    "propertyKey": "setText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "setText",
+                        "srcWidget": "lblNotificationCount",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "f65aed75c5504fc4827c4a81c500bd5b"
+                },
+                {
+                    "access": "Enable",
+                    "originalPropertyKey": "text",
+                    "propertyKey": "text",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "lblNotificationtxt",
+                        "srcWidget": "lblNotifications",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "2ca63492578442f3a9abd01459e3bf94"
+                },
+                {
+                    "access": "Enable",
+                    "originalPropertyKey": "imageScaleMode",
+                    "propertyKey": "imageScaleMode",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "displayName": "imgNotificationScalemode",
+                        "srcWidget": "Image0b27c2c3d8d6243",
+                        "type": "enum",
+                        "uiRepresentation": "Label-Combobox",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "c1f8673565a54b6fa7ef74e0d8fd3fe8"
+                },
+                {
+                    "access": "Enable",
+                    "originalPropertyKey": "src",
+                    "propertyKey": "src",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "displayName": "imgNotificationScalemode",
+                        "srcWidget": "Image0b27c2c3d8d6243",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "c1f8673565a54b6fa7ef74e0d8fd3fe8"
+                },
+                {
+                    "access": "Enable",
+                    "originalPropertyKey": "imageScaleMode",
+                    "propertyKey": "imageScaleMode1",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "displayName": "imgLogoutScalemode",
+                        "srcWidget": "CopyImage0ad036bcd6fb943",
+                        "type": "enum",
+                        "uiRepresentation": "Label-Combobox",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "28bbe4018c73491eb81b658afa7bbfb2"
+                },
+                {
+                    "access": "Enable",
+                    "originalPropertyKey": "src",
+                    "propertyKey": "src1",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "displayName": "imgLogout",
+                        "srcWidget": "CopyImage0ad036bcd6fb943",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "28bbe4018c73491eb81b658afa7bbfb2"
+                },
+                {
+                    "access": "Enable",
+                    "originalPropertyKey": "text",
+                    "propertyKey": "text1",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "lblLogouttxt",
+                        "srcWidget": "lblLogout",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "2cf2c0b50c42493193d05f0f2153b737"
+                },
+                {
+                    "access": "Enable",
+                    "originalPropertyKey": "text",
+                    "propertyKey": "text2",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "lblChangeUser",
+                        "srcWidget": "lblChangeUser",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "j460e107848b4856b017794e817e467b"
+                }
+            ]
+        }
+    },
+    "namespace": "Buttons1",
+    "version": "1.0.0"
+}

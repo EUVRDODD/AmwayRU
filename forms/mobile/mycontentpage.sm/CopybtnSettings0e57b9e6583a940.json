@@ -1,0 +1,58 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sbe429cac36f4d6ca312b950c2cfd77b",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "7dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s6f0215340e1432c982236b71c45eb1f",
+    "id": "CopybtnSettings0e57b9e6583a940",
+    "ide_onClick": "AS_Button_daeaf61eab344788a005d4c8f2829bcc",
+    "info": null,
+    "isvisible": true,
+    "kuid": "e47c1163369c4323b9c1787dec5531a8",
+    "name": "kony.ui.Button",
+    "parent": "CopyFlexContainer0a898c53531c540",
+    "pf": "mycontentpage",
+    "wType": "Button",
+    "zindex": 1
+}

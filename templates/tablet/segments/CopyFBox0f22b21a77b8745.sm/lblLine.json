@@ -1,0 +1,66 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "__markedForDelete__": true,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "1dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s243abb212db46c7950648023cbe38e6",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "335dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "psp": {
+            "includeFontPadding": true
+        },
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "lblLine",
+    "includeFontPadding": true,
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "isvisible": true,
+    "kuid": "e931726fc6d348aa9d3b6e0d1bbd3e36",
+    "name": "kony.ui.Label",
+    "parent": "CopyFlexContainer0i19f0b9f022b41",
+    "pf": "CopyFBox0f22b21a77b8745",
+    "tooltip": "",
+    "wType": "Label",
+    "zindex": 1
+}

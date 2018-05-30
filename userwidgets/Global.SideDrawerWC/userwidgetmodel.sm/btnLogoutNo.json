@@ -1,0 +1,58 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "23%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s4eb00d4dc7b487db9b71808d7cf02d4",
+    "_text_": "NO",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "30%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "72%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "71%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "s4eb00d4dc7b487db9b71808d7cf02d4",
+    "id": "btnLogoutNo",
+    "info": null,
+    "isvisible": true,
+    "kuid": "04ed1de9c54b4678962556074413202d",
+    "name": "kony.ui.Button",
+    "parent": "flxLogOutBox",
+    "pf": "userwidgetmodel",
+    "wType": "Button",
+    "zindex": 3
+}

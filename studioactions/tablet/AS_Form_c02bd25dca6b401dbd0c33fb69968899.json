@@ -1,0 +1,28 @@
+{
+    "AS_Form_c02bd25dca6b401dbd0c33fb69968899": {
+        "id": "AS_Form_c02bd25dca6b401dbd0c33fb69968899",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "loadingscreenpage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c3b7afe877f44e179dc5d82fd39f32a3"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___f672c2438be0409db3381cd7cd111a74",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "exitApp",
+            "display": "exitApp",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "__markedForDelete__": true,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s42e05a8af7f49c2bc9650d11817b7b8",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "rchStoreLocation",
+    "info": null,
+    "isvisible": true,
+    "kuid": "cd0f25410b9641babe175b1f651a8b3c",
+    "name": "kony.ui.RichText",
+    "parent": "FlexContainer0c1ad282d581f48",
+    "pf": "storedetailpage",
+    "texti18n": "storedetailpagerchStoreLocation",
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}

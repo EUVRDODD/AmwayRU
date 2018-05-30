@@ -1,0 +1,30 @@
+{
+    "AS_Segment_f1226cd58c124ca8bc6118a0e88258a5": {
+        "id": "AS_Segment_f1226cd58c124ca8bc6118a0e88258a5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "storelocatorpage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "i0f1739eef9d4028bf5bed701ddfb03d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e19708b31327477981b02a984ea3d571",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "touchStartStore = kony.os.time();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

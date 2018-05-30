@@ -1,0 +1,55 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "7%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s06cbbad4a814994a6d6ac285ec4b82d",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "30%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "82%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sa70be0bfce4445f89bdc5c98727b8f3",
+    "id": "btnStart",
+    "info": null,
+    "isvisible": true,
+    "kuid": "f5056400469844b98991fcc68eeca4b6",
+    "masterType": 1,
+    "name": "kony.ui.Button",
+    "parent": "flexMain",
+    "pf": "commissionSchedule",
+    "texti18n": "commissionSchedulebtnStart",
+    "wType": "Button",
+    "zindex": 1
+}

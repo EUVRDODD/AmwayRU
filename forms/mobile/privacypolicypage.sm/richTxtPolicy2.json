@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        2,
+        2,
+        2,
+        0
+    ],
+    "_skin_": "s88cd869bc7841f7a52a7e644490466b",
+    "_text_": "<b>The Types of Information We May Use</b><br>\nWe may use the following information from you:<br><br>\n•Amway Distributor Number Only\n<br><br>\n<b>The Types of Sensitive Personal Data We May Use</b><br>\nWe may use the following <b>Sensitive</b> personal data from you:<br><br>\n•Password for accessing our Application.\n<br><br>\n<b>How We Use the Information and Sensitive Personal Data</b><br>\nWe may use the information we obtain about you to:<br><br>\n•To manage your login information as an Amway Distributor.<br>\n•Evaluating your satisfaction with our current programs and modules on the app.<br>\n•Comply with applicable legal requirements, industry standards and our policies.<br>\n<br><br>\n\n\n<b>How We May Share Your Information and Sensitive Data</b><br>\nAmway does not sell, rent or trade or publish your personal and sensitive data except as required by law. Amway may share your personal and sensitive data only with:<br><br>\n•Entities within the Amway group to whom it is reasonably necessary or desirable for Amway to disclose personal and Sensitive data;<br><br>\n•Government authorities or other third parties, if required by law or reasonably necessary to protect the rights, property and safety of others or ourselves.\n<br><br>\n\n<b>International Data Transfers</b><br>\nWe may transfer the personal data we collect about you to other Amway affiliates or other entities of Amway's mother company Alticor Inc. Some of them may be in in countries other than the country in which the data were originally collected. When we transfer your personal data to Amway entities in other countries, we will protect that data as described in this Privacy Policy and in accordance with applicable law.\n<br><br>\n\n<b>How We Protect Personal Data</b><br>\nWe maintain appropriate technical and organizational security safeguards designed to protect the personal data you provide against accidental, unlawful or unauthorized destruction, loss, alteration, access, disclosure or use.\n<br><br>\n\n<b>How Long We Retain Your Information</b><br>\nWe store your sign-in information for 30 days to fulfil the purposes for which we use the data (see above under \"<b>How We Use the Personal Data We Collect</b>\"), except if required otherwise by law.\n<br><br>\n\n<b>Updates to this Privacy Policy</b><br>\nAmway may update this Privacy Policy from time to time. Please check back frequently, especially before you submit any Personal and/or Sensitive Information, to see if this Privacy Policy has changed. We will notify you of any significant changes to this Privacy Policy on the Application. All changes shall be effective from the date of notification on the Application, unless otherwise provided in the notification.\n<br><br>\n\n<b>Acceptance to this Privacy Policy</b><br>\nBy signing in the Application, you acknowledge acceptance of this Privacy Policy in effect at the time of use.\n<br><br>\n\n<b>Your Rights</b><br>\nYour rights under applicable law may include access to the personal data we process about you and the right to have such personal data corrected.\n<br><br>\n\n<b>How to Contact Us</b><br>\nIf you have any comments or inquiries about this Privacy Policy, if you would like to update information we have about you, or to exercise your rights, you may contact us at",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "richTxtPolicy2",
+    "info": null,
+    "isvisible": true,
+    "kuid": "c7f9901833eb4271bd5b56f6af25fcda",
+    "name": "kony.ui.RichText",
+    "paddinginpixel": false,
+    "parent": "flxScrollPrivacyPolicy",
+    "pf": "privacypolicypage",
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}

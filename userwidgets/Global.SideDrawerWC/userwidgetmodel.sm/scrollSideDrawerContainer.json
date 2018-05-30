@@ -1,0 +1,80 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "92%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "se0bb515eb9b4063a8b4aa4848709441",
+    "_top_": {
+        "type": "string",
+        "value": "8%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "allboxes": [],
+    "allowhorizontalbounce": false,
+    "allowverticalbounce": true,
+    "bounces": true,
+    "canUpdateUI": true,
+    "children": [
+        "flexBorderContainer2",
+        "CopyflexSortFeedByContainer0ecc9417ddb8f46",
+        "CopyflexSortFeedByContainer0h35edd26515c4c",
+        "flxDynamic",
+        "flxAboutUs",
+        "AboutUsContainer",
+        "flxBrowseBusiness",
+        "BrowseBusinessContainer",
+        "flxAmwayBusiness",
+        "CopyBrowseBusinessContainer0fbd388d0fe2e48",
+        "CopyflexSortFeedByContainer0b9038e6520b94b",
+        "flexToolsContainer",
+        "CopyflexSortFeedByContainer0aba8a04b61a34c",
+        "CopyflexBusinessContainer0a7a79fc98b164e",
+        "CopyflexSortFeedByContainer0dfcb5cf08d284e"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "decelerat": false,
+    "dragg": false,
+    "enablescrolling": true,
+    "horizontalscrollindicator": true,
+    "id": "scrollSideDrawerContainer",
+    "info": null,
+    "isvisible": true,
+    "kuid": "489e70b2fe64409889eb7f76d3a61e6a",
+    "layouttype": 4,
+    "name": "kony.ui.FlexScrollContainer",
+    "pagingenabled": false,
+    "parent": "SideDrawerWC",
+    "pf": "userwidgetmodel",
+    "scrolldirection": 2,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "track": false,
+    "verticalscrollindicator": true,
+    "wType": "FlexScrollContainer",
+    "widgetalignment": 1,
+    "zindex": 5
+}

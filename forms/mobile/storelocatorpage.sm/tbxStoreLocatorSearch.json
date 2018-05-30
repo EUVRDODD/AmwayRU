@@ -1,0 +1,83 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "35dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "",
+    "_skin_": "s3d0d208b99d47a3af26df122e96300d",
+    "_text_": "",
+    "_width_": {
+        "type": "string",
+        "value": "86%"
+    },
+    "android": {
+        "psp": {
+            "keyboardActionLabel": 3
+        }
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "disabledSkins": {},
+    "focusskin": "s5104a211b61472ea120d710047e461b",
+    "id": "tbxStoreLocatorSearch",
+    "info": null,
+    "iphone": {
+        "psp": {
+            "keyboardActionLabel": 3,
+            "leftViewImage": null,
+            "pasteboardType": 5,
+            "showProgressIndicator": true
+        }
+    },
+    "isvisible": true,
+    "keyboardactionlabel": 3,
+    "keyboardtype": "A",
+    "kuid": "g65412c66cdc4ca89d4ddcbcbd8fd02e",
+    "leftviewimage": null,
+    "maxtextlength": 35,
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "paddingLocked": false,
+    "paddinginpixel": false,
+    "parent": "flxStoreLocatorSearch",
+    "pasteboardtype": 5,
+    "pf": "storelocatorpage",
+    "placeholderi18n": "storelocatorpagetbxStoreLocatorSearch",
+    "placeholderskin": "sfa1f9cacca9449182f15f6f6613b135",
+    "securetextentry": false,
+    "showoprogressindicator": true,
+    "textinputmode": "A",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 1
+}

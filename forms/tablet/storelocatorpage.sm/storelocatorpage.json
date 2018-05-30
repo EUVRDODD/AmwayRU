@@ -1,0 +1,2576 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizScrollFlexForm",
+    "DNDConfig": null,
+    "FlexContainer0ab66e8c33fc140": {
+        "DNDConfig": null,
+        "StoreLocation": {
+            "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+            "DNDConfig": null,
+            "__childrenGenerated__": true,
+            "__parentReadjusting__": false,
+            "_children_": [
+                "e4aee09ebc8747759ab779d14d8fc795",
+                "ac898684c98d44ea874fd46bc31c9c4d"
+            ],
+            "_height_": "100%",
+            "_left_": "0dp",
+            "_margin_": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "_orientation_": 1,
+            "_padding_": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "_percent_": true,
+            "_render_": true,
+            "_skin_": "s15bafe233aa4de199a471d538aaf7ce",
+            "_top_": "0dp",
+            "_width_": "100%",
+            "ac898684c98d44ea874fd46bc31c9c4d": {
+                "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+                "DNDConfig": null,
+                "__UDWInstanceModelForRender__": true,
+                "__instanceKUID__": "jde7816fd96e4ba09a101dd5c5fb8a71",
+                "__parentReadjusting__": false,
+                "__srcKUID__": "a57771ece4aa48c082464dfa75f4c4be",
+                "_data_": [
+                    {
+                        "Image0bf03570764ee4c": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "icon_compass.png"
+                        },
+                        "Label0hc019c1ea88a4a": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Current Location"
+                        }
+                    },
+                    {
+                        "Image0bf03570764ee4c": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": ""
+                        },
+                        "Label0hc019c1ea88a4a": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Location 1"
+                        }
+                    },
+                    {
+                        "Image0bf03570764ee4c": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": ""
+                        },
+                        "Label0hc019c1ea88a4a": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Location 2"
+                        }
+                    }
+                ],
+                "_height_": "140dp",
+                "_indicator_": "none",
+                "_left_": "0dp",
+                "_margin_": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "_orientation_": 2,
+                "_padding_": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "_render_": true,
+                "_top_": "83dp",
+                "_width_": "100%",
+                "autogrowmode": 0,
+                "canUpdateUI": true,
+                "containerweight": 100,
+                "counter": "02",
+                "displayName": "Segment0hfb0fc95cc0a4b",
+                "enablereordering": false,
+                "focusedindex": null,
+                "focuseditem": null,
+                "groupcells": false,
+                "hasSections": false,
+                "id": "ac898684c98d44ea874fd46bc31c9c4d",
+                "info": null,
+                "ipad": {
+                    "psp": {
+                        "indicator": "rowselect"
+                    }
+                },
+                "iphone": {
+                    "psp": {
+                        "indicator": "none"
+                    }
+                },
+                "isvisible": true,
+                "kuid": "ac898684c98d44ea874fd46bc31c9c4d",
+                "masterdata": {},
+                "mobile": {
+                    "_data_": [
+                        {
+                            "Image0bf03570764ee4c": {
+                                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                                "src": "icon_compass.png"
+                            },
+                            "Label0hc019c1ea88a4a": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": "Current Location"
+                            }
+                        },
+                        {
+                            "Image0bf03570764ee4c": {
+                                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                                "src": ""
+                            },
+                            "Label0hc019c1ea88a4a": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": "Location 1"
+                            }
+                        },
+                        {
+                            "Image0bf03570764ee4c": {
+                                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                                "src": ""
+                            },
+                            "Label0hc019c1ea88a4a": {
+                                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                                "text": "Location 2"
+                            }
+                        }
+                    ],
+                    "rowTemplateId": "h77641106df7418da6fae5624aa46b9d",
+                    "rowtemplate": "FlexContainer0e2cea3e0c8954b",
+                    "sectionHeaderTemplateId": null,
+                    "selectionBehaviorConfig": {},
+                    "widgetdatamap": {
+                        "FlexContainer0e2cea3e0c8954b": "FlexContainer0e2cea3e0c8954b",
+                        "Image0bf03570764ee4c": "Image0bf03570764ee4c",
+                        "Label0hc019c1ea88a4a": "Label0hc019c1ea88a4a"
+                    }
+                },
+                "name": "kony.ui.SegmentedUI2",
+                "needpageindicator": true,
+                "pageoffdotimage": "pageoffdot.png",
+                "pageondotimage": "pageondot.png",
+                "paginationconfig": {
+                    "position": "bottom"
+                },
+                "parent": "StoreLocation",
+                "pf": "storelocatorpage",
+                "retainselection": false,
+                "rowTemplateId": "h77641106df7418da6fae5624aa46b9d",
+                "rowcounter": 2,
+                "rowfocusskin": "s0f6983ad9504750b0c60507eea96ccf",
+                "rowskin": "se39a8d4a3a846aba0432f0f041758c3",
+                "rowtemplate": "FlexContainer0e2cea3e0c8954b",
+                "screenlevelwidget": false,
+                "seccounter": 0,
+                "sectionHeaderTemplateId": null,
+                "sectionheaderskin": "sec79582323943aebedbd370c119eb36",
+                "selectedRows": null,
+                "selectedState": false,
+                "selectedindex": null,
+                "selectedindices": null,
+                "selecteditems": null,
+                "selectedsectionindex": 0,
+                "selectionbehavior": "default",
+                "selectionbehaviorconfig": {},
+                "separatorcolor": "64646400",
+                "separatorrequired": true,
+                "separatorthickness": 1,
+                "showscrollbars": false,
+                "viewtype": "tableview",
+                "wType": "Segment",
+                "widgetalignment": 5,
+                "widgetdatamap": {
+                    "FlexContainer0e2cea3e0c8954b": "FlexContainer0e2cea3e0c8954b",
+                    "Image0bf03570764ee4c": "Image0bf03570764ee4c",
+                    "Label0hc019c1ea88a4a": "Label0hc019c1ea88a4a"
+                },
+                "zindex": 1
+            },
+            "areflexpropsreferenced": false,
+            "canUpdateUI": true,
+            "clipbounds": true,
+            "containerweight": 0,
+            "dataDiffs": {
+                "a57771ece4aa48c082464dfa75f4c4be": {
+                    "__events__": {},
+                    "__info__": {
+                        "kuid": "ac898684c98d44ea874fd46bc31c9c4d",
+                        "srcKUID": "a57771ece4aa48c082464dfa75f4c4be",
+                        "wType": "Segment"
+                    }
+                },
+                "bf207444bc5d4857af72ad297d7f2f53": {
+                    "__events__": {},
+                    "__info__": {
+                        "kuid": "je584a4332ab46e485a2eb16867d26cd",
+                        "srcKUID": "bf207444bc5d4857af72ad297d7f2f53",
+                        "wType": "FlexContainer"
+                    }
+                },
+                "e4aefb90c7b7444cbf126ebaa2d2bc17": {
+                    "__events__": {},
+                    "__info__": {
+                        "kuid": "c780c6bd93d84dc79023cc486ada3464",
+                        "srcKUID": "e4aefb90c7b7444cbf126ebaa2d2bc17",
+                        "wType": "TextField"
+                    }
+                },
+                "f5314622724c43d2866a90d5c35a2b86": {
+                    "__events__": {},
+                    "__info__": {
+                        "kuid": "d346742925484cc08503f1c880061f1d",
+                        "srcKUID": "f5314622724c43d2866a90d5c35a2b86",
+                        "wType": "FlexContainer"
+                    }
+                },
+                "f58f77e683ea4b62849d610910359a50": {
+                    "__events__": {},
+                    "__info__": {
+                        "kuid": "ga2ca9c4da0e4253a0b3b54a728744df",
+                        "srcKUID": "f58f77e683ea4b62849d610910359a50",
+                        "wType": "Label"
+                    }
+                },
+                "f773634e52684814868d8da3b17653af": {
+                    "__events__": {},
+                    "__info__": {
+                        "kuid": "e4aee09ebc8747759ab779d14d8fc795",
+                        "srcKUID": "f773634e52684814868d8da3b17653af",
+                        "wType": "FlexContainer"
+                    }
+                },
+                "g829ca1eb0004a81b1eb48f20f593cca": {
+                    "__events__": {},
+                    "__info__": {
+                        "kuid": "a10ac5094e6e4e168948d6b0a6f6b621",
+                        "srcKUID": "g829ca1eb0004a81b1eb48f20f593cca",
+                        "wType": "Image"
+                    }
+                },
+                "ge13ded746a546aeb50dc3d89f5301d4": {
+                    "__events__": {},
+                    "__info__": {
+                        "isRoot": true,
+                        "kuid": "jde7816fd96e4ba09a101dd5c5fb8a71",
+                        "srcKUID": "ge13ded746a546aeb50dc3d89f5301d4",
+                        "wType": "FlexContainer"
+                    }
+                },
+                "jb62e03d73ec4156b790516b29e159df": {
+                    "__events__": {},
+                    "__info__": {
+                        "kuid": "jc79762960584a8c931fe82feec0e4d9",
+                        "srcKUID": "jb62e03d73ec4156b790516b29e159df",
+                        "wType": "FlexContainer"
+                    }
+                }
+            },
+            "e4aee09ebc8747759ab779d14d8fc795": {
+                "DNDConfig": null,
+                "__UDWInstanceModelForRender__": true,
+                "__instanceKUID__": "jde7816fd96e4ba09a101dd5c5fb8a71",
+                "__parentReadjusting__": false,
+                "__srcKUID__": "f773634e52684814868d8da3b17653af",
+                "_height_": "220dp",
+                "_left_": "0dp",
+                "_margin_": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "_orientation_": 6,
+                "_padding_": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "_percent_": true,
+                "_render_": true,
+                "_skin_": "s5e9a3f816e848878969462492d48489",
+                "_top_": "0dp",
+                "_width_": "100%",
+                "allboxes": [],
+                "autogrowmode": 0,
+                "canUpdateUI": true,
+                "children": [
+                    "d346742925484cc08503f1c880061f1d",
+                    "je584a4332ab46e485a2eb16867d26cd",
+                    "jc79762960584a8c931fe82feec0e4d9"
+                ],
+                "clipbounds": true,
+                "containerweight": 100,
+                "d346742925484cc08503f1c880061f1d": {
+                    "DNDConfig": null,
+                    "__UDWInstanceModelForRender__": true,
+                    "__instanceKUID__": "jde7816fd96e4ba09a101dd5c5fb8a71",
+                    "__parentReadjusting__": false,
+                    "__srcKUID__": "f5314622724c43d2866a90d5c35a2b86",
+                    "_height_": "40dp",
+                    "_left_": "0dp",
+                    "_margin_": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "_orientation_": 6,
+                    "_padding_": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "_percent_": true,
+                    "_render_": true,
+                    "_skin_": "sc2b5c4ad4a64fcf820fa5e9dc58e46e",
+                    "_top_": "0dp",
+                    "_width_": "100%",
+                    "a10ac5094e6e4e168948d6b0a6f6b621": {
+                        "@class": "com.kony.gen.viz.model.component.KVizImage2",
+                        "DNDConfig": null,
+                        "__UDWInstanceModelForRender__": true,
+                        "__instanceKUID__": "jde7816fd96e4ba09a101dd5c5fb8a71",
+                        "__parentReadjusting__": false,
+                        "__srcKUID__": "g829ca1eb0004a81b1eb48f20f593cca",
+                        "_base64_": null,
+                        "_height_": "20dp",
+                        "_left_": "23dp",
+                        "_margin_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_padding_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_render_": true,
+                        "_skin_": "s5989cfd8ced47f783d2ad0d38fdc1c3",
+                        "_src_": "icon_search.png",
+                        "_top_": "10dp",
+                        "_width_": "20dp",
+                        "canUpdateUI": true,
+                        "containerweight": 100,
+                        "context": {
+                            "channel": "mobile",
+                            "formID": "storelocatorpage",
+                            "platform": "iphone",
+                            "templateType": "forms",
+                            "topLevelBox": null
+                        },
+                        "displayName": "Image0b92ce26c869849",
+                        "id": "a10ac5094e6e4e168948d6b0a6f6b621",
+                        "imagescalemode": 1,
+                        "info": null,
+                        "invokedProperty": "src",
+                        "isvisible": true,
+                        "kuid": "a10ac5094e6e4e168948d6b0a6f6b621",
+                        "name": "kony.ui.Image2",
+                        "parent": "d346742925484cc08503f1c880061f1d",
+                        "pf": "storelocatorpage",
+                        "srcType": 1,
+                        "wType": "Image",
+                        "widgetalignment": 5,
+                        "zindex": 1
+                    },
+                    "allboxes": [],
+                    "autogrowmode": 0,
+                    "c780c6bd93d84dc79023cc486ada3464": {
+                        "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+                        "DNDConfig": null,
+                        "__UDWInstanceModelForRender__": true,
+                        "__instanceKUID__": "jde7816fd96e4ba09a101dd5c5fb8a71",
+                        "__parentReadjusting__": false,
+                        "__srcKUID__": "e4aefb90c7b7444cbf126ebaa2d2bc17",
+                        "_height_": "30dp",
+                        "_margin_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_padding_": [
+                            10,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_placeholder_": "Search store locations",
+                        "_render_": true,
+                        "_skin_": "s3d0d208b99d47a3af26df122e96300d",
+                        "_text_": "",
+                        "_width_": "92%",
+                        "autocapitalize": "none",
+                        "autocomplete": false,
+                        "autocorrect": false,
+                        "autofilter": false,
+                        "canUpdateUI": true,
+                        "centerx": "50%",
+                        "centery": "50%",
+                        "containerheight": "",
+                        "containerheightmode": 1,
+                        "containerweight": 100,
+                        "contentalignment": 4,
+                        "displayName": "TextField0ee0f4be96f4541",
+                        "focusskin": "s5104a211b61472ea120d710047e461b",
+                        "id": "c780c6bd93d84dc79023cc486ada3464",
+                        "info": null,
+                        "iphone": {
+                            "psp": {
+                                "leftViewImage": null,
+                                "pasteboardType": 5,
+                                "showProgressIndicator": true
+                            }
+                        },
+                        "isvisible": true,
+                        "keyboardtype": "A",
+                        "kuid": "c780c6bd93d84dc79023cc486ada3464",
+                        "leftviewimage": null,
+                        "mode": "A",
+                        "name": "kony.ui.TextBox2",
+                        "paddingLocked": false,
+                        "paddinginpixel": false,
+                        "parent": "d346742925484cc08503f1c880061f1d",
+                        "pasteboardtype": 5,
+                        "pf": "storelocatorpage",
+                        "securetextentry": false,
+                        "showoprogressindicator": true,
+                        "textinputmode": "A",
+                        "tooltip": "",
+                        "viewtype": "default",
+                        "wType": "TextField",
+                        "zindex": 1
+                    },
+                    "canUpdateUI": true,
+                    "children": [
+                        "c780c6bd93d84dc79023cc486ada3464",
+                        "a10ac5094e6e4e168948d6b0a6f6b621"
+                    ],
+                    "clipbounds": true,
+                    "containerweight": 100,
+                    "displayName": "FlexContainer0jc7940e5b8c246",
+                    "enablescrolling": true,
+                    "genericProperties": {},
+                    "id": "d346742925484cc08503f1c880061f1d",
+                    "info": null,
+                    "isvisible": true,
+                    "kuid": "d346742925484cc08503f1c880061f1d",
+                    "layouttype": 2,
+                    "name": "kony.ui.FlexContainer",
+                    "parent": "e4aee09ebc8747759ab779d14d8fc795",
+                    "pf": "storelocatorpage",
+                    "snapgridsize": 10,
+                    "snaptogrid": true,
+                    "wType": "FlexContainer",
+                    "widgetalignment": 1,
+                    "zindex": 1
+                },
+                "displayName": "FlexContainer0d0c78ca0b6c446",
+                "enablescrolling": true,
+                "genericProperties": {},
+                "id": "e4aee09ebc8747759ab779d14d8fc795",
+                "info": null,
+                "isvisible": true,
+                "jc79762960584a8c931fe82feec0e4d9": {
+                    "DNDConfig": null,
+                    "__UDWInstanceModelForRender__": true,
+                    "__instanceKUID__": "jde7816fd96e4ba09a101dd5c5fb8a71",
+                    "__parentReadjusting__": false,
+                    "__srcKUID__": "jb62e03d73ec4156b790516b29e159df",
+                    "_height_": "1dp",
+                    "_left_": "0dp",
+                    "_margin_": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "_orientation_": 6,
+                    "_padding_": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "_percent_": true,
+                    "_render_": true,
+                    "_skin_": "sba09f617e6e4d17b194afdd69b92804",
+                    "_top_": "82dp",
+                    "_width_": "100%",
+                    "allboxes": [],
+                    "autogrowmode": 0,
+                    "canUpdateUI": true,
+                    "children": [],
+                    "clipbounds": true,
+                    "containerweight": 100,
+                    "displayName": "CopyFlexContainer0d4054ca2e2e04d",
+                    "enablescrolling": true,
+                    "id": "jc79762960584a8c931fe82feec0e4d9",
+                    "info": null,
+                    "isvisible": true,
+                    "kuid": "jc79762960584a8c931fe82feec0e4d9",
+                    "layouttype": 2,
+                    "name": "kony.ui.FlexContainer",
+                    "parent": "e4aee09ebc8747759ab779d14d8fc795",
+                    "pf": "storelocatorpage",
+                    "snapgridsize": 10,
+                    "snaptogrid": true,
+                    "wType": "FlexContainer",
+                    "widgetalignment": 1,
+                    "zindex": 1
+                },
+                "je584a4332ab46e485a2eb16867d26cd": {
+                    "DNDConfig": null,
+                    "__UDWInstanceModelForRender__": true,
+                    "__instanceKUID__": "jde7816fd96e4ba09a101dd5c5fb8a71",
+                    "__parentReadjusting__": false,
+                    "__srcKUID__": "bf207444bc5d4857af72ad297d7f2f53",
+                    "_height_": "40dp",
+                    "_left_": "0dp",
+                    "_margin_": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "_orientation_": 6,
+                    "_padding_": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "_percent_": true,
+                    "_render_": true,
+                    "_skin_": "s15bafe233aa4de199a471d538aaf7ce",
+                    "_top_": "40dp",
+                    "_width_": "100%",
+                    "allboxes": [],
+                    "autogrowmode": 0,
+                    "canUpdateUI": true,
+                    "children": [
+                        "ga2ca9c4da0e4253a0b3b54a728744df"
+                    ],
+                    "clipbounds": true,
+                    "containerweight": 100,
+                    "displayName": "FlexContainer0d741377d11d84d",
+                    "enablescrolling": true,
+                    "ga2ca9c4da0e4253a0b3b54a728744df": {
+                        "@class": "com.kony.gen.viz.model.component.KVizLabel",
+                        "DNDConfig": null,
+                        "__UDWInstanceModelForRender__": true,
+                        "__instanceKUID__": "jde7816fd96e4ba09a101dd5c5fb8a71",
+                        "__parentReadjusting__": false,
+                        "__srcKUID__": "f58f77e683ea4b62849d610910359a50",
+                        "_height_": {
+                            "type": "ref",
+                            "value": "preferred"
+                        },
+                        "_left_": "21dp",
+                        "_margin_": [
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "_padding_": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "_render_": true,
+                        "_skin_": "s6e92a987f3640aeb712bb1b717bd2d4",
+                        "_text_": "RECENT",
+                        "_top_": "24dp",
+                        "_width_": {
+                            "type": "ref",
+                            "value": "preferred"
+                        },
+                        "_wrapping_": 2,
+                        "android": {
+                            "textStyle": {
+                                "letterSpacing": 0,
+                                "strikeThrough": false
+                            }
+                        },
+                        "canUpdateUI": true,
+                        "containerweight": 100,
+                        "contentalignment": 4,
+                        "displayName": "Label0b5df3051c93d45",
+                        "id": "ga2ca9c4da0e4253a0b3b54a728744df",
+                        "info": null,
+                        "ipad": {
+                            "psp": {
+                                "wrapping": 2
+                            }
+                        },
+                        "iphone": {
+                            "psp": {
+                                "wrapping": 2
+                            }
+                        },
+                        "isvisible": true,
+                        "kuid": "ga2ca9c4da0e4253a0b3b54a728744df",
+                        "name": "kony.ui.Label",
+                        "parent": "je584a4332ab46e485a2eb16867d26cd",
+                        "pf": "storelocatorpage",
+                        "tooltip": "",
+                        "wType": "Label",
+                        "zindex": 1
+                    },
+                    "id": "je584a4332ab46e485a2eb16867d26cd",
+                    "info": null,
+                    "isvisible": true,
+                    "kuid": "je584a4332ab46e485a2eb16867d26cd",
+                    "layouttype": 2,
+                    "name": "kony.ui.FlexContainer",
+                    "parent": "e4aee09ebc8747759ab779d14d8fc795",
+                    "pf": "storelocatorpage",
+                    "snapgridsize": 10,
+                    "snaptogrid": true,
+                    "wType": "FlexContainer",
+                    "widgetalignment": 1,
+                    "zindex": 1
+                },
+                "kuid": "e4aee09ebc8747759ab779d14d8fc795",
+                "layouttype": 2,
+                "name": "kony.ui.FlexContainer",
+                "parent": "StoreLocation",
+                "pf": "storelocatorpage",
+                "snapgridsize": 10,
+                "snaptogrid": true,
+                "wType": "FlexContainer",
+                "widgetalignment": 1,
+                "zindex": 1
+            },
+            "genericProperties": {},
+            "id": "StoreLocation",
+            "info": null,
+            "isdatareferenced": false,
+            "isvisible": true,
+            "kuid": "jde7816fd96e4ba09a101dd5c5fb8a71",
+            "layouttype": 2,
+            "masterType": 0,
+            "name": "kony.ui.UserWidgetInstance",
+            "parent": "FlexContainer0ab66e8c33fc140",
+            "pf": "storelocatorpage",
+            "snaptogrid": true,
+            "sourceUserWidget": "ge13ded746a546aeb50dc3d89f5301d4",
+            "wType": "UserWidgetInstance"
+        },
+        "__parentReadjusting__": false,
+        "_bottom_": {
+            "type": "number",
+            "value": "5"
+        },
+        "_height_": {
+            "type": "string",
+            "value": "220dp"
+        },
+        "_left_": {
+            "type": "string",
+            "value": "0dp"
+        },
+        "_margin_": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "_orientation_": 6,
+        "_padding_": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "_percent_": true,
+        "_skin_": "s15bafe233aa4de199a471d538aaf7ce",
+        "_top_": {
+            "type": "string",
+            "value": "0dp"
+        },
+        "_width_": {
+            "type": "string",
+            "value": "100%"
+        },
+        "allboxes": [],
+        "canUpdateUI": true,
+        "children": [
+            "StoreLocation"
+        ],
+        "clipbounds": true,
+        "containerweight": 100,
+        "enablescrolling": true,
+        "genericProperties": {},
+        "id": "FlexContainer0ab66e8c33fc140",
+        "info": null,
+        "isvisible": true,
+        "kuid": "f27fe8d2d20547a1a72322bb699d5845",
+        "layouttype": 2,
+        "name": "kony.ui.FlexContainer",
+        "parent": "FlexScrollContainer0j712d3af153d4c",
+        "pf": "storelocatorpage",
+        "snapgridsize": 10,
+        "snaptogrid": true,
+        "wType": "FlexContainer",
+        "widgetalignment": 1,
+        "zindex": 1
+    },
+    "StoreLocation": {
+        "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+        "DNDConfig": null,
+        "__childrenGenerated__": true,
+        "__parentReadjusting__": false,
+        "_children_": [
+            "e4aee09ebc8747759ab779d14d8fc795",
+            "ac898684c98d44ea874fd46bc31c9c4d"
+        ],
+        "_height_": "100%",
+        "_left_": "0dp",
+        "_margin_": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "_orientation_": 1,
+        "_padding_": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "_percent_": true,
+        "_render_": true,
+        "_skin_": "s15bafe233aa4de199a471d538aaf7ce",
+        "_top_": "0dp",
+        "_width_": "100%",
+        "ac898684c98d44ea874fd46bc31c9c4d": {
+            "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+            "DNDConfig": null,
+            "__UDWInstanceModelForRender__": true,
+            "__instanceKUID__": "jde7816fd96e4ba09a101dd5c5fb8a71",
+            "__parentReadjusting__": false,
+            "__srcKUID__": "a57771ece4aa48c082464dfa75f4c4be",
+            "_data_": [
+                {
+                    "Image0bf03570764ee4c": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "icon_compass.png"
+                    },
+                    "Label0hc019c1ea88a4a": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Current Location"
+                    }
+                },
+                {
+                    "Image0bf03570764ee4c": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": ""
+                    },
+                    "Label0hc019c1ea88a4a": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Location 1"
+                    }
+                },
+                {
+                    "Image0bf03570764ee4c": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": ""
+                    },
+                    "Label0hc019c1ea88a4a": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Location 2"
+                    }
+                }
+            ],
+            "_height_": "140dp",
+            "_indicator_": "none",
+            "_left_": "0dp",
+            "_margin_": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "_orientation_": 2,
+            "_padding_": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "_render_": true,
+            "_top_": "83dp",
+            "_width_": "100%",
+            "autogrowmode": 0,
+            "canUpdateUI": true,
+            "containerweight": 100,
+            "counter": "02",
+            "displayName": "Segment0hfb0fc95cc0a4b",
+            "enablereordering": false,
+            "focusedindex": null,
+            "focuseditem": null,
+            "groupcells": false,
+            "hasSections": false,
+            "id": "ac898684c98d44ea874fd46bc31c9c4d",
+            "info": null,
+            "ipad": {
+                "psp": {
+                    "indicator": "rowselect"
+                }
+            },
+            "iphone": {
+                "psp": {
+                    "indicator": "none"
+                }
+            },
+            "isvisible": true,
+            "kuid": "ac898684c98d44ea874fd46bc31c9c4d",
+            "masterdata": {},
+            "mobile": {
+                "_data_": [
+                    {
+                        "Image0bf03570764ee4c": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": "icon_compass.png"
+                        },
+                        "Label0hc019c1ea88a4a": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Current Location"
+                        }
+                    },
+                    {
+                        "Image0bf03570764ee4c": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": ""
+                        },
+                        "Label0hc019c1ea88a4a": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Location 1"
+                        }
+                    },
+                    {
+                        "Image0bf03570764ee4c": {
+                            "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                            "src": ""
+                        },
+                        "Label0hc019c1ea88a4a": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Location 2"
+                        }
+                    }
+                ],
+                "rowTemplateId": "h77641106df7418da6fae5624aa46b9d",
+                "rowtemplate": "FlexContainer0e2cea3e0c8954b",
+                "sectionHeaderTemplateId": null,
+                "selectionBehaviorConfig": {},
+                "widgetdatamap": {
+                    "FlexContainer0e2cea3e0c8954b": "FlexContainer0e2cea3e0c8954b",
+                    "Image0bf03570764ee4c": "Image0bf03570764ee4c",
+                    "Label0hc019c1ea88a4a": "Label0hc019c1ea88a4a"
+                }
+            },
+            "name": "kony.ui.SegmentedUI2",
+            "needpageindicator": true,
+            "pageoffdotimage": "pageoffdot.png",
+            "pageondotimage": "pageondot.png",
+            "paginationconfig": {
+                "position": "bottom"
+            },
+            "parent": "StoreLocation",
+            "pf": "storelocatorpage",
+            "retainselection": false,
+            "rowTemplateId": "h77641106df7418da6fae5624aa46b9d",
+            "rowcounter": 2,
+            "rowfocusskin": "s0f6983ad9504750b0c60507eea96ccf",
+            "rowskin": "se39a8d4a3a846aba0432f0f041758c3",
+            "rowtemplate": "FlexContainer0e2cea3e0c8954b",
+            "screenlevelwidget": false,
+            "seccounter": 0,
+            "sectionHeaderTemplateId": null,
+            "sectionheaderskin": "sec79582323943aebedbd370c119eb36",
+            "selectedRows": null,
+            "selectedState": false,
+            "selectedindex": null,
+            "selectedindices": null,
+            "selecteditems": null,
+            "selectedsectionindex": 0,
+            "selectionbehavior": "default",
+            "selectionbehaviorconfig": {},
+            "separatorcolor": "64646400",
+            "separatorrequired": true,
+            "separatorthickness": 1,
+            "showscrollbars": false,
+            "viewtype": "tableview",
+            "wType": "Segment",
+            "widgetalignment": 5,
+            "widgetdatamap": {
+                "FlexContainer0e2cea3e0c8954b": "FlexContainer0e2cea3e0c8954b",
+                "Image0bf03570764ee4c": "Image0bf03570764ee4c",
+                "Label0hc019c1ea88a4a": "Label0hc019c1ea88a4a"
+            },
+            "zindex": 1
+        },
+        "areflexpropsreferenced": false,
+        "canUpdateUI": true,
+        "clipbounds": true,
+        "containerweight": 0,
+        "dataDiffs": {
+            "a57771ece4aa48c082464dfa75f4c4be": {
+                "__events__": {},
+                "__info__": {
+                    "kuid": "ac898684c98d44ea874fd46bc31c9c4d",
+                    "srcKUID": "a57771ece4aa48c082464dfa75f4c4be",
+                    "wType": "Segment"
+                }
+            },
+            "bf207444bc5d4857af72ad297d7f2f53": {
+                "__events__": {},
+                "__info__": {
+                    "kuid": "je584a4332ab46e485a2eb16867d26cd",
+                    "srcKUID": "bf207444bc5d4857af72ad297d7f2f53",
+                    "wType": "FlexContainer"
+                }
+            },
+            "e4aefb90c7b7444cbf126ebaa2d2bc17": {
+                "__events__": {},
+                "__info__": {
+                    "kuid": "c780c6bd93d84dc79023cc486ada3464",
+                    "srcKUID": "e4aefb90c7b7444cbf126ebaa2d2bc17",
+                    "wType": "TextField"
+                }
+            },
+            "f5314622724c43d2866a90d5c35a2b86": {
+                "__events__": {},
+                "__info__": {
+                    "kuid": "d346742925484cc08503f1c880061f1d",
+                    "srcKUID": "f5314622724c43d2866a90d5c35a2b86",
+                    "wType": "FlexContainer"
+                }
+            },
+            "f58f77e683ea4b62849d610910359a50": {
+                "__events__": {},
+                "__info__": {
+                    "kuid": "ga2ca9c4da0e4253a0b3b54a728744df",
+                    "srcKUID": "f58f77e683ea4b62849d610910359a50",
+                    "wType": "Label"
+                }
+            },
+            "f773634e52684814868d8da3b17653af": {
+                "__events__": {},
+                "__info__": {
+                    "kuid": "e4aee09ebc8747759ab779d14d8fc795",
+                    "srcKUID": "f773634e52684814868d8da3b17653af",
+                    "wType": "FlexContainer"
+                }
+            },
+            "g829ca1eb0004a81b1eb48f20f593cca": {
+                "__events__": {},
+                "__info__": {
+                    "kuid": "a10ac5094e6e4e168948d6b0a6f6b621",
+                    "srcKUID": "g829ca1eb0004a81b1eb48f20f593cca",
+                    "wType": "Image"
+                }
+            },
+            "ge13ded746a546aeb50dc3d89f5301d4": {
+                "__events__": {},
+                "__info__": {
+                    "isRoot": true,
+                    "kuid": "jde7816fd96e4ba09a101dd5c5fb8a71",
+                    "srcKUID": "ge13ded746a546aeb50dc3d89f5301d4",
+                    "wType": "FlexContainer"
+                }
+            },
+            "jb62e03d73ec4156b790516b29e159df": {
+                "__events__": {},
+                "__info__": {
+                    "kuid": "jc79762960584a8c931fe82feec0e4d9",
+                    "srcKUID": "jb62e03d73ec4156b790516b29e159df",
+                    "wType": "FlexContainer"
+                }
+            }
+        },
+        "e4aee09ebc8747759ab779d14d8fc795": {
+            "DNDConfig": null,
+            "__UDWInstanceModelForRender__": true,
+            "__instanceKUID__": "jde7816fd96e4ba09a101dd5c5fb8a71",
+            "__parentReadjusting__": false,
+            "__srcKUID__": "f773634e52684814868d8da3b17653af",
+            "_height_": "220dp",
+            "_left_": "0dp",
+            "_margin_": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "_orientation_": 6,
+            "_padding_": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "_percent_": true,
+            "_render_": true,
+            "_skin_": "s5e9a3f816e848878969462492d48489",
+            "_top_": "0dp",
+            "_width_": "100%",
+            "allboxes": [],
+            "autogrowmode": 0,
+            "canUpdateUI": true,
+            "children": [
+                "d346742925484cc08503f1c880061f1d",
+                "je584a4332ab46e485a2eb16867d26cd",
+                "jc79762960584a8c931fe82feec0e4d9"
+            ],
+            "clipbounds": true,
+            "containerweight": 100,
+            "d346742925484cc08503f1c880061f1d": {
+                "DNDConfig": null,
+                "__UDWInstanceModelForRender__": true,
+                "__instanceKUID__": "jde7816fd96e4ba09a101dd5c5fb8a71",
+                "__parentReadjusting__": false,
+                "__srcKUID__": "f5314622724c43d2866a90d5c35a2b86",
+                "_height_": "40dp",
+                "_left_": "0dp",
+                "_margin_": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "_orientation_": 6,
+                "_padding_": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "_percent_": true,
+                "_render_": true,
+                "_skin_": "sc2b5c4ad4a64fcf820fa5e9dc58e46e",
+                "_top_": "0dp",
+                "_width_": "100%",
+                "a10ac5094e6e4e168948d6b0a6f6b621": {
+                    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+                    "DNDConfig": null,
+                    "__UDWInstanceModelForRender__": true,
+                    "__instanceKUID__": "jde7816fd96e4ba09a101dd5c5fb8a71",
+                    "__parentReadjusting__": false,
+                    "__srcKUID__": "g829ca1eb0004a81b1eb48f20f593cca",
+                    "_base64_": null,
+                    "_height_": "20dp",
+                    "_left_": "23dp",
+                    "_margin_": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "_padding_": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "_render_": true,
+                    "_skin_": "s5989cfd8ced47f783d2ad0d38fdc1c3",
+                    "_src_": "icon_search.png",
+                    "_top_": "10dp",
+                    "_width_": "20dp",
+                    "canUpdateUI": true,
+                    "containerweight": 100,
+                    "context": {
+                        "channel": "mobile",
+                        "formID": "storelocatorpage",
+                        "platform": "iphone",
+                        "templateType": "forms",
+                        "topLevelBox": null
+                    },
+                    "displayName": "Image0b92ce26c869849",
+                    "id": "a10ac5094e6e4e168948d6b0a6f6b621",
+                    "imagescalemode": 1,
+                    "info": null,
+                    "invokedProperty": "src",
+                    "isvisible": true,
+                    "kuid": "a10ac5094e6e4e168948d6b0a6f6b621",
+                    "name": "kony.ui.Image2",
+                    "parent": "d346742925484cc08503f1c880061f1d",
+                    "pf": "storelocatorpage",
+                    "srcType": 1,
+                    "wType": "Image",
+                    "widgetalignment": 5,
+                    "zindex": 1
+                },
+                "allboxes": [],
+                "autogrowmode": 0,
+                "c780c6bd93d84dc79023cc486ada3464": {
+                    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+                    "DNDConfig": null,
+                    "__UDWInstanceModelForRender__": true,
+                    "__instanceKUID__": "jde7816fd96e4ba09a101dd5c5fb8a71",
+                    "__parentReadjusting__": false,
+                    "__srcKUID__": "e4aefb90c7b7444cbf126ebaa2d2bc17",
+                    "_height_": "30dp",
+                    "_margin_": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "_padding_": [
+                        10,
+                        0,
+                        0,
+                        0
+                    ],
+                    "_placeholder_": "Search store locations",
+                    "_render_": true,
+                    "_skin_": "s3d0d208b99d47a3af26df122e96300d",
+                    "_text_": "",
+                    "_width_": "92%",
+                    "autocapitalize": "none",
+                    "autocomplete": false,
+                    "autocorrect": false,
+                    "autofilter": false,
+                    "canUpdateUI": true,
+                    "centerx": "50%",
+                    "centery": "50%",
+                    "containerheight": "",
+                    "containerheightmode": 1,
+                    "containerweight": 100,
+                    "contentalignment": 4,
+                    "displayName": "TextField0ee0f4be96f4541",
+                    "focusskin": "s5104a211b61472ea120d710047e461b",
+                    "id": "c780c6bd93d84dc79023cc486ada3464",
+                    "info": null,
+                    "iphone": {
+                        "psp": {
+                            "leftViewImage": null,
+                            "pasteboardType": 5,
+                            "showProgressIndicator": true
+                        }
+                    },
+                    "isvisible": true,
+                    "keyboardtype": "A",
+                    "kuid": "c780c6bd93d84dc79023cc486ada3464",
+                    "leftviewimage": null,
+                    "mode": "A",
+                    "name": "kony.ui.TextBox2",
+                    "paddingLocked": false,
+                    "paddinginpixel": false,
+                    "parent": "d346742925484cc08503f1c880061f1d",
+                    "pasteboardtype": 5,
+                    "pf": "storelocatorpage",
+                    "securetextentry": false,
+                    "showoprogressindicator": true,
+                    "textinputmode": "A",
+                    "tooltip": "",
+                    "viewtype": "default",
+                    "wType": "TextField",
+                    "zindex": 1
+                },
+                "canUpdateUI": true,
+                "children": [
+                    "c780c6bd93d84dc79023cc486ada3464",
+                    "a10ac5094e6e4e168948d6b0a6f6b621"
+                ],
+                "clipbounds": true,
+                "containerweight": 100,
+                "displayName": "FlexContainer0jc7940e5b8c246",
+                "enablescrolling": true,
+                "genericProperties": {},
+                "id": "d346742925484cc08503f1c880061f1d",
+                "info": null,
+                "isvisible": true,
+                "kuid": "d346742925484cc08503f1c880061f1d",
+                "layouttype": 2,
+                "name": "kony.ui.FlexContainer",
+                "parent": "e4aee09ebc8747759ab779d14d8fc795",
+                "pf": "storelocatorpage",
+                "snapgridsize": 10,
+                "snaptogrid": true,
+                "wType": "FlexContainer",
+                "widgetalignment": 1,
+                "zindex": 1
+            },
+            "displayName": "FlexContainer0d0c78ca0b6c446",
+            "enablescrolling": true,
+            "genericProperties": {},
+            "id": "e4aee09ebc8747759ab779d14d8fc795",
+            "info": null,
+            "isvisible": true,
+            "jc79762960584a8c931fe82feec0e4d9": {
+                "DNDConfig": null,
+                "__UDWInstanceModelForRender__": true,
+                "__instanceKUID__": "jde7816fd96e4ba09a101dd5c5fb8a71",
+                "__parentReadjusting__": false,
+                "__srcKUID__": "jb62e03d73ec4156b790516b29e159df",
+                "_height_": "1dp",
+                "_left_": "0dp",
+                "_margin_": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "_orientation_": 6,
+                "_padding_": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "_percent_": true,
+                "_render_": true,
+                "_skin_": "sba09f617e6e4d17b194afdd69b92804",
+                "_top_": "82dp",
+                "_width_": "100%",
+                "allboxes": [],
+                "autogrowmode": 0,
+                "canUpdateUI": true,
+                "children": [],
+                "clipbounds": true,
+                "containerweight": 100,
+                "displayName": "CopyFlexContainer0d4054ca2e2e04d",
+                "enablescrolling": true,
+                "id": "jc79762960584a8c931fe82feec0e4d9",
+                "info": null,
+                "isvisible": true,
+                "kuid": "jc79762960584a8c931fe82feec0e4d9",
+                "layouttype": 2,
+                "name": "kony.ui.FlexContainer",
+                "parent": "e4aee09ebc8747759ab779d14d8fc795",
+                "pf": "storelocatorpage",
+                "snapgridsize": 10,
+                "snaptogrid": true,
+                "wType": "FlexContainer",
+                "widgetalignment": 1,
+                "zindex": 1
+            },
+            "je584a4332ab46e485a2eb16867d26cd": {
+                "DNDConfig": null,
+                "__UDWInstanceModelForRender__": true,
+                "__instanceKUID__": "jde7816fd96e4ba09a101dd5c5fb8a71",
+                "__parentReadjusting__": false,
+                "__srcKUID__": "bf207444bc5d4857af72ad297d7f2f53",
+                "_height_": "40dp",
+                "_left_": "0dp",
+                "_margin_": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "_orientation_": 6,
+                "_padding_": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "_percent_": true,
+                "_render_": true,
+                "_skin_": "s15bafe233aa4de199a471d538aaf7ce",
+                "_top_": "40dp",
+                "_width_": "100%",
+                "allboxes": [],
+                "autogrowmode": 0,
+                "canUpdateUI": true,
+                "children": [
+                    "ga2ca9c4da0e4253a0b3b54a728744df"
+                ],
+                "clipbounds": true,
+                "containerweight": 100,
+                "displayName": "FlexContainer0d741377d11d84d",
+                "enablescrolling": true,
+                "ga2ca9c4da0e4253a0b3b54a728744df": {
+                    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+                    "DNDConfig": null,
+                    "__UDWInstanceModelForRender__": true,
+                    "__instanceKUID__": "jde7816fd96e4ba09a101dd5c5fb8a71",
+                    "__parentReadjusting__": false,
+                    "__srcKUID__": "f58f77e683ea4b62849d610910359a50",
+                    "_height_": {
+                        "type": "ref",
+                        "value": "preferred"
+                    },
+                    "_left_": "21dp",
+                    "_margin_": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "_padding_": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "_render_": true,
+                    "_skin_": "s6e92a987f3640aeb712bb1b717bd2d4",
+                    "_text_": "RECENT",
+                    "_top_": "24dp",
+                    "_width_": {
+                        "type": "ref",
+                        "value": "preferred"
+                    },
+                    "_wrapping_": 2,
+                    "android": {
+                        "textStyle": {
+                            "letterSpacing": 0,
+                            "strikeThrough": false
+                        }
+                    },
+                    "canUpdateUI": true,
+                    "containerweight": 100,
+                    "contentalignment": 4,
+                    "displayName": "Label0b5df3051c93d45",
+                    "id": "ga2ca9c4da0e4253a0b3b54a728744df",
+                    "info": null,
+                    "ipad": {
+                        "psp": {
+                            "wrapping": 2
+                        }
+                    },
+                    "iphone": {
+                        "psp": {
+                            "wrapping": 2
+                        }
+                    },
+                    "isvisible": true,
+                    "kuid": "ga2ca9c4da0e4253a0b3b54a728744df",
+                    "name": "kony.ui.Label",
+                    "parent": "je584a4332ab46e485a2eb16867d26cd",
+                    "pf": "storelocatorpage",
+                    "tooltip": "",
+                    "wType": "Label",
+                    "zindex": 1
+                },
+                "id": "je584a4332ab46e485a2eb16867d26cd",
+                "info": null,
+                "isvisible": true,
+                "kuid": "je584a4332ab46e485a2eb16867d26cd",
+                "layouttype": 2,
+                "name": "kony.ui.FlexContainer",
+                "parent": "e4aee09ebc8747759ab779d14d8fc795",
+                "pf": "storelocatorpage",
+                "snapgridsize": 10,
+                "snaptogrid": true,
+                "wType": "FlexContainer",
+                "widgetalignment": 1,
+                "zindex": 1
+            },
+            "kuid": "e4aee09ebc8747759ab779d14d8fc795",
+            "layouttype": 2,
+            "name": "kony.ui.FlexContainer",
+            "parent": "StoreLocation",
+            "pf": "storelocatorpage",
+            "snapgridsize": 10,
+            "snaptogrid": true,
+            "wType": "FlexContainer",
+            "widgetalignment": 1,
+            "zindex": 1
+        },
+        "genericProperties": {},
+        "id": "StoreLocation",
+        "info": null,
+        "isdatareferenced": false,
+        "isvisible": true,
+        "kuid": "jde7816fd96e4ba09a101dd5c5fb8a71",
+        "layouttype": 2,
+        "masterType": 0,
+        "name": "kony.ui.UserWidgetInstance",
+        "parent": "FlexContainer0ab66e8c33fc140",
+        "pf": "storelocatorpage",
+        "snaptogrid": true,
+        "sourceUserWidget": "ge13ded746a546aeb50dc3d89f5301d4",
+        "wType": "UserWidgetInstance"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s7b2189b6425461cb0b4eecf1e5ad9b4",
+    "_title_": null,
+    "a10ac5094e6e4e168948d6b0a6f6b621": {
+        "@class": "com.kony.gen.viz.model.component.KVizImage2",
+        "DNDConfig": null,
+        "__UDWInstanceModelForRender__": true,
+        "__instanceKUID__": "jde7816fd96e4ba09a101dd5c5fb8a71",
+        "__parentReadjusting__": false,
+        "__srcKUID__": "g829ca1eb0004a81b1eb48f20f593cca",
+        "_base64_": null,
+        "_height_": "20dp",
+        "_left_": "23dp",
+        "_margin_": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "_padding_": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "_render_": true,
+        "_skin_": "s5989cfd8ced47f783d2ad0d38fdc1c3",
+        "_src_": "icon_search.png",
+        "_top_": "10dp",
+        "_width_": "20dp",
+        "canUpdateUI": true,
+        "containerweight": 100,
+        "context": {
+            "channel": "mobile",
+            "formID": "storelocatorpage",
+            "platform": "iphone",
+            "templateType": "forms",
+            "topLevelBox": null
+        },
+        "displayName": "Image0b92ce26c869849",
+        "id": "a10ac5094e6e4e168948d6b0a6f6b621",
+        "imagescalemode": 1,
+        "info": null,
+        "invokedProperty": "src",
+        "isvisible": true,
+        "kuid": "a10ac5094e6e4e168948d6b0a6f6b621",
+        "name": "kony.ui.Image2",
+        "parent": "d346742925484cc08503f1c880061f1d",
+        "pf": "storelocatorpage",
+        "srcType": 1,
+        "wType": "Image",
+        "widgetalignment": 5,
+        "zindex": 1
+    },
+    "ac898684c98d44ea874fd46bc31c9c4d": {
+        "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+        "DNDConfig": null,
+        "__UDWInstanceModelForRender__": true,
+        "__instanceKUID__": "jde7816fd96e4ba09a101dd5c5fb8a71",
+        "__parentReadjusting__": false,
+        "__srcKUID__": "a57771ece4aa48c082464dfa75f4c4be",
+        "_data_": [
+            {
+                "Image0bf03570764ee4c": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "icon_compass.png"
+                },
+                "Label0hc019c1ea88a4a": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Current Location"
+                }
+            },
+            {
+                "Image0bf03570764ee4c": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": ""
+                },
+                "Label0hc019c1ea88a4a": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Location 1"
+                }
+            },
+            {
+                "Image0bf03570764ee4c": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": ""
+                },
+                "Label0hc019c1ea88a4a": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Location 2"
+                }
+            }
+        ],
+        "_height_": "140dp",
+        "_indicator_": "none",
+        "_left_": "0dp",
+        "_margin_": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "_orientation_": 2,
+        "_padding_": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "_render_": true,
+        "_top_": "83dp",
+        "_width_": "100%",
+        "autogrowmode": 0,
+        "canUpdateUI": true,
+        "containerweight": 100,
+        "counter": "02",
+        "displayName": "Segment0hfb0fc95cc0a4b",
+        "enablereordering": false,
+        "focusedindex": null,
+        "focuseditem": null,
+        "groupcells": false,
+        "hasSections": false,
+        "id": "ac898684c98d44ea874fd46bc31c9c4d",
+        "info": null,
+        "ipad": {
+            "psp": {
+                "indicator": "rowselect"
+            }
+        },
+        "iphone": {
+            "psp": {
+                "indicator": "none"
+            }
+        },
+        "isvisible": true,
+        "kuid": "ac898684c98d44ea874fd46bc31c9c4d",
+        "masterdata": {},
+        "mobile": {
+            "_data_": [
+                {
+                    "Image0bf03570764ee4c": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "icon_compass.png"
+                    },
+                    "Label0hc019c1ea88a4a": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Current Location"
+                    }
+                },
+                {
+                    "Image0bf03570764ee4c": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": ""
+                    },
+                    "Label0hc019c1ea88a4a": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Location 1"
+                    }
+                },
+                {
+                    "Image0bf03570764ee4c": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": ""
+                    },
+                    "Label0hc019c1ea88a4a": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Location 2"
+                    }
+                }
+            ],
+            "rowTemplateId": "h77641106df7418da6fae5624aa46b9d",
+            "rowtemplate": "FlexContainer0e2cea3e0c8954b",
+            "sectionHeaderTemplateId": null,
+            "selectionBehaviorConfig": {},
+            "widgetdatamap": {
+                "FlexContainer0e2cea3e0c8954b": "FlexContainer0e2cea3e0c8954b",
+                "Image0bf03570764ee4c": "Image0bf03570764ee4c",
+                "Label0hc019c1ea88a4a": "Label0hc019c1ea88a4a"
+            }
+        },
+        "name": "kony.ui.SegmentedUI2",
+        "needpageindicator": true,
+        "pageoffdotimage": "pageoffdot.png",
+        "pageondotimage": "pageondot.png",
+        "paginationconfig": {
+            "position": "bottom"
+        },
+        "parent": "StoreLocation",
+        "pf": "storelocatorpage",
+        "retainselection": false,
+        "rowTemplateId": "h77641106df7418da6fae5624aa46b9d",
+        "rowcounter": 2,
+        "rowfocusskin": "s0f6983ad9504750b0c60507eea96ccf",
+        "rowskin": "se39a8d4a3a846aba0432f0f041758c3",
+        "rowtemplate": "FlexContainer0e2cea3e0c8954b",
+        "screenlevelwidget": false,
+        "seccounter": 0,
+        "sectionHeaderTemplateId": null,
+        "sectionheaderskin": "sec79582323943aebedbd370c119eb36",
+        "selectedRows": null,
+        "selectedState": false,
+        "selectedindex": null,
+        "selectedindices": null,
+        "selecteditems": null,
+        "selectedsectionindex": 0,
+        "selectionbehavior": "default",
+        "selectionbehaviorconfig": {},
+        "separatorcolor": "64646400",
+        "separatorrequired": true,
+        "separatorthickness": 1,
+        "showscrollbars": false,
+        "viewtype": "tableview",
+        "wType": "Segment",
+        "widgetalignment": 5,
+        "widgetdatamap": {
+            "FlexContainer0e2cea3e0c8954b": "FlexContainer0e2cea3e0c8954b",
+            "Image0bf03570764ee4c": "Image0bf03570764ee4c",
+            "Label0hc019c1ea88a4a": "Label0hc019c1ea88a4a"
+        },
+        "zindex": 1
+    },
+    "addWidgetsdone": false,
+    "allboxes": [],
+    "android": {
+        "needAppMenu": false,
+        "psp": {
+            "windowSoftInputMode": 2
+        }
+    },
+    "bounces": false,
+    "c780c6bd93d84dc79023cc486ada3464": {
+        "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+        "DNDConfig": null,
+        "__UDWInstanceModelForRender__": true,
+        "__instanceKUID__": "jde7816fd96e4ba09a101dd5c5fb8a71",
+        "__parentReadjusting__": false,
+        "__srcKUID__": "e4aefb90c7b7444cbf126ebaa2d2bc17",
+        "_height_": "30dp",
+        "_margin_": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "_padding_": [
+            10,
+            0,
+            0,
+            0
+        ],
+        "_placeholder_": "Search store locations",
+        "_render_": true,
+        "_skin_": "s3d0d208b99d47a3af26df122e96300d",
+        "_text_": "",
+        "_width_": "92%",
+        "autocapitalize": "none",
+        "autocomplete": false,
+        "autocorrect": false,
+        "autofilter": false,
+        "canUpdateUI": true,
+        "centerx": "50%",
+        "centery": "50%",
+        "containerheight": "",
+        "containerheightmode": 1,
+        "containerweight": 100,
+        "contentalignment": 4,
+        "displayName": "TextField0ee0f4be96f4541",
+        "focusskin": "s5104a211b61472ea120d710047e461b",
+        "id": "c780c6bd93d84dc79023cc486ada3464",
+        "info": null,
+        "iphone": {
+            "psp": {
+                "leftViewImage": null,
+                "pasteboardType": 5,
+                "showProgressIndicator": true
+            }
+        },
+        "isvisible": true,
+        "keyboardtype": "A",
+        "kuid": "c780c6bd93d84dc79023cc486ada3464",
+        "leftviewimage": null,
+        "mode": "A",
+        "name": "kony.ui.TextBox2",
+        "paddingLocked": false,
+        "paddinginpixel": false,
+        "parent": "d346742925484cc08503f1c880061f1d",
+        "pasteboardtype": 5,
+        "pf": "storelocatorpage",
+        "securetextentry": false,
+        "showoprogressindicator": true,
+        "textinputmode": "A",
+        "tooltip": "",
+        "viewtype": "default",
+        "wType": "TextField",
+        "zindex": 1
+    },
+    "canUpdateUI": true,
+    "children": [
+        "flxStoreLocatorPage",
+        "flexSideDrawer",
+        "Popup"
+    ],
+    "containerweight": 100,
+    "controllerInfo": {
+        "default": {
+            "channel": "tablet",
+            "name": "storelocatorpageController"
+        }
+    },
+    "currentLocale": "default",
+    "d346742925484cc08503f1c880061f1d": {
+        "DNDConfig": null,
+        "__UDWInstanceModelForRender__": true,
+        "__instanceKUID__": "jde7816fd96e4ba09a101dd5c5fb8a71",
+        "__parentReadjusting__": false,
+        "__srcKUID__": "f5314622724c43d2866a90d5c35a2b86",
+        "_height_": "40dp",
+        "_left_": "0dp",
+        "_margin_": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "_orientation_": 6,
+        "_padding_": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "_percent_": true,
+        "_render_": true,
+        "_skin_": "sc2b5c4ad4a64fcf820fa5e9dc58e46e",
+        "_top_": "0dp",
+        "_width_": "100%",
+        "a10ac5094e6e4e168948d6b0a6f6b621": {
+            "@class": "com.kony.gen.viz.model.component.KVizImage2",
+            "DNDConfig": null,
+            "__UDWInstanceModelForRender__": true,
+            "__instanceKUID__": "jde7816fd96e4ba09a101dd5c5fb8a71",
+            "__parentReadjusting__": false,
+            "__srcKUID__": "g829ca1eb0004a81b1eb48f20f593cca",
+            "_base64_": null,
+            "_height_": "20dp",
+            "_left_": "23dp",
+            "_margin_": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "_padding_": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "_render_": true,
+            "_skin_": "s5989cfd8ced47f783d2ad0d38fdc1c3",
+            "_src_": "icon_search.png",
+            "_top_": "10dp",
+            "_width_": "20dp",
+            "canUpdateUI": true,
+            "containerweight": 100,
+            "context": {
+                "channel": "mobile",
+                "formID": "storelocatorpage",
+                "platform": "iphone",
+                "templateType": "forms",
+                "topLevelBox": null
+            },
+            "displayName": "Image0b92ce26c869849",
+            "id": "a10ac5094e6e4e168948d6b0a6f6b621",
+            "imagescalemode": 1,
+            "info": null,
+            "invokedProperty": "src",
+            "isvisible": true,
+            "kuid": "a10ac5094e6e4e168948d6b0a6f6b621",
+            "name": "kony.ui.Image2",
+            "parent": "d346742925484cc08503f1c880061f1d",
+            "pf": "storelocatorpage",
+            "srcType": 1,
+            "wType": "Image",
+            "widgetalignment": 5,
+            "zindex": 1
+        },
+        "allboxes": [],
+        "autogrowmode": 0,
+        "c780c6bd93d84dc79023cc486ada3464": {
+            "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+            "DNDConfig": null,
+            "__UDWInstanceModelForRender__": true,
+            "__instanceKUID__": "jde7816fd96e4ba09a101dd5c5fb8a71",
+            "__parentReadjusting__": false,
+            "__srcKUID__": "e4aefb90c7b7444cbf126ebaa2d2bc17",
+            "_height_": "30dp",
+            "_margin_": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "_padding_": [
+                10,
+                0,
+                0,
+                0
+            ],
+            "_placeholder_": "Search store locations",
+            "_render_": true,
+            "_skin_": "s3d0d208b99d47a3af26df122e96300d",
+            "_text_": "",
+            "_width_": "92%",
+            "autocapitalize": "none",
+            "autocomplete": false,
+            "autocorrect": false,
+            "autofilter": false,
+            "canUpdateUI": true,
+            "centerx": "50%",
+            "centery": "50%",
+            "containerheight": "",
+            "containerheightmode": 1,
+            "containerweight": 100,
+            "contentalignment": 4,
+            "displayName": "TextField0ee0f4be96f4541",
+            "focusskin": "s5104a211b61472ea120d710047e461b",
+            "id": "c780c6bd93d84dc79023cc486ada3464",
+            "info": null,
+            "iphone": {
+                "psp": {
+                    "leftViewImage": null,
+                    "pasteboardType": 5,
+                    "showProgressIndicator": true
+                }
+            },
+            "isvisible": true,
+            "keyboardtype": "A",
+            "kuid": "c780c6bd93d84dc79023cc486ada3464",
+            "leftviewimage": null,
+            "mode": "A",
+            "name": "kony.ui.TextBox2",
+            "paddingLocked": false,
+            "paddinginpixel": false,
+            "parent": "d346742925484cc08503f1c880061f1d",
+            "pasteboardtype": 5,
+            "pf": "storelocatorpage",
+            "securetextentry": false,
+            "showoprogressindicator": true,
+            "textinputmode": "A",
+            "tooltip": "",
+            "viewtype": "default",
+            "wType": "TextField",
+            "zindex": 1
+        },
+        "canUpdateUI": true,
+        "children": [
+            "c780c6bd93d84dc79023cc486ada3464",
+            "a10ac5094e6e4e168948d6b0a6f6b621"
+        ],
+        "clipbounds": true,
+        "containerweight": 100,
+        "displayName": "FlexContainer0jc7940e5b8c246",
+        "enablescrolling": true,
+        "genericProperties": {},
+        "id": "d346742925484cc08503f1c880061f1d",
+        "info": null,
+        "isvisible": true,
+        "kuid": "d346742925484cc08503f1c880061f1d",
+        "layouttype": 2,
+        "name": "kony.ui.FlexContainer",
+        "parent": "e4aee09ebc8747759ab779d14d8fc795",
+        "pf": "storelocatorpage",
+        "snapgridsize": 10,
+        "snaptogrid": true,
+        "wType": "FlexContainer",
+        "widgetalignment": 1,
+        "zindex": 1
+    },
+    "desktopweb": {
+        "needAppMenu": false
+    },
+    "device": "iPad3",
+    "displayorientation": 1,
+    "e4aee09ebc8747759ab779d14d8fc795": {
+        "DNDConfig": null,
+        "__UDWInstanceModelForRender__": true,
+        "__instanceKUID__": "jde7816fd96e4ba09a101dd5c5fb8a71",
+        "__parentReadjusting__": false,
+        "__srcKUID__": "f773634e52684814868d8da3b17653af",
+        "_height_": "220dp",
+        "_left_": "0dp",
+        "_margin_": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "_orientation_": 6,
+        "_padding_": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "_percent_": true,
+        "_render_": true,
+        "_skin_": "s5e9a3f816e848878969462492d48489",
+        "_top_": "0dp",
+        "_width_": "100%",
+        "allboxes": [],
+        "autogrowmode": 0,
+        "canUpdateUI": true,
+        "children": [
+            "d346742925484cc08503f1c880061f1d",
+            "je584a4332ab46e485a2eb16867d26cd",
+            "jc79762960584a8c931fe82feec0e4d9"
+        ],
+        "clipbounds": true,
+        "containerweight": 100,
+        "d346742925484cc08503f1c880061f1d": {
+            "DNDConfig": null,
+            "__UDWInstanceModelForRender__": true,
+            "__instanceKUID__": "jde7816fd96e4ba09a101dd5c5fb8a71",
+            "__parentReadjusting__": false,
+            "__srcKUID__": "f5314622724c43d2866a90d5c35a2b86",
+            "_height_": "40dp",
+            "_left_": "0dp",
+            "_margin_": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "_orientation_": 6,
+            "_padding_": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "_percent_": true,
+            "_render_": true,
+            "_skin_": "sc2b5c4ad4a64fcf820fa5e9dc58e46e",
+            "_top_": "0dp",
+            "_width_": "100%",
+            "a10ac5094e6e4e168948d6b0a6f6b621": {
+                "@class": "com.kony.gen.viz.model.component.KVizImage2",
+                "DNDConfig": null,
+                "__UDWInstanceModelForRender__": true,
+                "__instanceKUID__": "jde7816fd96e4ba09a101dd5c5fb8a71",
+                "__parentReadjusting__": false,
+                "__srcKUID__": "g829ca1eb0004a81b1eb48f20f593cca",
+                "_base64_": null,
+                "_height_": "20dp",
+                "_left_": "23dp",
+                "_margin_": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "_padding_": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "_render_": true,
+                "_skin_": "s5989cfd8ced47f783d2ad0d38fdc1c3",
+                "_src_": "icon_search.png",
+                "_top_": "10dp",
+                "_width_": "20dp",
+                "canUpdateUI": true,
+                "containerweight": 100,
+                "context": {
+                    "channel": "mobile",
+                    "formID": "storelocatorpage",
+                    "platform": "iphone",
+                    "templateType": "forms",
+                    "topLevelBox": null
+                },
+                "displayName": "Image0b92ce26c869849",
+                "id": "a10ac5094e6e4e168948d6b0a6f6b621",
+                "imagescalemode": 1,
+                "info": null,
+                "invokedProperty": "src",
+                "isvisible": true,
+                "kuid": "a10ac5094e6e4e168948d6b0a6f6b621",
+                "name": "kony.ui.Image2",
+                "parent": "d346742925484cc08503f1c880061f1d",
+                "pf": "storelocatorpage",
+                "srcType": 1,
+                "wType": "Image",
+                "widgetalignment": 5,
+                "zindex": 1
+            },
+            "allboxes": [],
+            "autogrowmode": 0,
+            "c780c6bd93d84dc79023cc486ada3464": {
+                "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+                "DNDConfig": null,
+                "__UDWInstanceModelForRender__": true,
+                "__instanceKUID__": "jde7816fd96e4ba09a101dd5c5fb8a71",
+                "__parentReadjusting__": false,
+                "__srcKUID__": "e4aefb90c7b7444cbf126ebaa2d2bc17",
+                "_height_": "30dp",
+                "_margin_": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "_padding_": [
+                    10,
+                    0,
+                    0,
+                    0
+                ],
+                "_placeholder_": "Search store locations",
+                "_render_": true,
+                "_skin_": "s3d0d208b99d47a3af26df122e96300d",
+                "_text_": "",
+                "_width_": "92%",
+                "autocapitalize": "none",
+                "autocomplete": false,
+                "autocorrect": false,
+                "autofilter": false,
+                "canUpdateUI": true,
+                "centerx": "50%",
+                "centery": "50%",
+                "containerheight": "",
+                "containerheightmode": 1,
+                "containerweight": 100,
+                "contentalignment": 4,
+                "displayName": "TextField0ee0f4be96f4541",
+                "focusskin": "s5104a211b61472ea120d710047e461b",
+                "id": "c780c6bd93d84dc79023cc486ada3464",
+                "info": null,
+                "iphone": {
+                    "psp": {
+                        "leftViewImage": null,
+                        "pasteboardType": 5,
+                        "showProgressIndicator": true
+                    }
+                },
+                "isvisible": true,
+                "keyboardtype": "A",
+                "kuid": "c780c6bd93d84dc79023cc486ada3464",
+                "leftviewimage": null,
+                "mode": "A",
+                "name": "kony.ui.TextBox2",
+                "paddingLocked": false,
+                "paddinginpixel": false,
+                "parent": "d346742925484cc08503f1c880061f1d",
+                "pasteboardtype": 5,
+                "pf": "storelocatorpage",
+                "securetextentry": false,
+                "showoprogressindicator": true,
+                "textinputmode": "A",
+                "tooltip": "",
+                "viewtype": "default",
+                "wType": "TextField",
+                "zindex": 1
+            },
+            "canUpdateUI": true,
+            "children": [
+                "c780c6bd93d84dc79023cc486ada3464",
+                "a10ac5094e6e4e168948d6b0a6f6b621"
+            ],
+            "clipbounds": true,
+            "containerweight": 100,
+            "displayName": "FlexContainer0jc7940e5b8c246",
+            "enablescrolling": true,
+            "genericProperties": {},
+            "id": "d346742925484cc08503f1c880061f1d",
+            "info": null,
+            "isvisible": true,
+            "kuid": "d346742925484cc08503f1c880061f1d",
+            "layouttype": 2,
+            "name": "kony.ui.FlexContainer",
+            "parent": "e4aee09ebc8747759ab779d14d8fc795",
+            "pf": "storelocatorpage",
+            "snapgridsize": 10,
+            "snaptogrid": true,
+            "wType": "FlexContainer",
+            "widgetalignment": 1,
+            "zindex": 1
+        },
+        "displayName": "FlexContainer0d0c78ca0b6c446",
+        "enablescrolling": true,
+        "genericProperties": {},
+        "id": "e4aee09ebc8747759ab779d14d8fc795",
+        "info": null,
+        "isvisible": true,
+        "jc79762960584a8c931fe82feec0e4d9": {
+            "DNDConfig": null,
+            "__UDWInstanceModelForRender__": true,
+            "__instanceKUID__": "jde7816fd96e4ba09a101dd5c5fb8a71",
+            "__parentReadjusting__": false,
+            "__srcKUID__": "jb62e03d73ec4156b790516b29e159df",
+            "_height_": "1dp",
+            "_left_": "0dp",
+            "_margin_": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "_orientation_": 6,
+            "_padding_": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "_percent_": true,
+            "_render_": true,
+            "_skin_": "sba09f617e6e4d17b194afdd69b92804",
+            "_top_": "82dp",
+            "_width_": "100%",
+            "allboxes": [],
+            "autogrowmode": 0,
+            "canUpdateUI": true,
+            "children": [],
+            "clipbounds": true,
+            "containerweight": 100,
+            "displayName": "CopyFlexContainer0d4054ca2e2e04d",
+            "enablescrolling": true,
+            "id": "jc79762960584a8c931fe82feec0e4d9",
+            "info": null,
+            "isvisible": true,
+            "kuid": "jc79762960584a8c931fe82feec0e4d9",
+            "layouttype": 2,
+            "name": "kony.ui.FlexContainer",
+            "parent": "e4aee09ebc8747759ab779d14d8fc795",
+            "pf": "storelocatorpage",
+            "snapgridsize": 10,
+            "snaptogrid": true,
+            "wType": "FlexContainer",
+            "widgetalignment": 1,
+            "zindex": 1
+        },
+        "je584a4332ab46e485a2eb16867d26cd": {
+            "DNDConfig": null,
+            "__UDWInstanceModelForRender__": true,
+            "__instanceKUID__": "jde7816fd96e4ba09a101dd5c5fb8a71",
+            "__parentReadjusting__": false,
+            "__srcKUID__": "bf207444bc5d4857af72ad297d7f2f53",
+            "_height_": "40dp",
+            "_left_": "0dp",
+            "_margin_": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "_orientation_": 6,
+            "_padding_": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "_percent_": true,
+            "_render_": true,
+            "_skin_": "s15bafe233aa4de199a471d538aaf7ce",
+            "_top_": "40dp",
+            "_width_": "100%",
+            "allboxes": [],
+            "autogrowmode": 0,
+            "canUpdateUI": true,
+            "children": [
+                "ga2ca9c4da0e4253a0b3b54a728744df"
+            ],
+            "clipbounds": true,
+            "containerweight": 100,
+            "displayName": "FlexContainer0d741377d11d84d",
+            "enablescrolling": true,
+            "ga2ca9c4da0e4253a0b3b54a728744df": {
+                "@class": "com.kony.gen.viz.model.component.KVizLabel",
+                "DNDConfig": null,
+                "__UDWInstanceModelForRender__": true,
+                "__instanceKUID__": "jde7816fd96e4ba09a101dd5c5fb8a71",
+                "__parentReadjusting__": false,
+                "__srcKUID__": "f58f77e683ea4b62849d610910359a50",
+                "_height_": {
+                    "type": "ref",
+                    "value": "preferred"
+                },
+                "_left_": "21dp",
+                "_margin_": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "_padding_": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "_render_": true,
+                "_skin_": "s6e92a987f3640aeb712bb1b717bd2d4",
+                "_text_": "RECENT",
+                "_top_": "24dp",
+                "_width_": {
+                    "type": "ref",
+                    "value": "preferred"
+                },
+                "_wrapping_": 2,
+                "android": {
+                    "textStyle": {
+                        "letterSpacing": 0,
+                        "strikeThrough": false
+                    }
+                },
+                "canUpdateUI": true,
+                "containerweight": 100,
+                "contentalignment": 4,
+                "displayName": "Label0b5df3051c93d45",
+                "id": "ga2ca9c4da0e4253a0b3b54a728744df",
+                "info": null,
+                "ipad": {
+                    "psp": {
+                        "wrapping": 2
+                    }
+                },
+                "iphone": {
+                    "psp": {
+                        "wrapping": 2
+                    }
+                },
+                "isvisible": true,
+                "kuid": "ga2ca9c4da0e4253a0b3b54a728744df",
+                "name": "kony.ui.Label",
+                "parent": "je584a4332ab46e485a2eb16867d26cd",
+                "pf": "storelocatorpage",
+                "tooltip": "",
+                "wType": "Label",
+                "zindex": 1
+            },
+            "id": "je584a4332ab46e485a2eb16867d26cd",
+            "info": null,
+            "isvisible": true,
+            "kuid": "je584a4332ab46e485a2eb16867d26cd",
+            "layouttype": 2,
+            "name": "kony.ui.FlexContainer",
+            "parent": "e4aee09ebc8747759ab779d14d8fc795",
+            "pf": "storelocatorpage",
+            "snapgridsize": 10,
+            "snaptogrid": true,
+            "wType": "FlexContainer",
+            "widgetalignment": 1,
+            "zindex": 1
+        },
+        "kuid": "e4aee09ebc8747759ab779d14d8fc795",
+        "layouttype": 2,
+        "name": "kony.ui.FlexContainer",
+        "parent": "StoreLocation",
+        "pf": "storelocatorpage",
+        "snapgridsize": 10,
+        "snaptogrid": true,
+        "wType": "FlexContainer",
+        "widgetalignment": 1,
+        "zindex": 1
+    },
+    "enabledforidletimeout": false,
+    "ga2ca9c4da0e4253a0b3b54a728744df": {
+        "@class": "com.kony.gen.viz.model.component.KVizLabel",
+        "DNDConfig": null,
+        "__UDWInstanceModelForRender__": true,
+        "__instanceKUID__": "jde7816fd96e4ba09a101dd5c5fb8a71",
+        "__parentReadjusting__": false,
+        "__srcKUID__": "f58f77e683ea4b62849d610910359a50",
+        "_height_": {
+            "type": "ref",
+            "value": "preferred"
+        },
+        "_left_": "21dp",
+        "_margin_": [
+            1,
+            1,
+            1,
+            1
+        ],
+        "_padding_": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "_render_": true,
+        "_skin_": "s6e92a987f3640aeb712bb1b717bd2d4",
+        "_text_": "RECENT",
+        "_top_": "24dp",
+        "_width_": {
+            "type": "ref",
+            "value": "preferred"
+        },
+        "_wrapping_": 2,
+        "android": {
+            "textStyle": {
+                "letterSpacing": 0,
+                "strikeThrough": false
+            }
+        },
+        "canUpdateUI": true,
+        "containerweight": 100,
+        "contentalignment": 4,
+        "displayName": "Label0b5df3051c93d45",
+        "id": "ga2ca9c4da0e4253a0b3b54a728744df",
+        "info": null,
+        "ipad": {
+            "psp": {
+                "wrapping": 2
+            }
+        },
+        "iphone": {
+            "psp": {
+                "wrapping": 2
+            }
+        },
+        "isvisible": true,
+        "kuid": "ga2ca9c4da0e4253a0b3b54a728744df",
+        "name": "kony.ui.Label",
+        "parent": "je584a4332ab46e485a2eb16867d26cd",
+        "pf": "storelocatorpage",
+        "tooltip": "",
+        "wType": "Label",
+        "zindex": 1
+    },
+    "id": "storelocatorpage",
+    "info": null,
+    "initdone": false,
+    "inputaccessoryviewtype": 1,
+    "ipad": {
+        "needAppMenu": false,
+        "psp": {
+            "inputAccessoryViewType": 1,
+            "titleBarConfig": {
+                "buttonClosureLeftSideView": "",
+                "buttonClosureRightSideView": "",
+                "buttonText": "Edit",
+                "leftButtonText": "Back",
+                "leftTitle": "Back",
+                "prevFormTitle": false,
+                "renderTitleText": true,
+                "rightTitle": "Edit",
+                "titleBarLeftSideView": "button",
+                "titleBarRightSideView": "button",
+                "titleClosureLeftSideView": "",
+                "titleClosureRightSideView": "",
+                "visible": false
+            }
+        },
+        "titleBar": false
+    },
+    "isvisible": true,
+    "jc79762960584a8c931fe82feec0e4d9": {
+        "DNDConfig": null,
+        "__UDWInstanceModelForRender__": true,
+        "__instanceKUID__": "jde7816fd96e4ba09a101dd5c5fb8a71",
+        "__parentReadjusting__": false,
+        "__srcKUID__": "jb62e03d73ec4156b790516b29e159df",
+        "_height_": "1dp",
+        "_left_": "0dp",
+        "_margin_": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "_orientation_": 6,
+        "_padding_": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "_percent_": true,
+        "_render_": true,
+        "_skin_": "sba09f617e6e4d17b194afdd69b92804",
+        "_top_": "82dp",
+        "_width_": "100%",
+        "allboxes": [],
+        "autogrowmode": 0,
+        "canUpdateUI": true,
+        "children": [],
+        "clipbounds": true,
+        "containerweight": 100,
+        "displayName": "CopyFlexContainer0d4054ca2e2e04d",
+        "enablescrolling": true,
+        "id": "jc79762960584a8c931fe82feec0e4d9",
+        "info": null,
+        "isvisible": true,
+        "kuid": "jc79762960584a8c931fe82feec0e4d9",
+        "layouttype": 2,
+        "name": "kony.ui.FlexContainer",
+        "parent": "e4aee09ebc8747759ab779d14d8fc795",
+        "pf": "storelocatorpage",
+        "snapgridsize": 10,
+        "snaptogrid": true,
+        "wType": "FlexContainer",
+        "widgetalignment": 1,
+        "zindex": 1
+    },
+    "je584a4332ab46e485a2eb16867d26cd": {
+        "DNDConfig": null,
+        "__UDWInstanceModelForRender__": true,
+        "__instanceKUID__": "jde7816fd96e4ba09a101dd5c5fb8a71",
+        "__parentReadjusting__": false,
+        "__srcKUID__": "bf207444bc5d4857af72ad297d7f2f53",
+        "_height_": "40dp",
+        "_left_": "0dp",
+        "_margin_": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "_orientation_": 6,
+        "_padding_": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "_percent_": true,
+        "_render_": true,
+        "_skin_": "s15bafe233aa4de199a471d538aaf7ce",
+        "_top_": "40dp",
+        "_width_": "100%",
+        "allboxes": [],
+        "autogrowmode": 0,
+        "canUpdateUI": true,
+        "children": [
+            "ga2ca9c4da0e4253a0b3b54a728744df"
+        ],
+        "clipbounds": true,
+        "containerweight": 100,
+        "displayName": "FlexContainer0d741377d11d84d",
+        "enablescrolling": true,
+        "ga2ca9c4da0e4253a0b3b54a728744df": {
+            "@class": "com.kony.gen.viz.model.component.KVizLabel",
+            "DNDConfig": null,
+            "__UDWInstanceModelForRender__": true,
+            "__instanceKUID__": "jde7816fd96e4ba09a101dd5c5fb8a71",
+            "__parentReadjusting__": false,
+            "__srcKUID__": "f58f77e683ea4b62849d610910359a50",
+            "_height_": {
+                "type": "ref",
+                "value": "preferred"
+            },
+            "_left_": "21dp",
+            "_margin_": [
+                1,
+                1,
+                1,
+                1
+            ],
+            "_padding_": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "_render_": true,
+            "_skin_": "s6e92a987f3640aeb712bb1b717bd2d4",
+            "_text_": "RECENT",
+            "_top_": "24dp",
+            "_width_": {
+                "type": "ref",
+                "value": "preferred"
+            },
+            "_wrapping_": 2,
+            "android": {
+                "textStyle": {
+                    "letterSpacing": 0,
+                    "strikeThrough": false
+                }
+            },
+            "canUpdateUI": true,
+            "containerweight": 100,
+            "contentalignment": 4,
+            "displayName": "Label0b5df3051c93d45",
+            "id": "ga2ca9c4da0e4253a0b3b54a728744df",
+            "info": null,
+            "ipad": {
+                "psp": {
+                    "wrapping": 2
+                }
+            },
+            "iphone": {
+                "psp": {
+                    "wrapping": 2
+                }
+            },
+            "isvisible": true,
+            "kuid": "ga2ca9c4da0e4253a0b3b54a728744df",
+            "name": "kony.ui.Label",
+            "parent": "je584a4332ab46e485a2eb16867d26cd",
+            "pf": "storelocatorpage",
+            "tooltip": "",
+            "wType": "Label",
+            "zindex": 1
+        },
+        "id": "je584a4332ab46e485a2eb16867d26cd",
+        "info": null,
+        "isvisible": true,
+        "kuid": "je584a4332ab46e485a2eb16867d26cd",
+        "layouttype": 2,
+        "name": "kony.ui.FlexContainer",
+        "parent": "e4aee09ebc8747759ab779d14d8fc795",
+        "pf": "storelocatorpage",
+        "snapgridsize": 10,
+        "snaptogrid": true,
+        "wType": "FlexContainer",
+        "widgetalignment": 1,
+        "zindex": 1
+    },
+    "kuid": "ea16bfdcccb0487d8ab1fb29652f00a6",
+    "layouttype": 2,
+    "name": "kony.ui.Form2",
+    "needappmenu": true,
+    "paddinginpixel": false,
+    "platform": "ipad",
+    "prevDevice": "iPad3",
+    "prevPlatform": "ipad",
+    "retainscrollposition": false,
+    "shellCSS": "iOS_iPad3",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "spaandroidtablet": {
+        "needAppMenu": false
+    },
+    "spaipad": {
+        "needAppMenu": false
+    },
+    "spawindowstablet": {
+        "needAppMenu": false
+    },
+    "titleBarSkin": "s3c8df7ab34c49de855210b3177f1cdb",
+    "titlebar": true,
+    "type": 3,
+    "wType": "Form",
+    "windows8": {
+        "needAppMenu": false
+    }
+}

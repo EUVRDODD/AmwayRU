@@ -1,0 +1,23 @@
+{
+    "AS_Form_df8239329fc94408bb4b74cfece0cefe": {
+        "id": "AS_Form_df8239329fc94408bb4b74cfece0cefe",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "contentvideodetailpage",
+            "type": "forms",
+            "platform": null,
+            "KUID": "a0d1dd16b7e04746819286403a77b145"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_postShow_dec8dcdd072e40179cacac305306068f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.applyBindings();",
+            "callbackType": null
+        }]
+    }
+}

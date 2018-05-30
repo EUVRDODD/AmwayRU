@@ -1,0 +1,46 @@
+{
+    "classname": "SideDrawerWC",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "paramList": [],
+                    "propertyKey": "createSideDrawer",
+                    "pw": {
+                        "displayName": "createSideDrawer",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "301902c8dabd449aa91bbd0e3075198f",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "originalPropertyKey": "isVisible",
+                    "propertyKey": "flxClosePopupVisible",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "flxClosePopupVisible",
+                        "srcWidget": "flxClosePopup",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "eebc570ede56409d9784d9c14a8d9992"
+                }
+            ]
+        }
+    },
+    "namespace": "Global",
+    "version": "1.0.0"
+}

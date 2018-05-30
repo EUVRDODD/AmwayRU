@@ -1,0 +1,83 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "25%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sadefe2a725d4c7c90a707216e56b65f",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "android": {
+        "@class": "com.kony.gen.viz.model.container.property.flex.AndroidFlexProperty",
+        "_render_": true,
+        "render": true
+    },
+    "canUpdateUI": true,
+    "children": [
+        "ImgABO11",
+        "FlexABO11Values",
+        "ABO11"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "defaultunit": 2,
+    "id": "FlexLOSABO11",
+    "ipad": {
+        "render": true
+    },
+    "isvisible": true,
+    "kuid": "i065628b5d9f41e3a19d205d6dc93525",
+    "layouttype": 2,
+    "margininpixel": false,
+    "name": "kony.ui.FlexContainer",
+    "paddinginpixel": false,
+    "parent": "FlexContainerLOS1",
+    "pf": "incomeSimulatorLOS",
+    "spa": {
+        "@class": "com.kony.gen.viz.model.container.property.flex.SPAFlexProperty"
+    },
+    "spaandroidtablet": {
+        "render": true
+    },
+    "spabbnth": {
+        "@class": "com.kony.gen.viz.model.container.property.flex.SPABBNTHFlexProperty",
+        "_render_": false,
+        "render": false
+    },
+    "spaipad": {
+        "render": true
+    },
+    "spawindowstablet": {
+        "render": true
+    },
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "windows8": {
+        "render": true
+    },
+    "zindex": 1
+}

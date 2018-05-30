@@ -1,0 +1,66 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizMap",
+    "DNDConfig": null,
+    "__markedForDelete__": true,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_mode_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "android": {
+        "psp": {
+            "showZoomControl": true
+        }
+    },
+    "calloutwidth": 80,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "defaultpinimage": "pinb.png",
+    "id": "mapStore",
+    "info": null,
+    "invokedProperty": "maps",
+    "iphone": {
+        "psp": {
+            "showCurrentLocation": "pin"
+        }
+    },
+    "isvisible": true,
+    "kuid": "c722017d098a4935ada27910d82a4c43",
+    "locationdata": [],
+    "mapsource": "non-native",
+    "mapsrc": "non-native",
+    "name": "kony.ui.Map",
+    "parent": "FlexContainer0bda655c8ddc144",
+    "pf": "storedetailpage",
+    "provider": "google",
+    "screenlevelwidget": false,
+    "showCurrentLocation": "pin",
+    "wType": "Map",
+    "zindex": 1,
+    "zoomlevel": "12"
+}

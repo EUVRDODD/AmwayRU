@@ -1,0 +1,49 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "25dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sb55f107b73f4db5b7a887ada2532fe4",
+    "_text_": "",
+    "_width_": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": false,
+    "focusskin": "s638c3ece2f248b88c14c8a919ca43be",
+    "id": "btnPlayDownload",
+    "info": null,
+    "isvisible": false,
+    "kuid": "h596d0b2e5ba4b859961233e5ac2858b",
+    "name": "kony.ui.Button",
+    "parent": "FlexContainer0ddbf0755d4b943",
+    "pf": "userwidgetmodel",
+    "wType": "Button",
+    "zindex": 1
+}

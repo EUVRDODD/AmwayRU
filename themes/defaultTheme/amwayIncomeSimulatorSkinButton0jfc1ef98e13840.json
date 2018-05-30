@@ -1,0 +1,223 @@
+{
+  "@class": "com.kony.gen.skin.model.KVizSkin",
+  "applicableblockedUIWidget": "Button",
+  "background_color": "178985ff",
+  "bg_type": "one",
+  "border_color": "ffffff00",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "bottom_left_border_color": "00000000",
+  "bottom_left_border_radius": 10,
+  "bottom_left_border_width": 0,
+  "bottom_right_border_color": "00000000",
+  "bottom_right_border_radius": 10,
+  "bottom_right_border_width": 0,
+  "font_color": "ffffffff",
+  "font_size": 80,
+  "font_style": "normal",
+  "font_weight": "normal",
+  "gridLineColor": "0000000",
+  "iphone": {
+    "font_name": "Helvetica"
+  },
+  "isDefaultSkin": false,
+  "isForked": false,
+  "kuid": "s2cef69a43ea4714a2426397348f082c",
+  "platforms": {
+    "ipad": {
+      "@class": "com.kony.gen.skin.model.KVizIPadSkin",
+      "applicableblockedUIWidget": "Button",
+      "background_color": {
+        "angle": 0,
+        "colors": [
+          "56a9dd00",
+          "3a83a700",
+          "4aa8d100"
+        ],
+        "cs": [
+          0,
+          50,
+          100
+        ],
+        "gt": "linear"
+      },
+      "background_style": "linear",
+      "bg_type": "ms_gradient",
+      "border_color": "ffffff00",
+      "border_radius": 0,
+      "border_style": "plain",
+      "border_type": 0,
+      "border_width": 0,
+      "bottom_left_border_color": "00000000",
+      "bottom_left_border_radius": 10,
+      "bottom_left_border_width": 0,
+      "bottom_right_border_color": "00000000",
+      "bottom_right_border_radius": 10,
+      "bottom_right_border_width": 0,
+      "font_color": "ffffff00",
+      "font_size": 146,
+      "font_style": "normal",
+      "font_weight": "normal",
+      "gridLineColor": "0000000",
+      "isForked": true,
+      "psp": {
+        "@class": "com.kony.gen.skin.model.psp.IPadPSP"
+      },
+      "shadow": {
+        "br": 2,
+        "color": "000000",
+        "inner": false,
+        "x": 0,
+        "y": 2
+      },
+      "text_shadow": {
+        "br": 0,
+        "color": "000000",
+        "x": 0,
+        "y": -1
+      },
+      "top_left_border_color": "00000000",
+      "top_left_border_radius": 10,
+      "top_left_border_width": 0,
+      "top_right_border_color": "00000000",
+      "top_right_border_radius": 10,
+      "top_right_border_width": 0,
+      "use_native": "false",
+      "vizChannel": "ipad",
+      "wType": "Button"
+    },
+    "tabrcandroid": {
+      "@class": "com.kony.gen.skin.model.KVizAndroidTabletSkin",
+      "applicableblockedUIWidget": "Button",
+      "background_color": {
+        "angle": 0,
+        "colors": [
+          "56a9dd00",
+          "3a83a700",
+          "4aa8d100"
+        ],
+        "cs": [
+          0,
+          50,
+          100
+        ],
+        "gt": "linear"
+      },
+      "background_style": "linear",
+      "bg_type": "ms_gradient",
+      "border_color": "ffffff00",
+      "border_radius": 0,
+      "border_style": "plain",
+      "border_type": 0,
+      "border_width": 0,
+      "bottom_left_border_color": "00000000",
+      "bottom_left_border_radius": 10,
+      "bottom_left_border_width": 0,
+      "bottom_right_border_color": "00000000",
+      "bottom_right_border_radius": 10,
+      "bottom_right_border_width": 0,
+      "font_color": "ffffff00",
+      "font_size": 146,
+      "font_style": "normal",
+      "font_weight": "normal",
+      "gridLineColor": "0000000",
+      "isForked": true,
+      "psp": {
+        "@class": "com.kony.gen.skin.model.psp.AndroidTabletPSP"
+      },
+      "shadow": {
+        "br": 0,
+        "color": "000000",
+        "inner": false,
+        "x": 0,
+        "y": 0
+      },
+      "text_shadow": {
+        "br": 0,
+        "color": "000000",
+        "x": 0,
+        "y": -1
+      },
+      "top_left_border_color": "00000000",
+      "top_left_border_radius": 10,
+      "top_left_border_width": 0,
+      "top_right_border_color": "00000000",
+      "top_right_border_radius": 10,
+      "top_right_border_width": 0,
+      "use_native": "false",
+      "vizChannel": "tabrcandroid",
+      "wType": "Button"
+    },
+    "windows8": {
+      "@class": "com.kony.gen.skin.model.KVizWindows8Skin",
+      "applicableblockedUIWidget": "Button",
+      "background_color": "17898500",
+      "background_style": "vg",
+      "bg_type": "one",
+      "border_color": "ffffff00",
+      "border_radius": 0,
+      "border_style": "plain",
+      "border_type": 0,
+      "border_width": 0,
+      "bottom_left_border_color": "00000000",
+      "bottom_left_border_radius": 10,
+      "bottom_left_border_width": 0,
+      "bottom_right_border_color": "00000000",
+      "bottom_right_border_radius": 10,
+      "bottom_right_border_width": 0,
+      "font_color": "ffffff00",
+      "font_size": 146,
+      "font_style": "underline",
+      "font_weight": "normal",
+      "gridLineColor": "0000000",
+      "isForked": true,
+      "psp": {
+        "@class": "com.kony.gen.skin.model.psp.Windows8PSP"
+      },
+      "shadow": {
+        "br": 0,
+        "color": "000000",
+        "inner": false,
+        "x": 0,
+        "y": 0
+      },
+      "text_shadow": {
+        "br": 0,
+        "color": "000000",
+        "x": 0,
+        "y": 0
+      },
+      "top_left_border_color": "00000000",
+      "top_left_border_radius": 10,
+      "top_left_border_width": 0,
+      "top_right_border_color": "00000000",
+      "top_right_border_radius": 10,
+      "top_right_border_width": 0,
+      "use_native": "false",
+      "vizChannel": "windows8",
+      "wType": "Button"
+    }
+  },
+  "shadow": {
+    "br": 0,
+    "color": "000000",
+    "inner": false,
+    "x": 0,
+    "y": 0
+  },
+  "text_shadow": {
+    "br": 0,
+    "color": "000000",
+    "x": 0,
+    "y": 0
+  },
+  "top_left_border_color": "00000000",
+  "top_left_border_radius": 10,
+  "top_left_border_width": 0,
+  "top_right_border_color": "00000000",
+  "top_right_border_radius": 10,
+  "top_right_border_width": 0,
+  "vizChannel": "default",
+  "wType": "Button"
+}

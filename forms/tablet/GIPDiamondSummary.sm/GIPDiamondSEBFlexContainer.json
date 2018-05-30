@@ -1,0 +1,84 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "8%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "7%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s188dadd8d2d478490048456eae5aa7b",
+    "_top_": {
+        "type": "string",
+        "value": "1%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "allboxes": [],
+    "android": {
+        "@class": "com.kony.gen.viz.model.container.property.flex.AndroidFlexProperty",
+        "_render_": true,
+        "render": true
+    },
+    "canUpdateUI": true,
+    "children": [
+        "imgSEB",
+        "lblSEBValue",
+        "imgInfoSEB",
+        "btnInfoSEB"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "defaultunit": 2,
+    "id": "GIPDiamondSEBFlexContainer",
+    "ipad": {
+        "render": true
+    },
+    "isvisible": true,
+    "kuid": "dc538498d83b4e3bb31d839e7bd9b2e3",
+    "layouttype": 2,
+    "margininpixel": false,
+    "name": "kony.ui.FlexContainer",
+    "paddinginpixel": false,
+    "parent": "GIPflexScrollMain",
+    "pf": "GIPDiamondSummary",
+    "spa": {
+        "@class": "com.kony.gen.viz.model.container.property.flex.SPAFlexProperty"
+    },
+    "spaandroidtablet": {
+        "render": true
+    },
+    "spabbnth": {
+        "@class": "com.kony.gen.viz.model.container.property.flex.SPABBNTHFlexProperty",
+        "_render_": false,
+        "render": false
+    },
+    "spaipad": {
+        "render": true
+    },
+    "spawindowstablet": {
+        "render": true
+    },
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "windows8": {
+        "render": true
+    },
+    "zindex": 1
+}

@@ -1,0 +1,61 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s5989cfd8ced47f783d2ad0d38fdc1c3",
+    "_src_": "imagedrag.png",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerId": true,
+    "containerweight": 100,
+    "context": {
+        "channel": "tablet",
+        "formID": "tempSegHomePageCon",
+        "platform": "ipad",
+        "templateType": "segments",
+        "topLevelBox": null
+    },
+    "id": "imgContent",
+    "imagescalemode": 1,
+    "imagewhenfailed": "wheelloading.GIF",
+    "imagewhiledownloading": "empty_drop_down_arrow.png",
+    "info": null,
+    "invokedProperty": "imageWhileDownloading",
+    "isvisible": true,
+    "kuid": "de37f5d924fd450e8e5b49a5543b0c6c",
+    "name": "kony.ui.Image2",
+    "parent": "FlexContainer0id8a16bdad0141",
+    "pf": "tempSegHomePageCon",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}

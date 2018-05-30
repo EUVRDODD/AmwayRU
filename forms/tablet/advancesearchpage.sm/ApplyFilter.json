@@ -1,0 +1,73 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": "60dp",
+    "_left_": "0dp",
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s15bafe233aa4de199a471d538aaf7ce",
+    "_top_": "0dp",
+    "_width_": "100%",
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "ApplyFilter": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "d1ab8bdeffab4e4e94739bd3a2ce8d9b",
+                "srcKUID": "b3fbe8ffb5c249ccaafa58ceb7078ceb",
+                "wType": "FlexContainer"
+            }
+        },
+        "ApplyFilterButton": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f7e17d8817d4468185ff57f0785cb173",
+                "srcKUID": "a7758cbaee254c748eeafdf7b5990f4c",
+                "wType": "Button"
+            },
+            "i18n_text": "advancesearchpageApplyFilterButton",
+            "text": ""
+        },
+        "ApplyFilterButtonContainer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e406fa4a95a5407bb9a078afe5bfb6af",
+                "srcKUID": "be02e86c7af041d4b6ed4fd5af001067",
+                "wType": "FlexContainer"
+            }
+        }
+    },
+    "id": "ApplyFilter",
+    "info": null,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "jbbae4cb31fc4b619bd7ba945f33bd01",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "FlexContainer0c15b4abf3f6e4b",
+    "pf": "advancesearchpage",
+    "snaptogrid": true,
+    "sourceUserWidget": "b3fbe8ffb5c249ccaafa58ceb7078ceb",
+    "wType": "UserWidgetInstance"
+}

@@ -1,0 +1,52 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "27dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "58dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s4416f5aa47b4b7f8e320fd4631295b1",
+    "_text_": "Button",
+    "_top_": {
+        "type": "string",
+        "value": "6dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "canUpdateUI": true,
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {
+        "focusSkin": "s638c3ece2f248b88c14c8a919ca43be"
+    },
+    "displaytext": false,
+    "id": "btnSwitch",
+    "info": null,
+    "isvisible": true,
+    "kuid": "f58f4beb74cb4e25b2f060f3cb3f616e",
+    "name": "kony.ui.Button",
+    "parent": "flxDownload",
+    "pf": "FBox0c725960a11af41",
+    "wType": "Button",
+    "zindex": 1
+}

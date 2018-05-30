@@ -1,0 +1,77 @@
+{
+    "DNDConfig": null,
+    "__markedForDelete__": true,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "number",
+        "value": "0"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s4d0e494c95347ada57522fd4e5f0f36",
+    "_top_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "allowhorizontalbounce": false,
+    "allowverticalbounce": true,
+    "bounces": true,
+    "canUpdateUI": true,
+    "children": [
+        "flxImgBanner",
+        "FlexContainer0c1ad282d581f48",
+        "flxDivider",
+        "FlexContainer0gd2625a7a18a4b",
+        "CopyflxDivider0ia995ce6fd1e44",
+        "CopyFlexContainer0j497ccfc21814e",
+        "CopyflxDivider0d7919064f14049",
+        "CopyFlexContainer0db2f1ec89a6444",
+        "CopyflxDivider0c8fb64feaad549",
+        "FlexContainer0ed279c72fc5e4b",
+        "FlexContainer0bda655c8ddc144"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "decelerat": false,
+    "dragg": false,
+    "enablescrolling": true,
+    "horizontalscrollindicator": true,
+    "id": "FlexScrollContainer0f7dc406ce30b48",
+    "info": null,
+    "isvisible": true,
+    "kuid": "gf29b8d59209429c86e8c4eac8217d48",
+    "layouttype": 4,
+    "name": "kony.ui.FlexScrollContainer",
+    "pagingenabled": false,
+    "parent": "FlexContainer0g41e7ed2a1b544",
+    "pf": "storedetailpage",
+    "scrolldirection": 2,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "track": false,
+    "verticalscrollindicator": true,
+    "wType": "FlexScrollContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

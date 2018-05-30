@@ -1,0 +1,86 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizListBox",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s459a070bef747beb0741983536edb4f",
+    "_top_": {
+        "type": "string",
+        "value": "25%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "40%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 4,
+    "context": {
+        "channel": "mobile",
+        "formID": "preLoginpage",
+        "platform": "android",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "groupcells": false,
+    "id": "languageListBox",
+    "info": null,
+    "isvisible": true,
+    "kuid": "cedaadcdf0da43218d6da9cbd1d419b7",
+    "masterdata": [
+        [
+            "select",
+            "Select Country"
+        ],
+        [
+            "ru",
+            "Russia"
+        ],
+        [
+            "kz",
+            "Kazakhstan"
+        ]
+    ],
+    "name": "kony.ui.ListBox",
+    "parent": "flxMain",
+    "pf": "preLoginpage",
+    "selectedkey": "select",
+    "selectedkeys": null,
+    "selectedkeyvalue": [
+        "select",
+        "Select Country"
+    ],
+    "selectedkeyvalues": null,
+    "size": 18,
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "ListBox",
+    "zindex": 1
+}

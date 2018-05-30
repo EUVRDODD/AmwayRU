@@ -1,0 +1,89 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_enabled_": false,
+    "_height_": {
+        "type": "string",
+        "value": "40%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "40%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sd39929fbc16436cbc11b1264341ea53",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "58%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "accessibilityconfig": {
+        "a11yHidden": false,
+        "a11yHint": "",
+        "a11yLabel": "",
+        "a11yValue": ""
+    },
+    "android": {
+        "@class": "com.kony.gen.viz.model.component.property.button.AndroidButtonProperty",
+        "displayText": true,
+        "render": true
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "focusskin": "s3e235f333624a4ba92dd5ee11756725",
+    "hexpand": true,
+    "id": "btnInfoFQMonths",
+    "info": null,
+    "ipad": {
+        "displayText": true,
+        "render": true
+    },
+    "isvisible": true,
+    "kuid": "db577a630ef044feb198ef15cb537fbe",
+    "margininpixel": false,
+    "name": "kony.ui.Button",
+    "paddinginpixel": false,
+    "parent": "flexFQMonthsNextYear",
+    "pf": "GIPDiamondNextYear",
+    "spa": {
+        "@class": "com.kony.gen.viz.model.component.property.button.SPAButtonProperty",
+        "displayText": true
+    },
+    "spaandroidtablet": {
+        "render": true
+    },
+    "spabbnth": {
+        "@class": "com.kony.gen.viz.model.component.property.button.SPABBNTHButtonProperty",
+        "render": true
+    },
+    "spaipad": {
+        "render": true
+    },
+    "spawindowstablet": {
+        "render": true
+    },
+    "vexpand": false,
+    "wType": "Button",
+    "widgetalignment": 5,
+    "windows8": {
+        "displayText": true,
+        "render": true
+    },
+    "zindex": 1
+}

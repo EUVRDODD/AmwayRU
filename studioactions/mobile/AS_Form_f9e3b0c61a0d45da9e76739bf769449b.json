@@ -1,0 +1,24 @@
+{
+    "AS_Form_f9e3b0c61a0d45da9e76739bf769449b": {
+        "id": "AS_Form_f9e3b0c61a0d45da9e76739bf769449b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "loginpage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f47aac8b9fdf47099bf8720d1eee1679"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__eed62519d4a84bd8a3fb491d64f34bde",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.applyBindings();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

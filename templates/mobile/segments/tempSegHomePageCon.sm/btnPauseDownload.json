@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "35dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sb1b166626b54fb18df60409199e6e25",
+    "_text_": "Button",
+    "_width_": {
+        "type": "string",
+        "value": "35dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": false,
+    "focusskin": "s638c3ece2f248b88c14c8a919ca43be",
+    "id": "btnPauseDownload",
+    "info": null,
+    "isvisible": true,
+    "kuid": "b43c3b23978f42e38ac9b314a1e44ea5",
+    "name": "kony.ui.Button",
+    "parent": "flxCenterImage",
+    "pf": "tempSegHomePageCon",
+    "wType": "Button",
+    "zindex": 1
+}

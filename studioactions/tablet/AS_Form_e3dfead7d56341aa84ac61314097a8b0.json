@@ -1,0 +1,24 @@
+{
+    "AS_Form_e3dfead7d56341aa84ac61314097a8b0": {
+        "id": "AS_Form_e3dfead7d56341aa84ac61314097a8b0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "searchresultspagewithbadges",
+            "type": "forms",
+            "platform": null,
+            "KUID": "d2348c69a88f406caf121863a16c6870"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c9832fa7aba341baa9c0f724ca3a4828",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.applyBindings();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

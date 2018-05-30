@@ -1,0 +1,89 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": "50dp",
+    "_left_": "0dp",
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s0706b1672d546acb180995aae0e41c4",
+    "_top_": "0dp",
+    "_width_": "100%",
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "BackButton": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "be01e51cb2434494807c540704bc8e55",
+                "srcKUID": "a59af4e8f8864deaa933cc53c346466e",
+                "wType": "FlexContainer"
+            }
+        },
+        "FlexContainer0b9b454edf2b94d": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a4191f0d128a42ad8720ea0ba49a10d1",
+                "srcKUID": "c95494ee8bc44845ac805ac9fd527600",
+                "wType": "FlexContainer"
+            }
+        },
+        "Image0a70e40a6f95946": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ec9352614c1741eaab272e9f944ccb73",
+                "srcKUID": "hfd50506c57044c4a289344d57c0e776",
+                "wType": "Image"
+            }
+        },
+        "Notifications": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "fab5edb8364c44389bde9fb71a1b992f",
+                "srcKUID": "a40ed93c53d8448487fac90ae427f0da",
+                "wType": "FlexContainer"
+            }
+        },
+        "lblHeader": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ef531cdeb9f24df3aacb182a21ff3a9e",
+                "srcKUID": "eb918b5d895143678cd40df55c107f23",
+                "wType": "Label"
+            },
+            "i18n_text": "notificationpagelblHeader",
+            "text": ""
+        }
+    },
+    "id": "Notifications",
+    "info": null,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "i3c25c26b34d4efcbd4513957566be17",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "FlexContainer0e23b191d97c542",
+    "pf": "notificationpage",
+    "snaptogrid": true,
+    "sourceUserWidget": "a40ed93c53d8448487fac90ae427f0da",
+    "wType": "UserWidgetInstance"
+}

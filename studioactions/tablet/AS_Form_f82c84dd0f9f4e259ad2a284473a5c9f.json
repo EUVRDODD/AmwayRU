@@ -1,0 +1,18 @@
+{
+    "AS_Form_f82c84dd0f9f4e259ad2a284473a5c9f": {
+        "id": "AS_Form_f82c84dd0f9f4e259ad2a284473a5c9f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "GIPDiamondPrevYear",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e766b32d99994d489ba4bbdc5ff32686"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

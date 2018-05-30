@@ -1,0 +1,18 @@
+{
+    "AS_TitleBar_ff74462c797543ee942e9d0895ffb9c0": {
+        "id": "AS_TitleBar_ff74462c797543ee942e9d0895ffb9c0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f92c5ba24c674a16b2d80c7845f74c2c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var ntf=new kony.mvc.Navigation(\"contentdetailpage\");\nntf.navigate();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

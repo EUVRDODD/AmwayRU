@@ -1,0 +1,232 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "btnmapOpenImage": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "icon_maps.png"
+            },
+            "btnphoneCallImage": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "icon_phone.png"
+            },
+            "btnsendEmailImage": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "icon_mail.png"
+            },
+            "imgStore": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lblLocation": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "LOCATION"
+            },
+            "lblOperatingHours": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblStoreName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Store Name"
+            },
+            "locatorUid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "rchAddress": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "331 North Bridge Road\n#01-01 Odeaon Towers \nSingapore 187720\n\n\n\n\n"
+            }
+        },
+        {
+            "btnmapOpenImage": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "icon_maps.png"
+            },
+            "btnphoneCallImage": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "icon_phone.png"
+            },
+            "btnsendEmailImage": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "icon_mail.png"
+            },
+            "imgStore": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lblLocation": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "LOCATION"
+            },
+            "lblOperatingHours": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblStoreName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Store Name"
+            },
+            "locatorUid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "rchAddress": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "331 North Bridge Road\n#01-01 Odeaon Towers \nSingapore 187720\n\n\n\n\n"
+            }
+        },
+        {
+            "btnmapOpenImage": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "icon_maps.png"
+            },
+            "btnphoneCallImage": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "icon_phone.png"
+            },
+            "btnsendEmailImage": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "icon_mail.png"
+            },
+            "imgStore": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lblLocation": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "LOCATION"
+            },
+            "lblOperatingHours": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblStoreName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Store Name"
+            },
+            "locatorUid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "rchAddress": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "331 North Bridge Road\n#01-01 Odeaon Towers \nSingapore 187720\n\n\n\n\n"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "02",
+    "disabledSkins": {},
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "hiddencolumns": {
+        "operatingHours": "text"
+    },
+    "id": "segStores",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "bounces": false,
+            "indicator": "none"
+        }
+    },
+    "isvisible": true,
+    "kuid": "af4e23da08204fc6b8c50aa51bf2b0bf",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxStoreLocatorSearchResult",
+    "pf": "storelocatorpage",
+    "retainselection": false,
+    "rowTemplateId": "fba5520e1e5a47f8ae5b6c876e0de358",
+    "rowcounter": 2,
+    "rowfocusskin": "s1f53931e0e94c82bba7cdb4ad774b94",
+    "rowskin": "se39a8d4a3a846aba0432f0f041758c3",
+    "rowtemplate": "FlexContainer0hc68feb667e044",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "sec79582323943aebedbd370c119eb36",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "FlexContainer0ee23163479be41": "FlexContainer0ee23163479be41",
+        "FlexContainer0ef60415f655e4c": "FlexContainer0ef60415f655e4c",
+        "FlexContainer0f62c4c98a52642": "FlexContainer0f62c4c98a52642",
+        "FlexContainer0fb766ad0f5b34c": "FlexContainer0fb766ad0f5b34c",
+        "FlexContainer0gce0d1eaa54b43": "FlexContainer0gce0d1eaa54b43",
+        "FlexContainer0hc68feb667e044": "FlexContainer0hc68feb667e044",
+        "FlexContainer0j86424b41f7c46": "FlexContainer0j86424b41f7c46",
+        "btnmapOpen": "btnmapOpen",
+        "btnmapOpenImage": "btnmapOpenImage",
+        "btnphoneCall": "btnphoneCall",
+        "btnphoneCallImage": "btnphoneCallImage",
+        "btnsendEmail": "btnsendEmail",
+        "btnsendEmailImage": "btnsendEmailImage",
+        "flxWrapperContent": "flxWrapperContent",
+        "imgStore": "imgStore",
+        "lblLocation": "lblLocation",
+        "lblOperatingHours": "lblOperatingHours",
+        "lblStoreName": "lblStoreName",
+        "locatorUid": "locatorUid",
+        "rchAddress": "rchAddress"
+    },
+    "zindex": 1
+}

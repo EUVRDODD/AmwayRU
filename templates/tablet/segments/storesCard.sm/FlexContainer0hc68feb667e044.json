@@ -1,0 +1,76 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "number",
+        "value": "5"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "175dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "scd929d71b934a8b8ab560d3860587c7",
+    "_top_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "flxWrapperContent",
+        "FlexContainer0j86424b41f7c46",
+        "FlexContainer0fb766ad0f5b34c",
+        "FlexContainer0ee23163479be41",
+        "imgStore",
+        "lblOperatingHours",
+        "locatorUid"
+    ],
+    "clipbounds": true,
+    "containerId": true,
+    "containerweight": 100,
+    "controllerInfo": {
+        "default": {
+            "channel": "tablet",
+            "name": "FlexContainer0hc68feb667e044Controller"
+        }
+    },
+    "enablescrolling": true,
+    "focusskin": "sbb0290b00204e8ba3adf7e47f724ed8",
+    "id": "FlexContainer0hc68feb667e044",
+    "info": null,
+    "isTemplate": true,
+    "isvisible": true,
+    "kuid": "c220bdd894e24738a36b3602e4d6f75c",
+    "layouttype": 4,
+    "name": "kony.ui.FlexContainer",
+    "parent": "storesCard",
+    "pf": "storesCard",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

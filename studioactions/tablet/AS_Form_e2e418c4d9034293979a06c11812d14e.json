@@ -1,0 +1,24 @@
+{
+    "AS_Form_e2e418c4d9034293979a06c11812d14e": {
+        "id": "AS_Form_e2e418c4d9034293979a06c11812d14e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "nutriliteWow",
+            "type": "forms",
+            "platform": null,
+            "KUID": "c354fdca387a486c854ec21dd94e7f82"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__dfa457287a3e4f74bc323a3a0374ef83",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.applyBindings();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

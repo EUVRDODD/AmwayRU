@@ -1,0 +1,18 @@
+{
+    "AS_AppEvents_b7b3180d67914bb9a98767c1c05bacab": {
+        "id": "AS_AppEvents_b7b3180d67914bb9a98767c1c05bacab",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__fe6a6c31fc974beeb83f69f5d9dfedd8",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(!isIOS()){\n//Invokes function 'appServiceLabelSize'\nFontSizeAnd.appServiceLabelSize();\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

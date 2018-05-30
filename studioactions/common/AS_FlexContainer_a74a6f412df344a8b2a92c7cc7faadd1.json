@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_a74a6f412df344a8b2a92c7cc7faadd1": {
+        "id": "AS_FlexContainer_a74a6f412df344a8b2a92c7cc7faadd1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "uwuf7596af051f49faae84492aa1bc8f8d",
+            "type": "userwidgets",
+            "KUID": "uf7596af051f49faae84492aa1bc8f8d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__j12979b51f8a47869688b9cbdfbbac64",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "animate( this.view.flexSideDrawer, { \"left\": \"0dp\"} );",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

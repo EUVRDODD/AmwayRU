@@ -1,0 +1,26 @@
+{
+    "AS_TextField_ha5b7282310f4270846aad6a73df7f3e": {
+        "id": "AS_TextField_ha5b7282310f4270846aad6a73df7f3e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "searchresultspage",
+            "type": "forms",
+            "platform": null,
+            "KUID": "a6473be6d4584582b737ee122bfcf5a2"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onEndEditing_b57bfd38bb604095a9e28cd816788ace",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxRecentSearchWraper.zIndex = 1;\n",
+            "callbackType": null
+        }]
+    }
+}

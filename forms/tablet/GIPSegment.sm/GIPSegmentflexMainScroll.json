@@ -1,0 +1,98 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "92%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sc89f566f9994591981e66917372e6cd",
+    "_top_": {
+        "type": "string",
+        "value": "8%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "allowhorizontalbounce": true,
+    "allowverticalbounce": true,
+    "android": {
+        "@class": "com.kony.gen.viz.model.container.property.scrollflexcontainer.AndroidScrollFlexContainerProperty",
+        "render": true
+    },
+    "bounces": false,
+    "canUpdateUI": true,
+    "children": [
+        "lblGIPTitle",
+        "GIPSegmentflex1",
+        "GIPSegmentflex2",
+        "GIPSegmentflex3"
+    ],
+    "containerweight": 100,
+    "contentoffset": {},
+    "contentsize": {},
+    "defaultunit": 2,
+    "enablescrolling": false,
+    "horizontalscrollindicator": true,
+    "id": "GIPSegmentflexMainScroll",
+    "ipad": {
+        "psp": {
+            "bouncesZoom": true,
+            "maxZoomScale": 1,
+            "minZoomScale": 1,
+            "zoomScale": 1
+        },
+        "render": true
+    },
+    "isvisible": true,
+    "kuid": "e7002d5f91794b21be695794bbc557e9",
+    "layouttype": 4,
+    "margininpixel": false,
+    "masterType": 1,
+    "name": "kony.ui.FlexScrollContainer",
+    "paddinginpixel": false,
+    "pagingenabled": false,
+    "parent": "GIPSegment",
+    "pf": "GIPSegment",
+    "scrolldirection": 2,
+    "spa": {
+        "@class": "com.kony.gen.viz.model.container.property.scrollflexcontainer.SPAScrollFlexContainerProperty"
+    },
+    "spaandroidtablet": {
+        "render": true
+    },
+    "spabbnth": {
+        "@class": "com.kony.gen.viz.model.container.property.scrollflexcontainer.SPABBNTHScrollFlexContainerProperty",
+        "render": false
+    },
+    "spaipad": {
+        "render": true
+    },
+    "spawindowstablet": {
+        "render": true
+    },
+    "verticalscrollindicator": true,
+    "wType": "FlexScrollContainer",
+    "widgetalignment": 1,
+    "windows8": {
+        "render": true
+    },
+    "zindex": 2
+}

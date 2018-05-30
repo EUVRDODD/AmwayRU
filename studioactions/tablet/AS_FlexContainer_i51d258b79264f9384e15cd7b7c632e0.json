@@ -1,0 +1,187 @@
+{
+    "AS_FlexContainer_i51d258b79264f9384e15cd7b7c632e0": {
+        "id": "AS_FlexContainer_i51d258b79264f9384e15cd7b7c632e0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "webapppage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "adb232edfd6140c0bcaa99408521f1f7"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "MOVE_ACTION____g4a773c6169141a98741cbdc386ceec7",
+            "type": "MOVE_ACTION",
+            "itemType": "FORM",
+            "itemId": "webapppage",
+            "widgetId": "flxLineApps",
+            "itemKUID": "adb232edfd6140c0bcaa99408521f1f7",
+            "widgetKUID": "j4be9a572fb142ecbba3ba19f4f925f2",
+            "wType": "FlexContainer",
+            "animationObject": {
+                "centerX": "150%",
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                },
+                "rectified": true
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "200"
+            },
+            "start": "Immediately",
+            "parentAnimation": "MOVE_ACTION____fd7b6877d4b342babcff48fcf8dcedd0",
+            "animationId": "MOVE_ACTION____g4a773c6169141a98741cbdc386ceec7",
+            "displayAnimationId": "MOVE_ACTION____g4a773c6169141a98741cbdc386ceec7",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null,
+            "widgetPath": "this.view.flxLineApps"
+        }, {
+            "id": "MOVE_ACTION____b29d99aeb8a54ed9b30ec4a0a7fe51ac",
+            "type": "MOVE_ACTION",
+            "itemType": "FORM",
+            "itemId": "webapppage",
+            "widgetId": "flxLineWeb",
+            "itemKUID": "adb232edfd6140c0bcaa99408521f1f7",
+            "widgetKUID": "b32676cb22384404a96b8ba126ba99c6",
+            "wType": "FlexContainer",
+            "animationObject": {
+                "centerX": "50%",
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                },
+                "rectified": true
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "500"
+            },
+            "start": "Immediately",
+            "parentAnimation": "MOVE_ACTION____g4a773c6169141a98741cbdc386ceec7",
+            "animationId": "MOVE_ACTION____b29d99aeb8a54ed9b30ec4a0a7fe51ac",
+            "displayAnimationId": "MOVE_ACTION____b29d99aeb8a54ed9b30ec4a0a7fe51ac",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null,
+            "widgetPath": "this.view.flxLineWeb"
+        }, {
+            "id": "MOVE_ACTION____fd7b6877d4b342babcff48fcf8dcedd0",
+            "type": "MOVE_ACTION",
+            "itemType": "FORM",
+            "itemId": "webapppage",
+            "widgetId": "filterContent2",
+            "itemKUID": "adb232edfd6140c0bcaa99408521f1f7",
+            "widgetKUID": "f76a1c975906498b9b94b79b213e2295",
+            "wType": "FlexContainer",
+            "animationObject": {
+                "left": "0%",
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                }
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "300"
+            },
+            "start": "Immediately",
+            "parentAnimation": "MOVE_ACTION____f842ab627d9a46e39d25f9896ef132c5",
+            "animationId": "MOVE_ACTION____fd7b6877d4b342babcff48fcf8dcedd0",
+            "displayAnimationId": "MOVE_ACTION____fd7b6877d4b342babcff48fcf8dcedd0",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null,
+            "widgetPath": "this.view.filterContent2"
+        }, {
+            "id": "MOVE_ACTION____f842ab627d9a46e39d25f9896ef132c5",
+            "type": "MOVE_ACTION",
+            "itemType": "FORM",
+            "itemId": "webapppage",
+            "widgetId": "filterContent1",
+            "itemKUID": "adb232edfd6140c0bcaa99408521f1f7",
+            "widgetKUID": "f8563448c5934d32bde50b8aad47ac30",
+            "wType": "FlexScrollContainer",
+            "animationObject": {
+                "left": "-100%",
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                }
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "300"
+            },
+            "start": "Immediately",
+            "parentAnimation": "MOVE_ACTION____fd7b6877d4b342babcff48fcf8dcedd0",
+            "animationId": "MOVE_ACTION____f842ab627d9a46e39d25f9896ef132c5",
+            "displayAnimationId": "MOVE_ACTION____f842ab627d9a46e39d25f9896ef132c5",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null,
+            "disabled": false,
+            "widgetPath": "this.view.filterContent1"
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled___idb8d92f8f9a40dcb43925480d0e92f3",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "webapppage",
+            "widgetId": "flxLineApps",
+            "propertyName": "isVisible",
+            "propertyValue": "false",
+            "itemKUID": "adb232edfd6140c0bcaa99408521f1f7",
+            "widgetKUID": "j4be9a572fb142ecbba3ba19f4f925f2",
+            "isSkinProperty": false,
+            "wType": "FlexContainer",
+            "forkedPlatform": "all",
+            "parentId": "MOVE_ACTION____f842ab627d9a46e39d25f9896ef132c5",
+            "callbackType": "Callback",
+            "disabled": true,
+            "widgetPath": "this.view.flxLineApps"
+        }, {
+            "id": "ADD_SNIPPET__j8efa8ca51484a88bdb7ec4fbef68a7c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.print(\"jani >>> Apps true\");",
+            "parentId": "MOVE_ACTION____f842ab627d9a46e39d25f9896ef132c5",
+            "callbackType": "Callback"
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled___dca1ef2e074b4bad98845dc6f2f979ef",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "webapppage",
+            "widgetId": "flxLineWeb",
+            "propertyName": "isVisible",
+            "propertyValue": "true",
+            "itemKUID": "adb232edfd6140c0bcaa99408521f1f7",
+            "widgetKUID": "b32676cb22384404a96b8ba126ba99c6",
+            "isSkinProperty": false,
+            "wType": "FlexContainer",
+            "forkedPlatform": "all",
+            "parentId": "MOVE_ACTION____fd7b6877d4b342babcff48fcf8dcedd0",
+            "callbackType": "Callback",
+            "disabled": true,
+            "widgetPath": "this.view.flxLineWeb"
+        }, {
+            "id": "ADD_SNIPPET__ide283a9785f43a08b2c74ed12a05552",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//kony.print(\"jani >>> websites true\");\npageComponents = [\"Popup\",\"SideDrawer\"];\ncallTealiumOnClick(\"click_action\",\"WEBSITES\",pageComponents,gblVisitor_imcID);",
+            "parentId": "MOVE_ACTION____fd7b6877d4b342babcff48fcf8dcedd0",
+            "callbackType": "Callback"
+        }]
+    }
+}

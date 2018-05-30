@@ -1,0 +1,115 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "88%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "2%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_skin_": "s0f72240c60c479c9e6a604655fabd06",
+    "_top_": {
+        "type": "string",
+        "value": "2%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "96%"
+    },
+    "allboxes": [],
+    "allowhorizontalbounce": true,
+    "allowverticalbounce": true,
+    "android": {
+        "@class": "com.kony.gen.viz.model.container.property.scrollflexcontainer.AndroidScrollFlexContainerProperty",
+        "render": true
+    },
+    "bounces": false,
+    "canUpdateUI": true,
+    "children": [
+        "GIPDiamondPrevYearflexContainer",
+        "imgPrevYearicon",
+        "lblHigestPin",
+        "FlexDropDown"
+    ],
+    "containerweight": 100,
+    "contentoffset": {},
+    "contentsize": {},
+    "defaultunit": 2,
+    "enablescrolling": false,
+    "horizontalscrollindicator": true,
+    "id": "GIPflexScrollMain",
+    "iphone": {
+        "@class": "com.kony.gen.viz.model.container.property.scrollflexcontainer.IPhoneScrollFlexContainerProperty",
+        "psp": {
+            "bouncesZoom": true,
+            "maxZoomScale": 1,
+            "minZoomScale": 1,
+            "zoomScale": 1
+        },
+        "render": true
+    },
+    "isvisible": true,
+    "kuid": "abda54af7a0941b3a26648d605aea3da",
+    "layouttype": 4,
+    "margininpixel": false,
+    "masterType": 1,
+    "name": "kony.ui.FlexScrollContainer",
+    "paddinginpixel": false,
+    "pagingenabled": false,
+    "parent": "GIPDiamondPrevYearflexMainScroll",
+    "pf": "GIPDiamondPrevYear",
+    "scrolldirection": 1,
+    "spa": {
+        "@class": "com.kony.gen.viz.model.container.property.scrollflexcontainer.SPAScrollFlexContainerProperty"
+    },
+    "spaan": {
+        "@class": "com.kony.gen.viz.model.container.property.scrollflexcontainer.SPAAndroidScrollFlexContainerProperty",
+        "render": true
+    },
+    "spabb": {
+        "@class": "com.kony.gen.viz.model.container.property.scrollflexcontainer.SPABBScrollFlexContainerProperty",
+        "render": false
+    },
+    "spabbnth": {
+        "@class": "com.kony.gen.viz.model.container.property.scrollflexcontainer.SPABBNTHScrollFlexContainerProperty",
+        "render": false
+    },
+    "spaip": {
+        "@class": "com.kony.gen.viz.model.container.property.scrollflexcontainer.SPAIPhoneScrollFlexContainerProperty",
+        "render": true
+    },
+    "spawinphone8": {
+        "@class": "com.kony.gen.viz.model.container.property.scrollflexcontainer.SPAWinPhone8ScrollFlexContainerProperty",
+        "render": true
+    },
+    "verticalscrollindicator": true,
+    "wType": "FlexScrollContainer",
+    "widgetalignment": 1,
+    "winphone8": {
+        "@class": "com.kony.gen.viz.model.container.property.scrollflexcontainer.WinPhone8ScrollFlexContainerProperty",
+        "render": true
+    },
+    "zindex": 1
+}

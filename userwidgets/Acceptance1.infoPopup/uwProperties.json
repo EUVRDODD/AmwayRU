@@ -1,0 +1,60 @@
+{
+    "classname": "infoPopup",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "paramList": [],
+                    "propertyKey": "showPopup",
+                    "pw": {
+                        "displayName": "showPopup",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "d142a374745e49ee878bde8d3aee93c3",
+                    "type": "event"
+                },
+                {
+                    "paramList": [
+                        {
+                            "name": "data"
+                        }
+                    ],
+                    "propertyKey": "storeLocatorMessageDisplay",
+                    "pw": {
+                        "displayName": "storeLocatorMessageDisplay",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "d142a374745e49ee878bde8d3aee93c3",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "originalPropertyKey": "onClick",
+                    "propertyKey": "onBtnOkClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onBtnOkClick",
+                        "srcWidget": "btnOk",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "a2bae2cdb5f346b684d15c50ffd7d49f"
+                }
+            ]
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "Acceptance1",
+    "version": "1.0.0"
+}

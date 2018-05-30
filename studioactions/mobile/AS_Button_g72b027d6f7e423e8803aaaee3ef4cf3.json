@@ -1,0 +1,28 @@
+{
+    "AS_Button_g72b027d6f7e423e8803aaaee3ef4cf3": {
+        "id": "AS_Button_g72b027d6f7e423e8803aaaee3ef4cf3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "loginpage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f47aac8b9fdf47099bf8720d1eee1679"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___b30be9cb55b54a03a5544e93436d4f04",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "forgotpassword",
+            "formKUID": "gcbc855098f44095aa2ca5397d22aec6",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true
+        }]
+    }
+}

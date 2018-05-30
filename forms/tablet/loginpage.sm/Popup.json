@@ -1,0 +1,111 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": "100%",
+    "_left_": {
+        "type": "string",
+        "value": "-100%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s835b1e5304e4b7d99d4ccd32ab46295",
+    "_top_": "0dp",
+    "_width_": "100%",
+    "areflexpropsreferenced": false,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "Popup": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "de9e56cb00234d87a288c2227eb59ea9",
+                "srcKUID": "gd95ac52fd1c4f0982420ab9d9e4a609",
+                "wType": "FlexContainer"
+            },
+            "left": {
+                "type": "string",
+                "value": "-100%"
+            }
+        },
+        "btnConfirmation": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ce248df044d24c61816210479fc1a67b",
+                "srcKUID": "d7cd9621eab5441a86762ff37e694016",
+                "wType": "Button"
+            }
+        },
+        "flxConfirmation": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d4a9daac26fb4b5c9ae72ddf7ad8e119",
+                "srcKUID": "g95895440dae45559843ab0982b9b5c7",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxDevider1": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "h98e25d525354bc5be470a61ce87eec1",
+                "srcKUID": "e940fc441f314870905fe469d9e11f32",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxdevider2": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "i0392229fe10469cae568d842969f340",
+                "srcKUID": "h3b1a2495d9644b3a3d9fed98c5377f9",
+                "wType": "FlexContainer"
+            }
+        },
+        "lblInfo": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d4a64337a74947d49d95bca6bed9c565",
+                "srcKUID": "a00952bf78124398a775f1b2017d7296",
+                "wType": "Label"
+            }
+        },
+        "lblInfoComment": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e03afae6e19845cab42be001bf38603f",
+                "srcKUID": "d4fb8e3c72ee4f2ab994c0edbc6ea747",
+                "wType": "Label"
+            },
+            "i18n_text": "InvalidCredentialsMessage"
+        }
+    },
+    "id": "Popup",
+    "info": null,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "f8b03ea3f15a47ec91f905e0e72e8b35",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "loginpage",
+    "pf": "loginpage",
+    "snaptogrid": true,
+    "sourceUserWidget": "gd95ac52fd1c4f0982420ab9d9e4a609",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

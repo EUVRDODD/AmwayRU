@@ -1,0 +1,68 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "141dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s32d977b443a42e79feb97fc87d0daf4",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "NotificationsButton",
+        "FlexContainer0e90bbc6a73334a",
+        "appLanguageButton",
+        "PersonalisationButton",
+        "CopyFlexContainer0i41d5d6bb0554e",
+        "LogoutButton",
+        "FlexContainer0dfd9948e3bc147",
+        "ChangeUserButton",
+        "FlexContainer0h85dd48a7b5f47",
+        "CopyFlexContainer0g8cb0770d19d42"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "Settings",
+    "info": null,
+    "isvisible": true,
+    "kuid": "cffcafefe20e4bf3bf310d6c813600c0",
+    "layouttype": 4,
+    "name": "kony.ui.FlexContainer",
+    "parent": "userwidgetmodel",
+    "pf": "userwidgetmodel",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "vizProps": {
+        "hidewidgethierarchy": false
+    },
+    "wType": "FlexContainer",
+    "widgetalignment": 1
+}

@@ -1,0 +1,181 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bounces_": false,
+    "_data_": [
+        {
+            "imgRecentSearch": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "icon_arrow.png"
+            },
+            "lblRecentSearch": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "00",
+    "disabledSkins": {},
+    "editstyle": "none",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segRecentSearch",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "bounces": false,
+            "editStyle": "none",
+            "indicator": "none",
+            "progressIndicatorColor": "white"
+        }
+    },
+    "isvisible": true,
+    "kuid": "g317153361484d0da8f5366f5e93df2e",
+    "masterdata": {},
+    "mobile": {
+        "_data_": [
+            {
+                "imgRecentSearch": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "icon_arrow.png"
+                },
+                "lblRecentSearch": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Category 2"
+                }
+            },
+            {
+                "imgRecentSearch": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "icon_arrow.png"
+                },
+                "lblRecentSearch": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Videos"
+                }
+            },
+            {
+                "imgRecentSearch": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "icon_arrow.png"
+                },
+                "lblRecentSearch": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Tools"
+                }
+            },
+            {
+                "imgRecentSearch": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "icon_arrow.png"
+                },
+                "lblRecentSearch": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Sponsoring & Recognition"
+                }
+            },
+            {
+                "imgRecentSearch": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "icon_arrow.png"
+                },
+                "lblRecentSearch": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Category 7"
+                }
+            },
+            {
+                "imgRecentSearch": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "icon_arrow.png"
+                },
+                "lblRecentSearch": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Articles"
+                }
+            }
+        ],
+        "rowTemplateId": "g5193c36f1644d09a772354d13ece69b",
+        "rowtemplate": "FlexContainer0j1dee8f5efb345",
+        "sectionHeaderTemplateId": null,
+        "widgetdatamap": {
+            "FlexContainer0j1dee8f5efb345": "FlexContainer0j1dee8f5efb345",
+            "imgRecentSearch": "imgRecentSearch",
+            "lblRecentSearch": "lblRecentSearch"
+        }
+    },
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxRecentSearchWraper",
+    "pf": "searchresultspage",
+    "progressindicatorcolor": "white",
+    "retainselection": false,
+    "rowTemplateId": "c72267b8389c4d9da78313535e0bc362",
+    "rowcounter": 0,
+    "rowfocusskin": "s0f6983ad9504750b0c60507eea96ccf",
+    "rowskin": "s757fccc24cf4e7b83340f9cf156a8bf",
+    "rowtemplate": "flxRecentSearchRow",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "sec79582323943aebedbd370c119eb36",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showscrollbars": true,
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "FlexContainer0h05b9c6416e646": "FlexContainer0h05b9c6416e646",
+        "flxRecentSearchRow": "flxRecentSearchRow",
+        "imgRecentSearch": "imgRecentSearch",
+        "lblRecentSearch": "lblRecentSearch"
+    },
+    "zindex": 1
+}

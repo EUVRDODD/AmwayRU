@@ -1,0 +1,28 @@
+{
+    "AS_Button_ed8183e0929647d79f77244424856eb4": {
+        "id": "AS_Button_ed8183e0929647d79f77244424856eb4",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "homepage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "j6dd8439faad4ae6a282a27ab281532d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___ef59d100a3674c97aa3ceef08f1cfbb8",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "incomeSimulatorHome",
+            "formKUID": "a4c46db790794af49256bba3dd31e49d",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true
+        }]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "AS_Form_ae0268461727474489057e038e5b4d1d": {
+        "id": "AS_Form_ae0268461727474489057e038e5b4d1d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "forgotpassword",
+            "type": "forms",
+            "platform": null,
+            "KUID": "gcbc855098f44095aa2ca5397d22aec6"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d2faaf97896f45929b4acdd7e2abdc41",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.applyBindings();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

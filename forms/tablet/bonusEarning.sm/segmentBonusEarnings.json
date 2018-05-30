@@ -1,0 +1,217 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        [
+            {
+                "lblHeaderAmount": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "i18nkey": "tempSegBonusEarninglblHeaderAmount",
+                    "text": ""
+                },
+                "lblHeaderCommission": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "i18nkey": "tempSegBonusEarninglblHeaderCommission",
+                    "text": ""
+                }
+            },
+            [
+                {
+                    "imgCheckmark": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "imagedrag.png"
+                    },
+                    "lblAmount": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Team Points"
+                    },
+                    "lblBonus": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Net Sales Volume in Rs.(Excluding Taxes & Discount)"
+                    }
+                },
+                {
+                    "imgCheckmark": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "imagedrag.png"
+                    },
+                    "lblAmount": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Team Points"
+                    },
+                    "lblBonus": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Net Sales Volume in Rs.(Excluding Taxes & Discount)"
+                    }
+                },
+                {
+                    "imgCheckmark": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "imagedrag.png"
+                    },
+                    "lblAmount": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Team Points"
+                    },
+                    "lblBonus": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Net Sales Volume in Rs.(Excluding Taxes & Discount)"
+                    }
+                }
+            ]
+        ],
+        [
+            {
+                "lblHeaderAmount": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "i18nkey": "tempSegBonusEarninglblHeaderAmount",
+                    "text": ""
+                },
+                "lblHeaderCommission": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "i18nkey": "tempSegBonusEarninglblHeaderCommission",
+                    "text": ""
+                }
+            },
+            [
+                {
+                    "imgCheckmark": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "imagedrag.png"
+                    },
+                    "lblAmount": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Team Points"
+                    },
+                    "lblBonus": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Net Sales Volume in Rs.(Excluding Taxes & Discount)"
+                    }
+                },
+                {
+                    "imgCheckmark": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "imagedrag.png"
+                    },
+                    "lblAmount": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Team Points"
+                    },
+                    "lblBonus": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Net Sales Volume in Rs.(Excluding Taxes & Discount)"
+                    }
+                },
+                {
+                    "imgCheckmark": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "imagedrag.png"
+                    },
+                    "lblAmount": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Team Points"
+                    },
+                    "lblBonus": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Net Sales Volume in Rs.(Excluding Taxes & Discount)"
+                    }
+                }
+            ]
+        ]
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "2%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "4%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "96%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "12",
+    "focusedindex": null,
+    "focuseditem": null,
+    "generatedtemplate": "g41cbe901594470db00a61410688af7b",
+    "groupcells": false,
+    "hasSections": true,
+    "id": "segmentBonusEarnings",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "none",
+            "showProgressIndicator": false
+        }
+    },
+    "isvisible": true,
+    "kuid": "fd5056e1323a4cba89c3ff4fefbd1878",
+    "masterType": 1,
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flexMain",
+    "pf": "bonusEarning",
+    "retainselection": false,
+    "rowTemplateId": "g41cbe901594470db00a61410688af7b",
+    "rowcounter": 2,
+    "rowfocusskin": "se9009ce07ce4fc6b08383eeb8f0505f",
+    "rowskin": "se9009ce07ce4fc6b08383eeb8f0505f",
+    "rowtemplate": "FlexContainerEarningRow0adbe3bb8943841",
+    "seccounter": 1,
+    "sectionHeaderTemplateId": "fe6288266f83436aa091a3370d04adda",
+    "sectionheaderskin": "se9009ce07ce4fc6b08383eeb8f0505f",
+    "sectionheadertemplate": "FlexContainerRowHeader0ec2e23094a354f",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": null,
+    "selectionbehavior": "default",
+    "separatorcolor": "b0b0b000",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showprogressindicator": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "FlexContainerRowHeader0ec2e23094a354f": "FlexContainerRowHeader0ec2e23094a354f",
+        "imgCheckmark": "imgCheckmark",
+        "lblAmount": "lblAmount",
+        "lblBonus": "lblBonus",
+        "lblHeaderAmount": "lblHeaderAmount",
+        "lblHeaderCommission": "lblHeaderCommission"
+    },
+    "zindex": 1
+}

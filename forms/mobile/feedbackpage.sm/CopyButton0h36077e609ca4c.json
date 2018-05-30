@@ -1,0 +1,49 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s447a642ece54f72a7cf480db19deb6c",
+    "_text_": "Submit Feedback",
+    "_top_": {
+        "type": "string",
+        "value": "150dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "160dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s011131ff03e49d2b6b094707a2be0e5",
+    "id": "CopyButton0h36077e609ca4c",
+    "info": null,
+    "isvisible": true,
+    "kuid": "d61b9a6310254f10aef3b5fd325e01ad",
+    "name": "kony.ui.Button",
+    "parent": "CopyFlexContainer0d88a6c92967d4f",
+    "pf": "feedbackpage",
+    "wType": "Button",
+    "zindex": 1
+}

@@ -1,0 +1,99 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_enabled_": false,
+    "_height_": {
+        "type": "string",
+        "value": "65%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sbc73049e55c4fe0a4f28c920f8fab7d",
+    "_src_": "icon_you.png",
+    "_text_": "icon_you.png",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "15%"
+    },
+    "accessibilityconfig": {
+        "a11yHidden": false,
+        "a11yHint": "",
+        "a11yLabel": "",
+        "a11yValue": ""
+    },
+    "android": {
+        "@class": "com.kony.gen.viz.model.component.property.image2.AndroidImage2Property",
+        "render": true
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "context": {
+        "channel": "mobile",
+        "formID": "incomeSimulatorLOS",
+        "platform": "iphone",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "hexpand": false,
+    "id": "ImgABOYou",
+    "imagescalemode": 1,
+    "info": null,
+    "ipad": {
+        "render": true
+    },
+    "isvisible": true,
+    "kuid": "b8488d34913848839945fc6d95b7fac2",
+    "margininpixel": false,
+    "name": "kony.ui.Image2",
+    "paddinginpixel": false,
+    "parent": "FlexLOSYou",
+    "pf": "incomeSimulatorLOS",
+    "spa": {
+        "@class": "com.kony.gen.viz.model.component.property.image2.SPAImage2Property"
+    },
+    "spaandroidtablet": {
+        "render": true
+    },
+    "spabbnth": {
+        "@class": "com.kony.gen.viz.model.component.property.image2.SPABBNTHImage2Property",
+        "render": true
+    },
+    "spaipad": {
+        "render": true
+    },
+    "spawindowstablet": {
+        "render": true
+    },
+    "srcType": 1,
+    "vexpand": false,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "windows8": {
+        "render": true
+    },
+    "zindex": 1
+}

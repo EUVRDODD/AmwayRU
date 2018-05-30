@@ -1,0 +1,28 @@
+{
+    "AS_Form_c4dbbd2dbdaa4c9faffb43fb67a63c5c": {
+        "id": "AS_Form_c4dbbd2dbdaa4c9faffb43fb67a63c5c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "GIPDiamondPrevYear",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e766b32d99994d489ba4bbdc5ff32686"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___e8db55a080524fbe83aee3e6b33d6373",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "init",
+            "display": "init",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

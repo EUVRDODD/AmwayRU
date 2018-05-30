@@ -1,0 +1,17 @@
+{
+    "AS_AppEvents_cf9d2f55ee2a4081ac15cc1a93c35157": {
+        "id": "AS_AppEvents_cf9d2f55ee2a4081ac15cc1a93c35157",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d53444079fbb4d28b5b036d2097f2cc7",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "registerAppCallBacks();\nregisterPushCallBacks();\n//initTealium();\n\n\n",
+            "parentId": null
+        }]
+    }
+}

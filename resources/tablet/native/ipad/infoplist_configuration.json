@@ -1,0 +1,24 @@
+{
+	"NSAppTransportSecurity": {
+		"NSAllowsArbitraryLoads": true,
+		"NSExceptionDomains": {
+			"www.kony.com": {
+				"NSTemporaryExceptionAllowsInsecureHTTPLoads": true,
+				"NSTemporaryExceptionMinimumTLSVersion": "TLSv1.2",
+				"NSIncludesSubdomains": true
+			}
+		}
+	},
+
+	"NSCameraUsageDescription": "To scan QR code",
+	"Privacy - Media Library Usage Description": "For sharing downloaded videos",
+	"UIStatusBarStyle":"UIStatusBarStyleBlackTranslucent",
+	"UIViewControllerBasedStatusBarAppearance":false,
+	"View controller-based status bar appearance":"NO",
+	"Status bar is initially hidden":"NO",
+	"enableIntegralsInLayout" : true,
+	"UIBackgroundModes":[
+        "fetch",
+		"remote-notification"
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sa07407f8aa248239e2ef7d1a9ed40c9",
+    "_text_": "APPLY FILTER",
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s1842f82911a4f91a2a688cec15fb62b",
+    "id": "ApplyFilterButton",
+    "info": null,
+    "isvisible": true,
+    "kuid": "a7758cbaee254c748eeafdf7b5990f4c",
+    "name": "kony.ui.Button",
+    "parent": "ApplyFilterButtonContainer",
+    "pf": "userwidgetmodel",
+    "wType": "Button",
+    "zindex": 1
+}

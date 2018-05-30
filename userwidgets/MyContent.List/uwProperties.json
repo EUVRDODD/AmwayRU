@@ -1,0 +1,54 @@
+{
+    "classname": "List",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "paramList": [
+                        {
+                            "name": "object"
+                        },
+                        {
+                            "name": "filePath"
+                        }
+                    ],
+                    "propertyKey": "finishDownloadCallBackObj",
+                    "pw": {
+                        "displayName": "finishDownloadCallBackObj",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "d7bfc9cc439946bfbc01be295972955d",
+                    "type": "event"
+                },
+                {
+                    "paramList": [
+                        {
+                            "name": "object"
+                        },
+                        {
+                            "name": "percentage"
+                        }
+                    ],
+                    "propertyKey": "updateProgressCallback",
+                    "pw": {
+                        "displayName": "updateProgressCallback",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "d7bfc9cc439946bfbc01be295972955d",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "MyContent",
+    "version": "1.0.0"
+}

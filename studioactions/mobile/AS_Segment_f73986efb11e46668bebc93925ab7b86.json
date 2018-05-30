@@ -1,0 +1,28 @@
+{
+    "AS_Segment_f73986efb11e46668bebc93925ab7b86": {
+        "id": "AS_Segment_f73986efb11e46668bebc93925ab7b86",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "searchresultspage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "bd05789ba1554547982ce969ea946f8a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___c9eba85a3c074449a863172d3bae969a",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "scrollToSearchListEnd",
+            "display": "scrollToSearchListEnd",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

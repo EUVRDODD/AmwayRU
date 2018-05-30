@@ -1,0 +1,103 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizCustom",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "customProperties": {},
+    "cwApi": {
+        "setPdfURL": {
+            "returnType": "void"
+        }
+    },
+    "cwEvents": [],
+    "cwid": "jsRCCustomWidget21050196201",
+    "desktopweb": {
+        "render": false
+    },
+    "id": "pdfViewerWidget",
+    "info": null,
+    "ipad": {
+        "render": false
+    },
+    "iphone": {
+        "render": false
+    },
+    "isvisible": true,
+    "kiosk": {
+        "render": false
+    },
+    "kuid": "cd78c45a6ba24e46ba98edf1fbd585a5",
+    "name": "PdfCustomWidget-PDFViewer",
+    "nameSpaceIndex": 0,
+    "parent": "flxPdfViewer",
+    "pf": "customPdfViewer",
+    "platformKey": "android",
+    "spaan": {
+        "render": false
+    },
+    "spaandroidtablet": {
+        "render": false
+    },
+    "spabb": {
+        "render": false
+    },
+    "spaip": {
+        "render": false
+    },
+    "spaipad": {
+        "render": false
+    },
+    "spawindowstablet": {
+        "render": false
+    },
+    "spawinphone8": {
+        "render": false
+    },
+    "wType": "TPW",
+    "watchos": {
+        "render": false
+    },
+    "widgetIndex": 0,
+    "windows10": {
+        "render": false
+    },
+    "windows8": {
+        "render": false
+    },
+    "winphone10": {
+        "render": false
+    },
+    "winphone8": {
+        "render": false
+    },
+    "zindex": 1
+}

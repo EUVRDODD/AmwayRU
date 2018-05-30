@@ -1,0 +1,23 @@
+{
+    "AS_Button_gb9e1b190ed142e3abc4f32e4cce4f50": {
+        "id": "AS_Button_gb9e1b190ed142e3abc4f32e4cce4f50",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "uwuf7596af051f49faae84492aa1bc8f8d",
+            "type": "userwidgets",
+            "KUID": "uf7596af051f49faae84492aa1bc8f8d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__i9efb9433e794a4883d71627a100cfcc",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "function AS_Button_gb9e1b190ed142e3abc4f32e4cce4f50(eventobject) {\n    var self = this;\n\n    function MOVE_ACTION____j6d9ddd4435d4766ad9d38204825072c_Callback() {}\n    self.view.SideDrawer.animate(\n    kony.ui.createAnimation({\n        \"100\": {\n            \"left\": \"0px\",\n            \"stepConfig\": {\n                \"timingFunction\": kony.anim.EASE\n            }\n        }\n    }), {\n        \"delay\": 0,\n        \"iterationCount\": 1,\n        \"fillMode\": kony.anim.FILL_MODE_FORWARDS,\n        \"duration\": 0.25,\n        \"direction\": kony.anim.DIRECTION_ALTERNATE\n    }, {\n        \"animationEnd\": MOVE_ACTION____j6d9ddd4435d4766ad9d38204825072c_Callback\n    });\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

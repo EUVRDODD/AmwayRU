@@ -1,0 +1,24 @@
+{
+    "AS_Form_b859c4feea994b95b3e0dd1d364a5199": {
+        "id": "AS_Form_b859c4feea994b95b3e0dd1d364a5199",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "bonusEarning",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e25c70b3948a41d3a678711bccb556a5"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a9908e9a173c46f18633ca4af75a7feb",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.setHeaderText();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

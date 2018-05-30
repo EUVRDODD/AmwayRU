@@ -1,0 +1,23 @@
+{
+    "AS_Form_dcb18ed338f047e7835bc4e8ddb3060a": {
+        "id": "AS_Form_dcb18ed338f047e7835bc4e8ddb3060a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDummy",
+            "type": "forms",
+            "platform": null,
+            "KUID": "f424e05c675144968e138779c5c62cde"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_init_e805fd0f4db84b4a81500d4753221988",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "initTealium();",
+            "callbackType": null
+        }]
+    }
+}

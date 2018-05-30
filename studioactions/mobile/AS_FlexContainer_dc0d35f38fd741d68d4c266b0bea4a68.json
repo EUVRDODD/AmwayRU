@@ -1,0 +1,21 @@
+{
+    "AS_FlexContainer_dc0d35f38fd741d68d4c266b0bea4a68": {
+        "id": "AS_FlexContainer_dc0d35f38fd741d68d4c266b0bea4a68",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "SearchCardContent",
+            "type": "templates",
+            "platform": "",
+            "KUID": "c63dac39f2734ccd8978e9d5512c9308"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

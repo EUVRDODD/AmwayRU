@@ -1,0 +1,96 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_enabled_": false,
+    "_height_": {
+        "type": "string",
+        "value": "60%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s641395394bd4231a3ce7ceabf654d0c",
+    "_src_": "img_total_earning.png",
+    "_text_": "img_total_earning.png",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "accessibilityconfig": {
+        "a11yHidden": false,
+        "a11yHint": "",
+        "a11yLabel": "",
+        "a11yValue": ""
+    },
+    "android": {
+        "@class": "com.kony.gen.viz.model.component.property.image2.AndroidImage2Property",
+        "render": true
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "context": {
+        "channel": "mobile",
+        "formID": "GIPDiamondSummary",
+        "platform": "android",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "hexpand": false,
+    "id": "imgTotal",
+    "imagescalemode": 0,
+    "info": null,
+    "invokedProperty": "src",
+    "ipad": {
+        "render": true
+    },
+    "isvisible": true,
+    "kuid": "jf775c7ef7104432bac1f5bab3cb5725",
+    "margininpixel": false,
+    "name": "kony.ui.Image2",
+    "paddinginpixel": false,
+    "parent": "GIPDiamondTotalEarnings",
+    "pf": "GIPDiamondSummary",
+    "spa": {
+        "@class": "com.kony.gen.viz.model.component.property.image2.SPAImage2Property"
+    },
+    "spaandroidtablet": {
+        "render": true
+    },
+    "spabbnth": {
+        "@class": "com.kony.gen.viz.model.component.property.image2.SPABBNTHImage2Property",
+        "render": true
+    },
+    "spaipad": {
+        "render": true
+    },
+    "spawindowstablet": {
+        "render": true
+    },
+    "srcType": 1,
+    "vexpand": false,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "windows8": {
+        "render": true
+    },
+    "zindex": 1
+}

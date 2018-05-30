@@ -1,0 +1,24 @@
+{
+    "AS_Form_b74bff83b56340e1aaad15f5434b5a8b": {
+        "id": "AS_Form_b74bff83b56340e1aaad15f5434b5a8b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "commissionAchieved",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f7e60ae52df547b5a9699813a844fd8b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ca55fd14c418457faeacb7573e2b23b3",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.setHeaderText();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

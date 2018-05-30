@@ -1,0 +1,78 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": "100%",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s15d4d8b85f64fceb9029828cd0d3fed",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": "100%",
+    "areflexpropsreferenced": false,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "LoadingScreen": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "a421eb864ab44eebb148e778026bb70d",
+                "srcKUID": "fcce5894c75d4177aa34a6cfbeb8f93a",
+                "wType": "FlexContainer"
+            },
+            "left": {
+                "type": "string",
+                "value": "0dp"
+            },
+            "top": {
+                "type": "string",
+                "value": "0dp"
+            },
+            "zIndex": 1
+        },
+        "VideoLoadingScreen": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "jc1ba67df78b4006825df9b327f5de32",
+                "srcKUID": "ec3cc613f7b049c582f778a6006cd3ba",
+                "wType": "Video"
+            }
+        }
+    },
+    "id": "LoadingScreen",
+    "info": null,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "a421eb864ab44eebb148e778026bb70d",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "loadingscreenpage",
+    "pf": "loadingscreenpage",
+    "snaptogrid": true,
+    "sourceUserWidget": "fcce5894c75d4177aa34a6cfbeb8f93a",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

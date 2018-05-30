@@ -1,0 +1,105 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "88%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "2%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "2%"
+    },
+    "_skin_": "se52e9fee9b14cfbb12e3a9c06bf25ca",
+    "_top_": {
+        "type": "string",
+        "value": "2%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "96%"
+    },
+    "allboxes": [],
+    "allowhorizontalbounce": true,
+    "allowverticalbounce": true,
+    "android": {
+        "@class": "com.kony.gen.viz.model.container.property.scrollflexcontainer.AndroidScrollFlexContainerProperty",
+        "render": true
+    },
+    "bounces": false,
+    "canUpdateUI": true,
+    "children": [
+        "GIPDiamondPrevYearflexContainer",
+        "imgPrevYearicon",
+        "GIPDiamondPABFlexContainer",
+        "GIPDiamondSEBFlexContainer",
+        "GIPDiamondPGB",
+        "GIPDiamondTotalEarnings",
+        "GIPFlexTotalInWords"
+    ],
+    "containerweight": 100,
+    "contentoffset": {},
+    "contentsize": {},
+    "defaultunit": 2,
+    "enablescrolling": false,
+    "horizontalscrollindicator": true,
+    "id": "GIPflexScrollMain",
+    "ipad": {
+        "psp": {
+            "bouncesZoom": true,
+            "maxZoomScale": 1,
+            "minZoomScale": 1,
+            "zoomScale": 1
+        },
+        "render": true
+    },
+    "isvisible": true,
+    "kuid": "b3d9806d447843eeb039134e46a691ec",
+    "layouttype": 4,
+    "margininpixel": false,
+    "masterType": 1,
+    "name": "kony.ui.FlexScrollContainer",
+    "paddinginpixel": false,
+    "pagingenabled": false,
+    "parent": "GIPDiamondCurrYearflexMainScroll",
+    "pf": "GIPDiamondSummary",
+    "scrolldirection": 2,
+    "spa": {
+        "@class": "com.kony.gen.viz.model.container.property.scrollflexcontainer.SPAScrollFlexContainerProperty"
+    },
+    "spaandroidtablet": {
+        "render": true
+    },
+    "spabbnth": {
+        "@class": "com.kony.gen.viz.model.container.property.scrollflexcontainer.SPABBNTHScrollFlexContainerProperty",
+        "render": false
+    },
+    "spaipad": {
+        "render": true
+    },
+    "spawindowstablet": {
+        "render": true
+    },
+    "verticalscrollindicator": true,
+    "wType": "FlexScrollContainer",
+    "widgetalignment": 1,
+    "windows8": {
+        "render": true
+    },
+    "zindex": 1
+}

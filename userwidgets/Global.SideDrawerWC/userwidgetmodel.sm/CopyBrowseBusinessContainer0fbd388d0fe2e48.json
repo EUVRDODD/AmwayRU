@@ -1,0 +1,72 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "242dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s7c57f38462e41ca9d2c1d23be763f8e",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "CopyflxBusinessDevider0e22a5ae68efa45",
+        "CopyflxBusinessDevider0deaabb6b510547",
+        "CopyflxBBusinessAccord0af1dc03b177446",
+        "CopyflxBusinessDevider0b756e8ddd98842",
+        "flxOpportunity",
+        "CopyflxBusinessDevider0fa321e9d32e14a",
+        "flxRecognition",
+        "CopyflxBusinessDevider0f4c2d5e711fc4e",
+        "flxBrochures",
+        "CopyflxBusinessDevider0f1a0652d6c1246",
+        "flxSeminars",
+        "CopyflxBusinessDevider0bdebae0f558541",
+        "flxLearning",
+        "CopyflxBusinessDevider0i4bab105c12448",
+        "CopyflxBBusinessAccord0jf20c36636e24b",
+        "CopyflxBusinessDevider0d10b43e6376641"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "CopyBrowseBusinessContainer0fbd388d0fe2e48",
+    "info": null,
+    "isvisible": false,
+    "kuid": "a6e7d3f465d74321ba95ea83f34af11d",
+    "layouttype": 4,
+    "name": "kony.ui.FlexContainer",
+    "parent": "scrollSideDrawerContainer",
+    "pf": "userwidgetmodel",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

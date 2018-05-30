@@ -1,0 +1,173 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__markedForDelete__": true,
+    "__parentReadjusting__": false,
+    "_bounces_": false,
+    "_data_": [
+        {
+            "imgContent": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lbltitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Content Title"
+            },
+            "profileName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "ARTICLE"
+            },
+            "rchContentDesc": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "By Amway - Lorem Ipsum dolor sit..."
+            }
+        },
+        {
+            "imgContent": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lbltitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Content Title"
+            },
+            "profileName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "ARTICLE"
+            },
+            "rchContentDesc": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "By Amway - Lorem Ipsum dolor sit..."
+            }
+        },
+        {
+            "imgContent": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lbltitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Content Title"
+            },
+            "profileName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "ARTICLE"
+            },
+            "rchContentDesc": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "By Amway - Lorem Ipsum dolor sit..."
+            }
+        }
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "02",
+    "disabledSkins": {
+        "alternateRowSkin": "s4eaadbf21c7417c8ae1d86f37f57a5b",
+        "rowFocusSkin": "sbd42715339e46249ff39f84a31f6a61"
+    },
+    "editstyle": "swipe",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segSearchResult",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "bounces": false,
+            "editStyle": "swipe",
+            "indicator": "none",
+            "showProgressIndicator": false
+        }
+    },
+    "isvisible": true,
+    "kuid": "d3af0c496bb44d93814d6f4be86d2521",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom",
+        "vdistance": 1
+    },
+    "parent": "flxSearchResultOutputWraper",
+    "pf": "searchresultspage",
+    "retainselection": false,
+    "rowTemplateId": "c63dac39f2734ccd8978e9d5512c9308",
+    "rowcounter": 2,
+    "rowskin": "s9c5dadf1f314a5791f294a92e35a152",
+    "rowtemplate": "FlexContainer0cc0b68d728e249",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "sb14fe818a4846a6a70e30ede5ad87af",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "separatorthickness": 0,
+    "showprogressindicator": false,
+    "showscrollbars": false,
+    "swipeContext": {
+        "currentPage": 0,
+        "imageWidth": 750,
+        "widthRatio": 0
+    },
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "FlexContainer0a063cca7087149": "FlexContainer0a063cca7087149",
+        "FlexContainer0cc0b68d728e249": "FlexContainer0cc0b68d728e249",
+        "FlexContainer0ec896502c7ab42": "FlexContainer0ec896502c7ab42",
+        "FlexContainer0i693992e016149": "FlexContainer0i693992e016149",
+        "FlexContainer0jf6e5eefa1ab43": "FlexContainer0jf6e5eefa1ab43",
+        "imgContent": "imgContent",
+        "lbltitle": "lbltitle",
+        "profileName": "profileName",
+        "rchContentDesc": "rchContentDesc"
+    },
+    "zindex": 1
+}

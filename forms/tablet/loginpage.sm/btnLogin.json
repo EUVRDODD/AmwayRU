@@ -1,0 +1,58 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "8%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sad1f280d5e647df9b2eda1026c09e5d",
+    "_text_": "LOGIN",
+    "_top_": {
+        "type": "string",
+        "value": "7%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "sad1f280d5e647df9b2eda1026c09e5d",
+    "id": "btnLogin",
+    "ide_onClick": "AS_Button_a91e46bdcdf24766ad32b272b941d71a",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
+    "isvisible": true,
+    "kuid": "b8552209c2364f25810ac7d4233a3472",
+    "name": "kony.ui.Button",
+    "parent": "FlexContainer0g3a858e376b345",
+    "pf": "loginpage",
+    "showprogressindicator": false,
+    "texti18n": "LoginPagebtnLogin",
+    "wType": "Button",
+    "zindex": 1
+}

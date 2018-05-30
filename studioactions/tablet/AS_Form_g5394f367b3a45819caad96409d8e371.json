@@ -1,0 +1,25 @@
+{
+    "AS_Form_g5394f367b3a45819caad96409d8e371": {
+        "id": "AS_Form_g5394f367b3a45819caad96409d8e371",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "loginpage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f47aac8b9fdf47099bf8720d1eee1679"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ad0bfd6f47f241cd86403546a77a3410",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "/* var platform = getDevicePlatform();\nvar additionalArg = {\n    \"app_type\": platform,\n    \"app_country\": \"us\",\n    \"app_language\": getDeviceLanguage(),\n    //\"app_digitalProperty\": \"kony test app\",\n    \"app_digitalProperty\": \"Amway India app\",\n    //\"page_section\": sender.id, // EDIT BY CATHY (JAN 12 2018): NOT REQUIRED FOR MOBILE\n    \"page_detail\": sender.id, //PAGE NAME, eg: Form1\n    \"page_components\": additionalArg //Names of components in the form/page sent as an array. Example: [\"slider\",\"doclist\",\"segTemplate\"]\n  }; */\ncallTealiumOnScreenLoad(this.view, this.view);",
+            "parentId": null,
+            "callbackType": null,
+            "disabled": true
+        }]
+    }
+}

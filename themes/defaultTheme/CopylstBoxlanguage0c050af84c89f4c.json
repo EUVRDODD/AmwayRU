@@ -1,0 +1,19 @@
+{
+  "background_color": "ffffffff",
+  "bg_type": "one",
+  "border_color": "454545ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "font_color": "5d8ea1ff",
+  "font_name": "Helvetica",
+  "font_size": 100,
+  "font_style": "normal",
+  "font_weight": "bold",
+  "iphone": {
+    "font_name": "HelveticaNeue-Bold"
+  },
+  "isDefaultSkin": false,
+  "kuid": "s98be6f10f21450294833e8f7873dfec",
+  "wType": "ListBox"
+}

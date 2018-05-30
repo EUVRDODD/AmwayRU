@@ -1,0 +1,24 @@
+{
+    "AS_Button_da465866a0c54dfda7a7a081675b9d3a": {
+        "id": "AS_Button_da465866a0c54dfda7a7a081675b9d3a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "incomeSimulatorLOS",
+            "type": "forms",
+            "platform": null,
+            "KUID": "b93cd434e25d4cf9a8c8b064fdd5a65e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f0c4c0fb98a14a20a018afc05ae547ba",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.calculateGPV_PPV(eventobject);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

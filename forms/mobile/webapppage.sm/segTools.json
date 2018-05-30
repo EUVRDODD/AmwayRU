@@ -1,0 +1,123 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bounces_": false,
+    "_data_": [
+        {
+            "btnOpen": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "OPEN"
+            },
+            "imgIcon": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "amywayapp.png"
+            },
+            "lblDesc": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Lorem ipsum dolor sit"
+            },
+            "lblTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Amway"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "00",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segTools",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "bounces": false,
+            "indicator": "none",
+            "showProgressIndicator": false
+        }
+    },
+    "isvisible": true,
+    "kuid": "e2d66a4ede274fdeba33adadcbbbe476",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "CopyFlexScrollContainer0c0d67452f69145",
+    "pf": "webapppage",
+    "retainselection": false,
+    "rowTemplateId": "dcf1a74aeca74c788ef3fa8c4f9b9034",
+    "rowcounter": 0,
+    "rowfocusskin": "s0f6983ad9504750b0c60507eea96ccf",
+    "rowskin": "se39a8d4a3a846aba0432f0f041758c3",
+    "rowtemplate": "FlexContainer0ffda1d6a672d4d",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": null,
+    "sectionheaderskin": "sec79582323943aebedbd370c119eb36",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showprogressindicator": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "FlexContainer0e7078df4eb3e47": "FlexContainer0e7078df4eb3e47",
+        "FlexContainer0ffda1d6a672d4d": "FlexContainer0ffda1d6a672d4d",
+        "FlexContainer0h95b48cf58a144": "FlexContainer0h95b48cf58a144",
+        "btnOpen": "btnOpen",
+        "imgIcon": "imgIcon",
+        "lblDesc": "lblDesc",
+        "lblTitle": "lblTitle"
+    },
+    "zindex": 1
+}

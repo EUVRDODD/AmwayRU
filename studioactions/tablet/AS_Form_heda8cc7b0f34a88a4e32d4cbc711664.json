@@ -1,0 +1,24 @@
+{
+    "AS_Form_heda8cc7b0f34a88a4e32d4cbc711664": {
+        "id": "AS_Form_heda8cc7b0f34a88a4e32d4cbc711664",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "loginpage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f47aac8b9fdf47099bf8720d1eee1679"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__dbcc4e7706034d63882dafb17fc476c3",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "registerForAndroid();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "AS_FlexScrollContainer_ae1bb929678344f0ab9ee59dfc0860cd": {
+        "id": "AS_FlexScrollContainer_ae1bb929678344f0ab9ee59dfc0860cd",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "searchresultspage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "bd05789ba1554547982ce969ea946f8a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ie02d6185afb4cf6a3f2761403ae2907",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "alert(\"h\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

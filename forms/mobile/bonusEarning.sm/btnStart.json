@@ -1,0 +1,55 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "7%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s06cbbad4a814994a6d6ac285ec4b82d",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "45%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "73%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sa70be0bfce4445f89bdc5c98727b8f3",
+    "id": "btnStart",
+    "info": null,
+    "isvisible": true,
+    "kuid": "de80be7d045e484c81f8d0327a62e993",
+    "masterType": 1,
+    "name": "kony.ui.Button",
+    "parent": "flexMain",
+    "pf": "bonusEarning",
+    "texti18n": "bonusEarningbtnStart",
+    "wType": "Button",
+    "zindex": 1
+}

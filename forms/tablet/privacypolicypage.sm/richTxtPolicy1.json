@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        2,
+        2,
+        2,
+        0
+    ],
+    "_skin_": "sd29669d978c4a0b9f2ba380048b979c",
+    "_text_": "<b>Privacy Policy for the users of Digital Tool Box</b><br><br>\n\nThis Privacy Policy describes how Amway India Enterprises Pvt. Ltd. (hereinafter to be referred as ‘<b>Amway</b>’) uses personal data collected or received from the users of Digital Tool Box (hereinafter to be referred as ‘Application’). It describes how we may collect or receive your personal data, the types of personal data we may collect, how we use, share and protect these data, your rights, and how you can contact us about our privacy practices.\n<br><br>\n\n<b>How We May Receive or Use Information from You</b><br><br>\n\n<b>Logged in as User.</b> If you are logged in on the Application as an Amway Distributor, we will use your Distributor ID only and keep you logged-in, till the time you logout from the application.\n<br><br>\n<b>Cookies.</b> If you are logged in on the Application, we may also use cookies or similar technologies that keeps your browser information on your device when you access, view and use the Application. A cookie is a data file placed on a mobile device when it is used to visit websites.\n<br><br>\nTo learn more about the cookies used by Amway, please read the \"<b>Website Privacy Notice</b>\".\nYou may disable cookies in your browser's settings (e.g., under the \"Preferences\" or \"Internet Options\" features of your browser). Note, however, that some features of the Website may not function properly if you disable the use of cookies. For detailed information on how to manage or delete cookies, visit <font color = \"#00275a\"> <a href =\"http://www.allaboutcookies.org/ \" >http://www.allaboutcookies.org/</a></font><br> ",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "richTxtPolicy1",
+    "info": null,
+    "isvisible": true,
+    "kuid": "ab1da996b6c34d1184930e8fe05696f4",
+    "name": "kony.ui.RichText",
+    "paddinginpixel": false,
+    "parent": "flxScrollPrivacyPolicy",
+    "pf": "privacypolicypage",
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}

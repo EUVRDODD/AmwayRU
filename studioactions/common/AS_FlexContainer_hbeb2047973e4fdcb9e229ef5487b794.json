@@ -1,0 +1,29 @@
+{
+    "AS_FlexContainer_hbeb2047973e4fdcb9e229ef5487b794": {
+        "id": "AS_FlexContainer_hbeb2047973e4fdcb9e229ef5487b794",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "uwu255c1920f264de6935b830e1a507da3",
+            "type": "userwidgets",
+            "KUID": "u255c1920f264de6935b830e1a507da3"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d006899901cb4072af72b52776fe1821",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if( this.view.switchToggle.left == '0dp') {\n  this.view.switchToggle.animate(\n    kony.ui.createAnimation({\n        \"100\": {\n          \t\"left\": \"10dp\",\n            \"stepConfig\": {\n                \"timingFunction\": kony.anim.EASE\n            },\n          \t\"backgroundColor\": \"002e5f00\"\n        }\n    }), {\n        \"delay\": 0,\n        \"iterationCount\": 1,\n        \"fillMode\": kony.anim.FILL_MODE_FORWARDS,\n        \"duration\": 0.25\n    }, {\n        \"animationEnd\": null\n    }\n);\n  this.view.slider.animate(\n    kony.ui.createAnimation({\n        \"100\": {\n            \"stepConfig\": {\n                \"timingFunction\": kony.anim.EASE\n            },\n          \t\"backgroundColor\": \"9aabbe00\"\n        }\n    }), {\n        \"delay\": 0,\n        \"iterationCount\": 1,\n        \"fillMode\": kony.anim.FILL_MODE_FORWARDS,\n        \"duration\": 0.25\n    }, {\n        \"animationEnd\": null\n    }\n);\n} else {\nthis.view.switchToggle.animate(\n    kony.ui.createAnimation({\n        \"100\": {\n            \"left\": \"0dp\",\n            \"stepConfig\": {\n                \"timingFunction\": kony.anim.EASE\n            },\n          \t\"backgroundColor\": \"e6e6e600\",\n        }\n    }), {\n        \"delay\": 0,\n        \"iterationCount\": 1,\n        \"fillMode\": kony.anim.FILL_MODE_FORWARDS,\n        \"duration\": 0.25\n    }, {\n        \"animationEnd\": null\n    }\n);\n  this.view.slider.animate(\n    kony.ui.createAnimation({\n        \"100\": {\n            \"stepConfig\": {\n                \"timingFunction\": kony.anim.EASE\n            },\n          \t\"backgroundColor\": \"4d4d4d00\"\n        }\n    }), {\n        \"delay\": 0,\n        \"iterationCount\": 1,\n        \"fillMode\": kony.anim.FILL_MODE_FORWARDS,\n        \"duration\": 0.25\n    }, {\n        \"animationEnd\": null\n    }\n);\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

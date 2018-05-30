@@ -1,0 +1,19 @@
+{
+    "classname": "Popup",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "Flex",
+    "version": "1.0.0"
+}

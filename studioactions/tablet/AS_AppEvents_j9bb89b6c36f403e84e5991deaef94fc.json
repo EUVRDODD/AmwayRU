@@ -1,0 +1,12 @@
+{
+    "AS_AppEvents_j9bb89b6c36f403e84e5991deaef94fc": {
+        "id": "AS_AppEvents_j9bb89b6c36f403e84e5991deaef94fc",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": []
+    }
+}

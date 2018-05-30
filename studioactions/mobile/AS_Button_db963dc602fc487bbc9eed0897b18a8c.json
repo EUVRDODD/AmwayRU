@@ -1,0 +1,26 @@
+{
+    "AS_Button_db963dc602fc487bbc9eed0897b18a8c": {
+        "id": "AS_Button_db963dc602fc487bbc9eed0897b18a8c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "templateLoadMoreList",
+            "type": "templates",
+            "KUID": "jb5da9a43f4646e78dda0dfd70604e74"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__hd5d544005ce4880b08a8a4f02213287",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.print(\"sreeni dont do anyhting on btn click\" )",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

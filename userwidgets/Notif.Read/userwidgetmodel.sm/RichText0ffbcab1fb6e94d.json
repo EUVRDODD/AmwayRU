@@ -1,0 +1,59 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "__markedForDelete__": true,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "27dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "number",
+        "value": "5"
+    },
+    "_skin_": "s49c890a96e34bdc9343625036b152a7",
+    "_text_": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed convallis aneua ectetur adipi sit amit..\n",
+    "_top_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 1,
+    "id": "RichText0ffbcab1fb6e94d",
+    "info": null,
+    "isvisible": true,
+    "kuid": "bd6b49da07294c5a8f7f2e99839432d2",
+    "name": "kony.ui.RichText",
+    "parent": "FlexContainer0cf1443d89d3b42",
+    "pf": "userwidgetmodel",
+    "wType": "RichText",
+    "watchos": {
+        "render": false
+    },
+    "widgetalignment": 5,
+    "windows10": {
+        "render": false
+    },
+    "winphone10": {
+        "render": false
+    },
+    "zindex": 1
+}

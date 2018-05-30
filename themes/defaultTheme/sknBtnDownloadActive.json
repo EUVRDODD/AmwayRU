@@ -1,0 +1,22 @@
+{
+  "android": {
+    "isForked": true
+  },
+  "background_image": "download_active.png",
+  "bg_type": "image",
+  "border_color": "ffffffff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "font_color": "ffffffff",
+  "font_name": "Helvetica",
+  "font_size": 146,
+  "font_style": "normal",
+  "font_weight": "normal",
+  "iphone": {
+    "isForked": true
+  },
+  "isDefaultSkin": false,
+  "kuid": "sf9b3c8c9a72480eabe8670e650161c4",
+  "wType": "Button"
+}

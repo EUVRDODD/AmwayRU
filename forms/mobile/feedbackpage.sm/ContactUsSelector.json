@@ -1,0 +1,121 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": "220dp",
+    "_left_": "0dp",
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s15bafe233aa4de199a471d538aaf7ce",
+    "_top_": "0dp",
+    "_width_": "100%",
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "ContactUsSelector": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "d01d3bcaad144d33b9fd9e9dad409af9",
+                "srcKUID": "h728f6dd392845c881bf6770d851c5e0",
+                "wType": "FlexContainer"
+            }
+        },
+        "FlexContainer0dbada490028c43": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "bd2ca961c7af4008937da4afe3d76a4a",
+                "srcKUID": "a32fdd72aead40a1905a794127359e08",
+                "wType": "FlexContainer"
+            }
+        },
+        "FlexContainer0e394df591c7540": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "j05908eb621741588b52b0a751fb2f6b",
+                "srcKUID": "j7560e7876bb41deb8e732c4fd415c7a",
+                "wType": "FlexContainer"
+            }
+        },
+        "FlexContainer0g8a4acd91c934b": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "i451650ae0c34a0bb751db5901d58188",
+                "srcKUID": "d6100b6fa7234ba6abc97998e0493bb5",
+                "wType": "FlexContainer"
+            }
+        },
+        "lblTitle": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a2e19db6e2634a0eb0dd9a38ed96d894",
+                "srcKUID": "e0236bd0250248b987490cdc85d07d64",
+                "wType": "Label"
+            },
+            "i18n_text": "ContactUsSelectorlblTitle",
+            "text": ""
+        },
+        "segContactUs": {
+            "__events__": {
+                "ide_onRowClick": "AS_Segment_dfdf1e07272e4384bd36f87e5651b936"
+            },
+            "__info__": {
+                "kuid": "gc1efd5e3e6540afab1501a5001268eb",
+                "srcKUID": "c5af4597ad3d42ac915b4aea9182393a",
+                "wType": "Segment"
+            },
+            "data": [
+                {
+                    "imgContactUs": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "icon_mail.png"
+                    },
+                    "lblContactUs": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Email Us"
+                    }
+                },
+                {
+                    "imgContactUs": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "icon_phone.png"
+                    },
+                    "lblContactUs": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Call Us"
+                    }
+                }
+            ]
+        }
+    },
+    "id": "ContactUsSelector",
+    "info": null,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "d01d3bcaad144d33b9fd9e9dad409af9",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "CopyFlexScrollContainer0e58ee56f7ea440",
+    "pf": "feedbackpage",
+    "snaptogrid": true,
+    "sourceUserWidget": "h728f6dd392845c881bf6770d851c5e0",
+    "wType": "UserWidgetInstance"
+}

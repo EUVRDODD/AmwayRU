@@ -1,0 +1,18 @@
+{
+    "AS_Button_c6368700b0264e019709e76e779ca345": {
+        "id": "AS_Button_c6368700b0264e019709e76e779ca345",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "incomeSimulatorLOS",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b93cd434e25d4cf9a8c8b064fdd5a65e"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

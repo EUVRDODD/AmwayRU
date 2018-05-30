@@ -1,0 +1,24 @@
+{
+    "AS_Form_b5da4863867147789adfe818e6e41e62": {
+        "id": "AS_Form_b5da4863867147789adfe818e6e41e62",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "GIPDiamondNextYear",
+            "type": "forms",
+            "platform": "",
+            "KUID": "gd7fea039cdb4ad585a233c3faff1620"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d68167b45e544a9c920978a2178e13dc",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.GIPNextyearListMasterData();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "seb245ce72764c68a62e9750b8783b8c",
+    "_text_": "Disagree",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s865538f8f9147f79ee49a9dd0fc15d4",
+    "id": "DisagreeButton",
+    "info": null,
+    "isvisible": true,
+    "kuid": "afb0c2fefce64a77840cea599b0593a4",
+    "name": "kony.ui.Button",
+    "parent": "FlexContainer0bf202b048c5e41",
+    "pf": "userwidgetmodel",
+    "wType": "Button",
+    "zindex": 1
+}

@@ -1,0 +1,116 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_enabled_": false,
+    "_height_": {
+        "type": "string",
+        "value": "98%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "1%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s9911561fc474abc858d8b09365f2730",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "1%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "98%"
+    },
+    "accessibilityconfig": {
+        "a11yHidden": false,
+        "a11yHint": "",
+        "a11yLabel": "",
+        "a11yValue": ""
+    },
+    "android": {
+        "@class": "com.kony.gen.viz.model.component.property.listbox.AndroidListBoxProperty",
+        "psp": {
+            "popupTitle": "Please Select"
+        },
+        "render": true,
+        "viewType": 0
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "context": {
+        "channel": "mobile",
+        "formID": "GIPDiamondPrevYear",
+        "platform": "android",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "hexpand": true,
+    "id": "lstPrevyear",
+    "info": null,
+    "ipad": {
+        "render": true,
+        "viewType": 0
+    },
+    "isvisible": true,
+    "kuid": "d240930a61fb474e8ed0ed282cd92380",
+    "margininpixel": false,
+    "masterdata": [
+        [
+            "lb1",
+            "Listbox One"
+        ],
+        [
+            "lb2",
+            "Listbox Two"
+        ],
+        [
+            "lb3",
+            "Listbox Three"
+        ]
+    ],
+    "name": "kony.ui.ListBox",
+    "paddinginpixel": false,
+    "parent": "FlexDropDown",
+    "pf": "GIPDiamondPrevYear",
+    "selectedkey": "lb1",
+    "selectedkeyvalue": [
+        "lb1",
+        "Listbox One"
+    ],
+    "spa": {
+        "@class": "com.kony.gen.viz.model.component.property.listbox.SPAListBoxProperty"
+    },
+    "spaandroidtablet": {
+        "render": true
+    },
+    "spabbnth": {
+        "@class": "com.kony.gen.viz.model.component.property.listbox.SPABBNTHListBoxProperty",
+        "render": true
+    },
+    "spaipad": {
+        "render": true
+    },
+    "spawindowstablet": {
+        "render": true
+    },
+    "vexpand": false,
+    "viewtype": 3,
+    "wType": "ListBox",
+    "widgetalignment": 5,
+    "windows8": {
+        "render": true
+    },
+    "zindex": 1
+}

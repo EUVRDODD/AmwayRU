@@ -1,0 +1,152 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__markedForDelete__": true,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": "105dp",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "sc4d05d019ae4eb18c3c3430bcb10e32",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": "100%",
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "Button2": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "fc6e745e7b7f4df7bb7ad70a3c486606",
+                "srcKUID": "e5de1996140944108e6e18d99a61c9f7",
+                "wType": "FlexContainer"
+            }
+        },
+        "CancelButton": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "da35a110d9834258a208568af5af327d",
+                "srcKUID": "ff38928811b24e93bc49034786515929",
+                "wType": "FlexContainer"
+            }
+        },
+        "FlexContainer0b6f93d76f6174b": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "fdfc9a5a58654aed93da1c439a32b483",
+                "srcKUID": "g0c7cdab7a2346c6a1d727db96c558ae",
+                "wType": "FlexContainer"
+            }
+        },
+        "FlexContainer0c4791a4a2e3d4c": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "i4dfeb33df2f4bb3979e11ae7b7026ca",
+                "srcKUID": "je4ebe2e1a684aebbbb1ab3ed4f18d54",
+                "wType": "FlexContainer"
+            }
+        },
+        "FlexContainer0deb7aec3405e43": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "df5f0e0005f44b03814c416d0d1f1465",
+                "srcKUID": "c8dbd43174124f4c87924a00e9506c02",
+                "wType": "FlexContainer"
+            }
+        },
+        "FlexContainer0jfed6f22741740": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "fddaf8f209974938a2c9c690e03dd064",
+                "srcKUID": "c3d9773d828a4cf384a7ee3dc636737a",
+                "wType": "FlexContainer"
+            }
+        },
+        "Image0cafeaf90f3dc46": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e4c930d15c8f4c7f9f041d3b154d7468",
+                "srcKUID": "d170b53f925841068f12c85390a5ec6e",
+                "wType": "Image"
+            }
+        },
+        "Image0d601a37c68e24e": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f5547bec7b7e4cf8bba7f00df26417a3",
+                "srcKUID": "d2bc790053ca4350953929e8bd157cb5",
+                "wType": "Image"
+            }
+        },
+        "NotifOptions": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "d81e1145c12043c08990f9f1507207e4",
+                "srcKUID": "dcfe7c5405db4b13bbc4bd8853503048",
+                "wType": "FlexContainer"
+            },
+            "left": {
+                "type": "string",
+                "value": "0dp"
+            },
+            "top": {
+                "type": "string",
+                "value": "0dp"
+            },
+            "zIndex": 1
+        },
+        "lblCancel": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a160bbc1e5a54aba8e2607d7fb3742f5",
+                "srcKUID": "i0e72f534faa4372b8021f803895a3b2",
+                "wType": "Label"
+            }
+        },
+        "lblDelete": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "dcd37bd200034be8ba4f224fe1a7c1f8",
+                "srcKUID": "d0c0a0e3655d4e928c87cb90a73f0eca",
+                "wType": "Label"
+            }
+        }
+    },
+    "id": "NotifOptions",
+    "info": null,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "fd5b41aafbc1441aae3220d72ca023da",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "hiddenOptionsContainer",
+    "pf": "notificationpage",
+    "snaptogrid": true,
+    "sourceUserWidget": "dcfe7c5405db4b13bbc4bd8853503048",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

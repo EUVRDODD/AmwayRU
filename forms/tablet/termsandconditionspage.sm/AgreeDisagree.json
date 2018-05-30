@@ -1,0 +1,91 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": "50dp",
+    "_left_": "0dp",
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s6ac488cf595469eb1d8ade72600fd0b",
+    "_top_": "0dp",
+    "_width_": "100%",
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "AgreeButton": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c2b64180ad6547bf80460548152eb96d",
+                "srcKUID": "g66c5d2e95ec4c04997463955701164b",
+                "wType": "Button"
+            },
+            "i18n_text": "termsandconditionspageAgreeButton",
+            "text": ""
+        },
+        "AgreeDisagree": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "j8b7663d37bf4989b7d44ba37fe32639",
+                "srcKUID": "d890f80fbb7047a497bb156e8bfa6e25",
+                "wType": "FlexContainer"
+            }
+        },
+        "DisagreeButton": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ee04ad44eef84d5fba43baa0e49d0b54",
+                "srcKUID": "afb0c2fefce64a77840cea599b0593a4",
+                "wType": "Button"
+            },
+            "i18n_text": "termsandconditionspageDisagreeButton",
+            "text": ""
+        },
+        "FlexContainer0bf202b048c5e41": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c5e5ad72534845c2b076c0bccc1102bb",
+                "srcKUID": "df2c4e62f3574483a9ffa91a45da4693",
+                "wType": "FlexContainer"
+            }
+        },
+        "FlexContainer0f4cc3ed8625349": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d3c4d379cf4a4d98bd83d3f5af8159bb",
+                "srcKUID": "i6d6a83f2e19421d830734b1f2069c85",
+                "wType": "FlexContainer"
+            }
+        }
+    },
+    "id": "AgreeDisagree",
+    "info": null,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "f8179768a53847e2a90d2eb71c9dbf84",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "FlexContainer0j6b98b39e7dd48",
+    "pf": "termsandconditionspage",
+    "snaptogrid": true,
+    "sourceUserWidget": "d890f80fbb7047a497bb156e8bfa6e25",
+    "wType": "UserWidgetInstance"
+}

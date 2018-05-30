@@ -1,0 +1,27 @@
+{
+    "AS_TextField_d810aac955a24471adb4b1c36839267b": {
+        "id": "AS_TextField_d810aac955a24471adb4b1c36839267b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "loginpage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f47aac8b9fdf47099bf8720d1eee1679"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__bef1f9e51fe1449a8224f6175975d7e5",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.enableOrDisableLogin();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

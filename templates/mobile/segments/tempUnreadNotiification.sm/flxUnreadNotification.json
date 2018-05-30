@@ -1,0 +1,51 @@
+{
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s8fb8e206fce4293a54e4e4e4d1b4d88",
+    "allboxes": [],
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "children": [
+        "FlexContainer0ef8afec44e1644"
+    ],
+    "clipbounds": true,
+    "containerId": true,
+    "containerweight": 100,
+    "controllerInfo": {
+        "default": {
+            "channel": "mobile",
+            "name": "flxUnreadNotificationController"
+        }
+    },
+    "enablescrolling": true,
+    "id": "flxUnreadNotification",
+    "info": null,
+    "isTemplate": true,
+    "isvisible": true,
+    "kuid": "c685d4ee37ce42f0a66e005fe115b415",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "tempUnreadNotiification",
+    "pf": "tempUnreadNotiification",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1
+}

@@ -1,0 +1,32 @@
+{
+    "AS_FlexContainer_h66a1251be3a42bda9ca54bf9baa5eff": {
+        "id": "AS_FlexContainer_h66a1251be3a42bda9ca54bf9baa5eff",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "mycontentpage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ce78dadb42b94cb0aa71ae816707a722"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled___a4e5d504a688418e8e9706c89ffe6d06",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "mycontentpage",
+            "propertyName": "isVisible",
+            "propertyValue": "true",
+            "itemKUID": "ce78dadb42b94cb0aa71ae816707a722",
+            "widgetKUID": "ff7b5a08cb294243909722a406998e59",
+            "isSkinProperty": false,
+            "wType": "FlexContainer",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

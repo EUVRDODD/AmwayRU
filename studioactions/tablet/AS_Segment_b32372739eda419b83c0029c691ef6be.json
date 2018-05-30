@@ -1,0 +1,30 @@
+{
+    "AS_Segment_b32372739eda419b83c0029c691ef6be": {
+        "id": "AS_Segment_b32372739eda419b83c0029c691ef6be",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "searchresultspage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "bd05789ba1554547982ce969ea946f8a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__i05fc1cfc83a47f0ab9cee805f48a5b0",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var index = this.view.segRecentSearch.selectedRowIndex[1];\nvar rowData = this.view.segRecentSearch.selectedRowItems[0];\n\n// Delete the Row\nif( !pinched && rowData.imgRecentSearch == \"icon_cross1.png\" ) {\n  this.deleteRow(index, rowData.lblRecentSearch);\n}\n// Toggle Action\nelse if(pinched){\n  pinched = false;\n  rowData.imgRecentSearch = rowData.imgRecentSearch==\"icon_arrow.png\" ? \"icon_cross1.png\" : \"icon_arrow.png\";\n  this.view.segRecentSearch.setDataAt(rowData, index);\n}\n// Search\nelse {\n  if( kony.store.getItem(\"recentSearches\") !== null )\n    this.searchFor(rowData.lblRecentSearch);\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

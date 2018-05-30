@@ -1,0 +1,127 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_enabled_": false,
+    "_height_": {
+        "type": "string",
+        "value": "98%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "1%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sc8bf89be8474ecfa17a685b1e4aea80",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "1%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "98%"
+    },
+    "accessibilityconfig": {
+        "a11yHidden": false,
+        "a11yHint": "",
+        "a11yLabel": "",
+        "a11yValue": ""
+    },
+    "android": {
+        "@class": "com.kony.gen.viz.model.component.property.listbox.AndroidListBoxProperty",
+        "psp": {
+            "popupTitle": "Please Select"
+        },
+        "render": true,
+        "viewType": 0
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "context": {
+        "channel": "mobile",
+        "formID": "GIPDiamondNextYear",
+        "platform": "iphone",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "hexpand": true,
+    "id": "lstNextyear",
+    "info": null,
+    "iphone": {
+        "@class": "com.kony.gen.viz.model.component.property.listbox.IPhoneListBoxProperty",
+        "psp": {
+            "groupCells": false
+        },
+        "render": true,
+        "viewType": 0
+    },
+    "isvisible": true,
+    "kuid": "ea6c2cb534c947349e617fce013e69a4",
+    "margininpixel": false,
+    "masterdata": [
+        [
+            "lb1",
+            "Listbox One"
+        ],
+        [
+            "lb2",
+            "Listbox Two"
+        ],
+        [
+            "lb3",
+            "Listbox Three"
+        ]
+    ],
+    "name": "kony.ui.ListBox",
+    "paddinginpixel": false,
+    "parent": "FlexDropDown",
+    "pf": "GIPDiamondNextYear",
+    "selectedkey": "lb1",
+    "selectedkeyvalue": [
+        "lb1",
+        "Listbox One"
+    ],
+    "spa": {
+        "@class": "com.kony.gen.viz.model.component.property.listbox.SPAListBoxProperty"
+    },
+    "spaan": {
+        "@class": "com.kony.gen.viz.model.component.property.listbox.SPAAndroidListBoxProperty",
+        "render": true
+    },
+    "spabb": {
+        "@class": "com.kony.gen.viz.model.component.property.listbox.SPABBListBoxProperty",
+        "render": true
+    },
+    "spabbnth": {
+        "@class": "com.kony.gen.viz.model.component.property.listbox.SPABBNTHListBoxProperty",
+        "render": true
+    },
+    "spaip": {
+        "@class": "com.kony.gen.viz.model.component.property.listbox.SPAIPhoneListBoxProperty",
+        "render": true
+    },
+    "spawinphone8": {
+        "@class": "com.kony.gen.viz.model.component.property.listbox.SPAWinPhone8ListBoxProperty",
+        "render": true
+    },
+    "vexpand": false,
+    "wType": "ListBox",
+    "widgetalignment": 5,
+    "winphone8": {
+        "@class": "com.kony.gen.viz.model.component.property.listbox.WinPhone8ListBoxProperty",
+        "render": true
+    },
+    "zindex": 1
+}

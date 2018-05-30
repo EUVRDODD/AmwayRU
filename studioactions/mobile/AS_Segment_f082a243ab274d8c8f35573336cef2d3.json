@@ -1,0 +1,30 @@
+{
+    "AS_Segment_f082a243ab274d8c8f35573336cef2d3": {
+        "id": "AS_Segment_f082a243ab274d8c8f35573336cef2d3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "storelocatorpage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "i0f1739eef9d4028bf5bed701ddfb03d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f5586c885de94ff5b5947096bb11bbcd",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "touchEndStore = kony.os.time();\n\npinchedStore = kony.os.diffDateTime(touchEndStore, touchStartStore) > 0;",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

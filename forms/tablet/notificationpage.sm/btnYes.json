@@ -1,0 +1,56 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__markedForDelete__": true,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "18dp"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sb76db624fa84ca5a93681a561cc93f4",
+    "_text_": "OK",
+    "_width_": {
+        "type": "string",
+        "value": "40%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "sb76db624fa84ca5a93681a561cc93f4",
+    "id": "btnYes",
+    "info": null,
+    "isvisible": true,
+    "kuid": "dbba49d282cf4c6081da2a045f2cad1b",
+    "name": "kony.ui.Button",
+    "paddinginpixel": false,
+    "parent": "flxMessagePage",
+    "pf": "notificationpage",
+    "wType": "Button",
+    "zindex": 3
+}

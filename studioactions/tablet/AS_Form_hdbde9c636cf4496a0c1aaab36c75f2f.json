@@ -1,0 +1,24 @@
+{
+    "AS_Form_hdbde9c636cf4496a0c1aaab36c75f2f": {
+        "id": "AS_Form_hdbde9c636cf4496a0c1aaab36c75f2f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "loadingscreenpage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c3b7afe877f44e179dc5d82fd39f32a3"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__j6f8c268560a47e98a6b805df548529b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.print(\"loading preshow\"); \nthis.view.LoadingScreen.VideoLoadingScreen.onCompletion = this.onCompletionVideoLoadingScreen;\n     this.view.LoadingScreen.VideoLoadingScreen.onPrepared = this.onPreparedVideoLoadingScreen;\n        controllerReference=this;",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

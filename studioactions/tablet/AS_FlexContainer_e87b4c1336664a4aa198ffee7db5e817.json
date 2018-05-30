@@ -1,0 +1,29 @@
+{
+    "AS_FlexContainer_e87b4c1336664a4aa198ffee7db5e817": {
+        "id": "AS_FlexContainer_e87b4c1336664a4aa198ffee7db5e817",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "incomeSimulatorLOS",
+            "type": "forms",
+            "platform": null,
+            "KUID": "he222c5e026743f79983bf021e684824"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onTouchStart_cb8e7a72a1124fe89a4f7191ebf04776",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.print(\"Flex Touched\");",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "141dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "2dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s32d977b443a42e79feb97fc87d0daf4",
+    "_top_": {
+        "type": "string",
+        "value": "1dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "data": {
+        "setText": "50",
+        "showlbl": false,
+        "text": "",
+        "text1": ""
+    },
+    "id": "Settings",
+    "info": null,
+    "isvisible": true,
+    "kuid": "fdd9bbb7d7664822837a826c5f0ab2d3",
+    "layouttype": 4,
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "FlexScrollContainer0c226db20cd2f43",
+    "pf": "settingpage",
+    "snaptogrid": true,
+    "sourceUserWidget": "cffcafefe20e4bf3bf310d6c813600c0",
+    "wType": "UserWidgetInstance"
+}

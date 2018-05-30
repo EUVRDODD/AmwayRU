@@ -1,0 +1,97 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_enabled_": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0.00%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s9a1026e1c35494eb395e926cc2797a7",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "1%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "accessibilityconfig": {
+        "a11yHidden": false,
+        "a11yHint": "",
+        "a11yLabel": "",
+        "a11yValue": ""
+    },
+    "android": {
+        "@class": "com.kony.gen.viz.model.component.property.richtext.AndroidRichTextProperty",
+        "render": true
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "hexpand": true,
+    "id": "richTextDesc",
+    "info": null,
+    "iphone": {
+        "@class": "com.kony.gen.viz.model.component.property.richtext.IPhoneRichTextProperty",
+        "_wrapping_": 2,
+        "render": true,
+        "wrapping": 2
+    },
+    "isvisible": true,
+    "kuid": "b52b1b81beb64c99baa6cc418b9bd344",
+    "margininpixel": false,
+    "masterType": 1,
+    "name": "kony.ui.RichText",
+    "paddinginpixel": false,
+    "parent": "flexMain",
+    "pf": "incomeSimulatorHome",
+    "spa": {
+        "@class": "com.kony.gen.viz.model.component.property.richtext.SPARichTextProperty"
+    },
+    "spaan": {
+        "@class": "com.kony.gen.viz.model.component.property.richtext.SPAAndroidRichTextProperty",
+        "render": true
+    },
+    "spabb": {
+        "@class": "com.kony.gen.viz.model.component.property.richtext.SPABBRichTextProperty",
+        "render": true
+    },
+    "spabbnth": {
+        "@class": "com.kony.gen.viz.model.component.property.richtext.SPABBNTHRichTextProperty",
+        "render": true
+    },
+    "spaip": {
+        "@class": "com.kony.gen.viz.model.component.property.richtext.SPAIPhoneRichTextProperty",
+        "render": true
+    },
+    "spawinphone8": {
+        "@class": "com.kony.gen.viz.model.component.property.richtext.SPAWinPhone8RichTextProperty",
+        "render": true
+    },
+    "texti18n": "incomeSimulatorHomerichTextDesc",
+    "vexpand": false,
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "winphone8": {
+        "@class": "com.kony.gen.viz.model.component.property.richtext.WinPhone8RichTextProperty",
+        "render": true
+    },
+    "zindex": 1
+}

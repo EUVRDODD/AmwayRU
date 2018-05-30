@@ -1,0 +1,51 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s227371dfe9240f9b17927a8b0f2413c",
+    "_text_": "Guest Login",
+    "_top_": {
+        "type": "string",
+        "value": "116dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "280dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {
+        "focusSkin": "s638c3ece2f248b88c14c8a919ca43be"
+    },
+    "displaytext": true,
+    "id": "btnGuestLogin",
+    "info": null,
+    "isvisible": true,
+    "kuid": "b3d917fb06e54f75b806e89e4794a643",
+    "name": "kony.ui.Button",
+    "parent": "flxPreLogin",
+    "pf": "preLoginpage",
+    "wType": "Button",
+    "zindex": 1
+}

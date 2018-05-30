@@ -1,0 +1,30 @@
+{
+    "AS_Segment_c56d9a6022f944d484a715aaaa44eebc": {
+        "id": "AS_Segment_c56d9a6022f944d484a715aaaa44eebc",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "storelocatorpage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "i0f1739eef9d4028bf5bed701ddfb03d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d725f418b84a494d9291648ef1738973",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var index = this.view.segStoreLocatorRecentSearch.selectedRowIndex[1];\nvar rowData = this.view.segStoreLocatorRecentSearch.selectedRowItems[0];\n\n// Toggle Action\nif(pinchedStore){\n  pinchedStore = false;\n  rowData.imgRecentStores = rowData.imgRecentStores==\"icon_compass.png\" ? \"icon_cross1.png\" : \"icon_compass.png\";\n  this.view.segRecentStores.setDataAt(rowData, index);\n}\n// Delete the Row\nelse if( rowData.imgRecentSearch == \"icon_cross1.png\" ) {\n  this.deleteRow(index, rowData.lblRecentStores);\n}\n// Search\nelse {\n  if( kony.store.getItem(\"recentStores\") !== null )\n    this.searchFor(rowData.lblRecentStores);\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,87 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_enabled_": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0.00%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s9a1026e1c35494eb395e926cc2797a7",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "1%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "accessibilityconfig": {
+        "a11yHidden": false,
+        "a11yHint": "",
+        "a11yLabel": "",
+        "a11yValue": ""
+    },
+    "android": {
+        "@class": "com.kony.gen.viz.model.component.property.richtext.AndroidRichTextProperty",
+        "render": true
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "hexpand": true,
+    "id": "richTextDesc",
+    "info": null,
+    "ipad": {
+        "render": true,
+        "wrapping": 2
+    },
+    "isvisible": true,
+    "kuid": "h43aff7b57ca43e0997ff299bfc4d419",
+    "margininpixel": false,
+    "masterType": 1,
+    "name": "kony.ui.RichText",
+    "paddinginpixel": false,
+    "parent": "flexMain",
+    "pf": "incomeSimulatorHome",
+    "spa": {
+        "@class": "com.kony.gen.viz.model.component.property.richtext.SPARichTextProperty"
+    },
+    "spaandroidtablet": {
+        "render": true
+    },
+    "spabbnth": {
+        "@class": "com.kony.gen.viz.model.component.property.richtext.SPABBNTHRichTextProperty",
+        "render": true
+    },
+    "spaipad": {
+        "render": true
+    },
+    "spawindowstablet": {
+        "render": true
+    },
+    "texti18n": "incomeSimulatorHomerichTextDesc",
+    "vexpand": false,
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "windows8": {
+        "render": true
+    },
+    "zindex": 1
+}

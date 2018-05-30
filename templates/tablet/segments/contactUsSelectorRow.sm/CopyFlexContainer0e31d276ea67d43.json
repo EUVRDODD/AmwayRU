@@ -1,0 +1,55 @@
+{
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "45dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s62495170c5c431a8817fb34875bc50c",
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "imgContactUs",
+        "lblContactUs",
+        "flxLine"
+    ],
+    "clipbounds": true,
+    "containerId": true,
+    "containerweight": 100,
+    "controllerInfo": {
+        "default": {
+            "channel": "tablet",
+            "name": "CopyFlexContainer0e31d276ea67d43Controller"
+        }
+    },
+    "disabledSkins": {},
+    "enablescrolling": true,
+    "focusskin": "s62495170c5c431a8817fb34875bc50c",
+    "id": "CopyFlexContainer0e31d276ea67d43",
+    "info": null,
+    "isTemplate": true,
+    "isvisible": true,
+    "kuid": "c392b9461c36475eb269ee5f7e52a492",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "contactUsSelectorRow",
+    "pf": "contactUsSelectorRow",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1
+}

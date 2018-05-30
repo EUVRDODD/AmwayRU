@@ -1,0 +1,26 @@
+{
+  "android": {
+    "background_image": "icon_heart.png",
+    "bg_type": "image",
+    "isForked": true
+  },
+  "background_image": "icon_heart.png",
+  "bg_type": "image",
+  "border_color": "ffffffff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "font_color": "ffffff00",
+  "font_name": "Helvetica",
+  "font_size": 146,
+  "font_style": "normal",
+  "font_weight": "normal",
+  "iphone": {
+    "background_image": "icon_heart.png",
+    "bg_type": "image",
+    "isForked": true
+  },
+  "isDefaultSkin": false,
+  "kuid": "s9aa9c5710ec4df69c554bf9f1bedf44",
+  "wType": "Button"
+}

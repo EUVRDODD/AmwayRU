@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "150dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sb76db624fa84ca5a93681a561cc93f4",
+    "_text_": "OK",
+    "_top_": {
+        "type": "string",
+        "value": "25dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sb76db624fa84ca5a93681a561cc93f4",
+    "id": "acceptOk",
+    "info": null,
+    "isvisible": true,
+    "kuid": "b8cc833e4ddc4ab6a48beec6ceb8e3de",
+    "name": "kony.ui.Button",
+    "parent": "flxConfirmation",
+    "pf": "loginpage",
+    "wType": "Button",
+    "zindex": 1
+}

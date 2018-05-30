@@ -1,0 +1,49 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s8167dea68e444f4810fcb9586f6e472",
+    "_text_": "Curabitur gravida sem eget urna sodales, ac fringilla ipsum luctus. Integer condimentum purus tellus, non suscipit risus maximus eget. Nulla ac lectus eget massa consequat placerat ut id tellus. Praesent diam metus, lacinia a placerat quis, eleifend ut ante. Donec augue leo, auctor vel gravida non, consectetur eget nulla.<br/><br/>Curabitur gravida sem eget urna sodales, ac fringilla ipsum luctus. Integer condimentum purus tellus, non suscipit risus maximus eget. Nulla ac lectus eget massa consequat placerat ut id tellus. Praesent diam metus, lacinia a placerat quis, eleifend ut ante. Donec augue leo, auctor vel gravida non, consectetur eget nulla.",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "rchContentDetails",
+    "info": null,
+    "isvisible": true,
+    "kuid": "d86f58908add4e49af7e30703db18250",
+    "name": "kony.ui.RichText",
+    "parent": "flxWrapperContent",
+    "pf": "userwidgetmodel",
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}

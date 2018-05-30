@@ -1,0 +1,26 @@
+{
+    "AS_FlexContainer_fb1928c3141e419281195b0c838c05e8": {
+        "id": "AS_FlexContainer_fb1928c3141e419281195b0c838c05e8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "templateLoadMoreList",
+            "type": "templates",
+            "KUID": "jb5da9a43f4646e78dda0dfd70604e74"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c2c43b69233040ae8cbe2004a352c74e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.print(\"sreeni dont do anything here\"); ",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

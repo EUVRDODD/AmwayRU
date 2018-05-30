@@ -1,0 +1,47 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        2,
+        0,
+        2,
+        3
+    ],
+    "_skin_": "s8d7b6170702480e9e847bdae84f1328",
+    "_text_": "care@amway.com",
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "s8d7b6170702480e9e847bdae84f1328",
+    "id": "btnMail",
+    "info": null,
+    "isvisible": true,
+    "kuid": "haa0f1fb613a439787ea9f33344bc4a7",
+    "name": "kony.ui.Button",
+    "paddinginpixel": false,
+    "parent": "flxScrollTermsOfUse",
+    "pf": "termsofusepage",
+    "wType": "Button",
+    "zindex": 1
+}

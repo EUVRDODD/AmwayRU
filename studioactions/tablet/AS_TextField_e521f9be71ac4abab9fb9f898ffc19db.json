@@ -1,0 +1,33 @@
+{
+    "AS_TextField_e521f9be71ac4abab9fb9f898ffc19db": {
+        "id": "AS_TextField_e521f9be71ac4abab9fb9f898ffc19db",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "searchresultspagewithbadges",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d2348c69a88f406caf121863a16c6870"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___i694275dd4f34fbbbb3459270d4fc223",
+            "type": "NAVIGATE_TO_FORM",
+            "formKUID": "jd3384813f814011a775a074edb70b40",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true
+        }]
+    }
+}

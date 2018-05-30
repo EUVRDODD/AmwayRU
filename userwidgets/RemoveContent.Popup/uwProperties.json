@@ -1,0 +1,19 @@
+{
+    "namespace": "RemoveContent",
+    "classname": "Popup",
+    "version": "1.0.0",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        }
+    }
+}

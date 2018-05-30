@@ -1,0 +1,103 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": "50dp",
+    "_left_": "0dp",
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s229d0c963694f009daa3a4a96022b86",
+    "_top_": "0dp",
+    "_width_": "100%",
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "Image0a114b39b22f040": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a9b1059ac8a9400aa0c54cac0974987d",
+                "srcKUID": "gad009f2393342d78a0a9e367d3727f1",
+                "wType": "Image"
+            }
+        },
+        "Topbar": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "i9a31d7f671f4dc5ba6d2b69f8b35c03",
+                "srcKUID": "c5c5877b41f14ca1ba83d2818766d96b",
+                "wType": "FlexContainer"
+            }
+        },
+        "amwayLogo": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e6d2d70b43c244e89a66223ff7ac1889",
+                "srcKUID": "eb7b3947f7ad49bfa0a5c5016e0bb66f",
+                "wType": "Image"
+            }
+        },
+        "flexOpenRecentSearch": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "bce6149a5abd44c598e3089ecec646ef",
+                "srcKUID": "cba424a7b95641b6bbe1b16db2c767d4",
+                "wType": "FlexContainer"
+            }
+        },
+        "flexOpenSideDrawer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "dddf4aab8f36483eab87646d5813a3b4",
+                "srcKUID": "e1cabb11864d442b95b5100feee44ef0",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxLogoContainer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e6cd7f82083c404e8886b850501ce089",
+                "srcKUID": "j22ad38008df4cd396633e451d7e4c60",
+                "wType": "FlexContainer"
+            }
+        },
+        "imgSearch": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ad41af5c78e34b3aa2088040cbf9788b",
+                "srcKUID": "e83408f3221343f793baca6021efa062",
+                "wType": "Image"
+            }
+        }
+    },
+    "id": "Topbar",
+    "info": null,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "i9a31d7f671f4dc5ba6d2b69f8b35c03",
+    "layouttype": 3,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "FlexContainer0baba03d0faab47",
+    "pf": "mycontentpage",
+    "snaptogrid": true,
+    "sourceUserWidget": "c5c5877b41f14ca1ba83d2818766d96b",
+    "wType": "UserWidgetInstance"
+}

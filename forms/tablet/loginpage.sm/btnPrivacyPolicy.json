@@ -1,0 +1,55 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s0840e7e64974da495e8502c85b1fe9c",
+    "_text_": "Privacy policy",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "s0840e7e64974da495e8502c85b1fe9c",
+    "id": "btnPrivacyPolicy",
+    "info": null,
+    "isvisible": true,
+    "kuid": "ebf215cf495b47019c6185394349582d",
+    "name": "kony.ui.Button",
+    "parent": "flxTermsAndPolicy",
+    "pf": "loginpage",
+    "texti18n": "Privacypolicy",
+    "wType": "Button",
+    "zindex": 5
+}

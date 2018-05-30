@@ -1,0 +1,47 @@
+{
+    "AS_Form_a5b11bd8840244cfa03b0b3198bb1ed1": {
+        "id": "AS_Form_a5b11bd8840244cfa03b0b3198bb1ed1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "mycontentpage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ce78dadb42b94cb0aa71ae816707a722"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "MOVE_ACTION____i087f89ada494a469571d78e274ba630",
+            "type": "MOVE_ACTION",
+            "itemType": "FORM",
+            "itemId": "mycontentpage",
+            "widgetId": "FlexContainer0baba03d0faab47",
+            "itemKUID": "ce78dadb42b94cb0aa71ae816707a722",
+            "widgetKUID": "i9b7f0ccae174d76abb68be7dff07dec",
+            "wType": "FlexContainer",
+            "animationObject": {
+                "left": "0px",
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                }
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "250"
+            },
+            "start": "Immediately",
+            "animationId": "MOVE_ACTION____i087f89ada494a469571d78e274ba630",
+            "displayAnimationId": "MOVE_ACTION____i087f89ada494a469571d78e274ba630",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null,
+            "widgetPath": "this.view.FlexContainer0baba03d0faab47"
+        }]
+    }
+}

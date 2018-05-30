@@ -1,0 +1,17 @@
+{
+    "AS__j7bf0a528bc341d7874a2a48643d8447": {
+        "id": "AS__j7bf0a528bc341d7874a2a48643d8447",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_buttonClosureLeftSideView_i0fe646971434b11bad90ea3ae138517",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var ntf=new kony.mvc.Navigation(\"contentdetailpage\");\nntf.navigate();",
+            "callbackType": null
+        }]
+    }
+}

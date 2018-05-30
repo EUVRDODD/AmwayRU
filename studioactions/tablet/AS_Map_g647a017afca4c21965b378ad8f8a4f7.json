@@ -1,0 +1,18 @@
+{
+    "AS_Map_g647a017afca4c21965b378ad8f8a4f7": {
+        "id": "AS_Map_g647a017afca4c21965b378ad8f8a4f7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "storedetailpage",
+            "type": "forms",
+            "platform": null,
+            "KUID": "e80a1b4104354c72b451da996f22a129"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

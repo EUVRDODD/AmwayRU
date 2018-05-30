@@ -1,0 +1,87 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizListBox",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "35dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_skin_": "s43bcb2f6cb341369716ca23cd70fc10",
+    "_top_": {
+        "type": "string",
+        "value": "2dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "30%"
+    },
+    "android": {
+        "psp": {
+            "applySkinsToPopup": true
+        }
+    },
+    "applyskinstopopup": true,
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 4,
+    "context": {
+        "channel": "mobile",
+        "formID": "uw6f55dd3a090d4d32ba0e29a8253fba05",
+        "platform": "android",
+        "templateType": "userwidgets",
+        "topLevelBox": null
+    },
+    "dropdownimage": "options.png",
+    "focusskin": "s43bcb2f6cb341369716ca23cd70fc10",
+    "groupcells": false,
+    "id": "lstLanguage",
+    "info": null,
+    "isvisible": true,
+    "kuid": "b10b40e4aecf4fca8ec3b92530b1b90f",
+    "masterType": 1,
+    "masterdata": [
+        [
+            "en_IN",
+            "English"
+        ]
+    ],
+    "name": "kony.ui.ListBox",
+    "parent": "appLanguageButton",
+    "pf": "userwidgetmodel",
+    "selectedkey": "en_IN",
+    "selectedkeys": null,
+    "selectedkeyvalue": [
+        "en_IN",
+        "English"
+    ],
+    "selectedkeyvalues": null,
+    "size": 18,
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "ListBox",
+    "zindex": 1
+}

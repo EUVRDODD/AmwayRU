@@ -1,0 +1,51 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s1d564328e564091a176900c2e9d21d1",
+    "_text_": "Continue with Login",
+    "_top_": {
+        "type": "string",
+        "value": "38dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "280dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {
+        "focusSkin": "s638c3ece2f248b88c14c8a919ca43be"
+    },
+    "displaytext": true,
+    "id": "btnContinueLogin",
+    "info": null,
+    "isvisible": true,
+    "kuid": "i1ee5d5ed97f42f0bd8014a18bb44545",
+    "name": "kony.ui.Button",
+    "parent": "flxPreLogin",
+    "pf": "preLoginpage",
+    "wType": "Button",
+    "zindex": 1
+}

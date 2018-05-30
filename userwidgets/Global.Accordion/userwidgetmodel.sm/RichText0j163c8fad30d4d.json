@@ -1,0 +1,51 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        5,
+        5,
+        5,
+        5
+    ],
+    "_skin_": "s04af1a4881e468a8fd144ed8a411922",
+    "_text_": "FAQ 3 content",
+    "_top_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "RichText0j163c8fad30d4d",
+    "info": null,
+    "isvisible": true,
+    "kuid": "h4584316b1b2434289ec7162fd75cace",
+    "name": "kony.ui.RichText",
+    "paddingLocked": true,
+    "paddinginpixel": false,
+    "parent": "AccordionContent3",
+    "pf": "userwidgetmodel",
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}

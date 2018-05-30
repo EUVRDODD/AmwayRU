@@ -1,0 +1,55 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s580c09a53c74a1ca6f8ec1444b57092",
+    "_text_": "Terms of use",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "s580c09a53c74a1ca6f8ec1444b57092",
+    "id": "btnTermsofUse",
+    "info": null,
+    "isvisible": true,
+    "kuid": "h162363291f94e5fa7efb5ff1684bfa5",
+    "name": "kony.ui.Button",
+    "parent": "flxTermsAndPolicy",
+    "pf": "loginpage",
+    "texti18n": "TermsOfUse",
+    "wType": "Button",
+    "zindex": 5
+}
