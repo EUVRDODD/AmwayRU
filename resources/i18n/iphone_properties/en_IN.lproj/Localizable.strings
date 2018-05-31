@@ -2,7 +2,13 @@
 "incomeSimulatorHomerichTextDesc"="Plan Your Business; Set your Goals <br> With our <b>ALL NEW<b>";
 "incomeSimulatorHomebtnStart"="Start";
 "incomeSimulatorHomebtnIncomeSimulator"="About Income Simulator";
-"incomeSimulatorHomelblDisclaimer"="Disclaimer:\n- This is a basic simulator for a limited LOS, excluding Preferred Customer Volume, Annual Commission & Sales Incentive programs.\n- All calculations here are based on one Point equals Rs.80 Net Sales Volume(excluding Taxes & Discounts). The ratio of Points to Net Sales Volume (excluding Taxes & Discounts) is adjusted periodically by Amway. For specific calculation(s)/clarification(s), please get in touch with your Account Manager.\n- This simulator is only for the education and illustration purpose for Amway Direct Sellers.\n- Actual income is dependent on efforts resulting in Individual and ABO Sales (based on the published performance commission schedule).\n- In order to earn a Sales Commission on downline volume during a given month, a Direct Seller must have at least three (3) Preferred Customers, each of whom places one or more orders for Amway products in that month.\n- For further details, please refer Rule 4.2 of Amway Rules of Conduct.";
+"incomeSimulatorHomelblDisclaimer"="Disclaimer:
+- This is a basic simulator for a limited LOS, excluding Preferred Customer Volume, Annual Commission & Sales Incentive programs.
+- All calculations here are based on one Point equals Rs.80 Net Sales Volume(excluding Taxes & Discounts). The ratio of Points to Net Sales Volume (excluding Taxes & Discounts) is adjusted periodically by Amway. For specific calculation(s)/clarification(s), please get in touch with your Account Manager.
+- This simulator is only for the education and illustration purpose for Amway Direct Sellers.
+- Actual income is dependent on efforts resulting in Individual and ABO Sales (based on the published performance commission schedule).
+- In order to earn a Sales Commission on downline volume during a given month, a Direct Seller must have at least three (3) Preferred Customers, each of whom places one or more orders for Amway products in that month.
+- For further details, please refer Rule 4.2 of Amway Rules of Conduct.";
 "commissionSchedulelblHeader"="Commission Schedule";
 "commissionSchedulelblCommissionTitle"="The Sales Commission levels which can be achieved in a month";
 "commissionSchedulelblPerformanceCommission"="Sales Commission";

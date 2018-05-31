@@ -16,6 +16,7 @@ define({
         var self = this;
         registerAppCallBacks();
         registerPushCallBacks();
+        kony.lang.setUncaughtExceptionHandler(uncaughtExceptionHandler);
         //initTealium();
     }
 });
