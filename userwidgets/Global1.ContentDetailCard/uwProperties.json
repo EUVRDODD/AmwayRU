@@ -1,0 +1,274 @@
+{
+    "classname": "ContentDetailCard",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "paramList": [
+                        {
+                            "name": "type"
+                        }
+                    ],
+                    "propertyKey": "setDownloadProgress",
+                    "pw": {
+                        "displayName": "setDownloadProgress",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "c7bb89f7aacb44a086137f55a8aaac5b",
+                    "type": "event"
+                },
+                {
+                    "paramList": [
+                        {
+                            "name": "status"
+                        }
+                    ],
+                    "propertyKey": "setOverlayView",
+                    "pw": {
+                        "displayName": "setOverlayView",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "c7bb89f7aacb44a086137f55a8aaac5b",
+                    "type": "event"
+                },
+                {
+                    "paramList": [],
+                    "propertyKey": "cancelDownload",
+                    "pw": {
+                        "displayName": "cancelDownload",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "c7bb89f7aacb44a086137f55a8aaac5b",
+                    "type": "event"
+                },
+                {
+                    "paramList": [],
+                    "propertyKey": "setOfflineData",
+                    "pw": {
+                        "displayName": "setOfflineData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "c7bb89f7aacb44a086137f55a8aaac5b",
+                    "type": "event"
+                },
+                {
+                    "paramList": [],
+                    "propertyKey": "lstBoxSelOption",
+                    "pw": {
+                        "displayName": "lstBoxSelOption",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "c7bb89f7aacb44a086137f55a8aaac5b",
+                    "type": "event"
+                },
+                {
+                    "paramList": [
+                        {
+                            "name": "option"
+                        }
+                    ],
+                    "propertyKey": "setLstBoxSelOption",
+                    "pw": {
+                        "displayName": "setLstBoxSelOption",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "c7bb89f7aacb44a086137f55a8aaac5b",
+                    "type": "event"
+                },
+                {
+                    "paramList": [],
+                    "propertyKey": "imgConDetBase64",
+                    "pw": {
+                        "displayName": "imgConDetBase64",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "c7bb89f7aacb44a086137f55a8aaac5b",
+                    "type": "event"
+                },
+                {
+                    "paramList": [
+                        {
+                            "name": "base64val"
+                        }
+                    ],
+                    "propertyKey": "setImgConDetBase64",
+                    "pw": {
+                        "displayName": "setImgConDetBase64",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "c7bb89f7aacb44a086137f55a8aaac5b",
+                    "type": "event"
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "originalPropertyKey": "setEnabled",
+                    "propertyKey": "imgConDetSetEnabled",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "imgConDetSetEnabled",
+                        "srcWidget": "imgContentDetail",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "3c39382787d04f479bbe13c018c51d3d"
+                }
+            ]
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "originalPropertyKey": "left",
+                    "propertyKey": "lstBoxLangLeft",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "lstBoxLangLeft",
+                        "srcWidget": "lstBoxLangSettings",
+                        "type": "object",
+                        "uiRepresentation": "Label-Textbox-Combobox",
+                        "wType": "ListBox"
+                    },
+                    "srcWgtKUID": "a49a329c1ef84026904d1f02e4b5124b"
+                },
+                {
+                    "access": "Enable",
+                    "originalPropertyKey": "masterData",
+                    "propertyKey": "lstBoxLangMasterData",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "companionKeys": [
+                            "selectedKey"
+                        ],
+                        "displayName": "lstBoxLangMasterData",
+                        "srcWidget": "lstBoxLangSettings",
+                        "type": "data",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Masterdata-Groupwidget",
+                                "dataUpdaterId": "Masterdata-Groupwidget",
+                                "popupId": "Masterdata-Groupwidget",
+                                "type": "GroupWidgetMasterDataBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Button",
+                        "wType": "ListBox"
+                    },
+                    "srcWgtKUID": "a49a329c1ef84026904d1f02e4b5124b"
+                },
+                {
+                    "access": "Enable",
+                    "originalPropertyKey": "src",
+                    "propertyKey": "imgContDetailSrc",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "displayName": "imgContDetailSrc",
+                        "srcWidget": "imgContentDetail",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "3c39382787d04f479bbe13c018c51d3d"
+                },
+                {
+                    "access": "Enable",
+                    "originalPropertyKey": "isVisible",
+                    "propertyKey": "dwOverlayIsVisible",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "dwOverlayIsVisible",
+                        "srcWidget": "downloadOverlay",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "0b7e1063a0fa428a8d7bf77612e6a4f9"
+                },
+                {
+                    "access": "Enable",
+                    "originalPropertyKey": "text",
+                    "propertyKey": "lblDwProgressText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "lblDwProgressText",
+                        "srcWidget": "lblDownloadProgress",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "0deb735b870a49fa9b3b72e75e95e558"
+                },
+                {
+                    "access": "Enable",
+                    "originalPropertyKey": "text",
+                    "propertyKey": "lblContentTitleText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "lblContentTitleText",
+                        "srcWidget": "lblContentTitle",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "cdcaccaec98c4fac92fba7cc8ec65984"
+                },
+                {
+                    "access": "Enable",
+                    "originalPropertyKey": "text",
+                    "propertyKey": "lblPublisherText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "lblPublisherText",
+                        "srcWidget": "lblPublisher",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "ed63cd742c4049acbed7f9bfeaeaa4f2"
+                },
+                {
+                    "access": "Enable",
+                    "originalPropertyKey": "text",
+                    "propertyKey": "rchContentDescText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "rchContentDescText",
+                        "srcWidget": "rchContentDesc",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textarea",
+                        "wType": "RichText"
+                    },
+                    "srcWgtKUID": "668b6f49810245d4affddf3955979e39"
+                }
+            ]
+        }
+    },
+    "namespace": "Global1",
+    "version": "1.0.0"
+}

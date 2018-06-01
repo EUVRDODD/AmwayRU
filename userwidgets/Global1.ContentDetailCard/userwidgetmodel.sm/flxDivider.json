@@ -1,11 +1,9 @@
 {
-    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
     "DNDConfig": null,
     "__parentReadjusting__": false,
-    "_children_": [],
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "1dp"
     },
     "_left_": {
         "type": "string",
@@ -17,7 +15,7 @@
         0,
         0
     ],
-    "_orientation_": 1,
+    "_orientation_": 6,
     "_padding_": [
         0,
         0,
@@ -25,29 +23,33 @@
         0
     ],
     "_percent_": true,
-    "_render_": true,
-    "_skin_": "s34925af0a8f4d69a72c23cb08542cae",
+    "_skin_": "sd0cd1ed93ac4c84a2848b974d902537",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "1dp"
     },
     "_width_": {
         "type": "string",
         "value": "100%"
     },
+    "allboxes": [],
+    "autogrowmode": 0,
     "canUpdateUI": true,
+    "children": [],
     "clipbounds": true,
-    "containerweight": 0,
-    "data": {},
-    "id": "ContentDetailCard",
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxDivider",
     "info": null,
     "isvisible": true,
-    "kuid": "a7fa91b0b1a64531a671ce7ee9cec262",
+    "kuid": "ab84133527314455bc89c291f36eb103",
     "layouttype": 2,
-    "masterType": 1,
-    "name": "kony.ui.UserWidgetInstance",
-    "parent": "flxScrollContent",
-    "pf": "contentdetailpage",
-    "sourceUserWidget": "c7bb89f7aacb44a086137f55a8aaac5b",
-    "wType": "UserWidgetInstance"
+    "name": "kony.ui.FlexContainer",
+    "parent": "FlxContainerCardTitle",
+    "pf": "userwidgetmodel",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
 }
