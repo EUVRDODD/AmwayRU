@@ -1,0 +1,71 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "__markedForDelete__": true,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "3.00%"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sb36ce66834a4ab8a0bfbedecd61be71",
+    "_text_": "",
+    "_top_": {
+        "type": "number",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "lblContentLanguage",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "isvisible": true,
+    "kuid": "c159b6aba4dd45708a7ec0d9df30e363",
+    "name": "kony.ui.Label",
+    "parent": "FlexContainer0b306b7d743eb4b",
+    "pf": "userwidgetmodel",
+    "texti18n": "ContentDetailCardlblContentLanguage",
+    "tooltip": "",
+    "wType": "Label",
+    "zindex": 1
+}
