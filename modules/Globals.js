@@ -226,9 +226,9 @@ var gblLanguage = "English";
 //Mobilefabric configuration
 var mobileFabricConfiguration = 
     {
-      appKey:"836fecae60543f15fe9ce77b0187dbaa",//"c2d6e28805fc3271d3edc930a29bfa10", 
-      appSecret:"9e22d7fcd21a9a90179cdf4f023e6d01",//"2a4965a756620ac437749ef73b15d552", 
-      serviceURL:"https://100014629.auth.konycloud.com/appconfig",//"https://100014629.auth.konycloud.com/appconfig",
+      appKey:"496fb4c6d1ddd2c3228da634a9d7ed4e",//"c2d6e28805fc3271d3edc930a29bfa10", 
+      appSecret:"d26eff8c17d5a8fdbb1f5c49a8654050",//"2a4965a756620ac437749ef73b15d552", 
+      serviceURL:"https://100020316.auth.konycloud.com/appconfig",//"https://100014629.auth.konycloud.com/appconfig",
       integrationServices: 
       [
         {
@@ -263,7 +263,7 @@ var mobileFabricConfiguration =
         },
         {
           service:"ConfigService",
-          operations:["GetConfigDetails"]
+          operations:["GetConfigDetails","getCountryList"]
         },
         {
           service :"MenuHamburger",
