@@ -10,7 +10,7 @@
         "actions": [{
             "id": "ADD_SNIPPET__i8eca5bd48dc4d15a111089267819598",
             "type": "ADD_SNIPPET",
-            "codeSnippet": "registerAppCallBacks();\nregisterPushCallBacks();\n//initTealium();\n\n\n",
+            "codeSnippet": "registerAppCallBacks();\nregisterPushCallBacks();\nkony.lang.setUncaughtExceptionHandler(uncaughtExceptionHandler);\n//initTealium();\n\n\n",
             "parentId": null,
             "callbackType": null
         }]

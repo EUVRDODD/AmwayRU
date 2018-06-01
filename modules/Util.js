@@ -1,4 +1,21 @@
-
+//Uncaught Reference Handler
+function uncaughtExceptionHandler(exceptionObject) {
+    // Converting exception object into a readable string
+    var exceptionString = exceptionObject;
+    /*if(exceptionObject.indexOf("sourceURL") !== -1){
+      exceptionString += exceptionObject.sourceURL;
+    }
+    if(exceptionObject.indexOf("line") !== -1){
+      exceptionString += " line # " + exceptionObject.line;
+    }
+    if(exceptionObject.indexOf("message") !== -1){
+      exceptionString += " : " + exceptionObject.message;
+    }*/
+    //Logging the exception string to console
+    kony.print("Unhandled Exception:" + JSON.stringify(exceptionString));
+    kony.print("Unhandled Exception without stringify:" + exceptionString);
+    dismissLoading();
+}
 //var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 var monthsShort = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 function getMonthIntShort (month){
