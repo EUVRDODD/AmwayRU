@@ -39,9 +39,9 @@
     "containerweight": 100,
     "contentalignment": 4,
     "context": {
-        "channel": "mobile",
+        "channel": "tablet",
         "formID": "preLoginpage",
-        "platform": "android",
+        "platform": "ipad",
         "templateType": "forms",
         "topLevelBox": null
     },

@@ -1,5 +1,6 @@
 define({
   init:function() {
+    dismissLoading();
     this.applyBindings();
     this.view.onDeviceBack = this.checkAndExit.bind(this);
     this.view.preShow=this.loginPreshow.bind(this);

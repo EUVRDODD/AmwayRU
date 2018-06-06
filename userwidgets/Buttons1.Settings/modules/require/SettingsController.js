@@ -48,6 +48,14 @@ define(function() {
    
 
     goToLogOutConfirm : function(action){
+      var guestvalue=kony.store.getItem("guest");
+      kony.print("in guest "+guestvalue);
+      if(guestvalue==="true"){
+        this.view.LogoutButton.isVisible=false;
+      }
+      else{
+        this.view.LogoutButton.isVisible=true;
+      }
       this.view.LogoutButton.onClick = action;
     },
     

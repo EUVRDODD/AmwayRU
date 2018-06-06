@@ -29,10 +29,14 @@ define({
     this.countrySelectAnimation(countryKey);	// Move animation from bottom to top to see the prelogin buttons
   },
   continueLogin : function(){
+    showLoading();
+    kony.store.setItem("guest", "false");
     var nav = new kony.mvc.Navigation("loginpage");
     nav.navigate();
   },
   guestLogin : function(){
+    showLoading();
+    kony.store.setItem("guest", "true");
     var nav = new kony.mvc.Navigation("homepage");
     nav.navigate();
   },
