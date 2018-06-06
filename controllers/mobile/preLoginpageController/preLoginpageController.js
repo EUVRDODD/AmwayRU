@@ -87,12 +87,16 @@ define({
     //kony.print("jani >>> locale change error "+kony.i18n.getCurrentLocale());
   },
   continueLogin : function(){
+    kony.store.setItem("guest", "false");
+    showLoading();
     var nav = new kony.mvc.Navigation("loginpage");
     nav.navigate();
   },
   guestLogin : function(){
-    var nav = new kony.mvc.Navigation("homepage");
-    nav.navigate();
+    showLoading();
+    kony.store.setItem("guest", "true");
+      var nav = new kony.mvc.Navigation("homepage");
+      nav.navigate();
   },
   countrySelectAnimation : function(countryKey){
     //alert("country key "+countryKey);

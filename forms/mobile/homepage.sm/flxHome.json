@@ -45,7 +45,8 @@
         "filterContents",
         "hiddenOptionsContainer",
         "flxSearchResultMenuWraper",
-        "lblLineTopSeparator"
+        "lblLineTopSeparator",
+        "flxExitUser"
     ],
     "clipbounds": true,
     "containerweight": 100,

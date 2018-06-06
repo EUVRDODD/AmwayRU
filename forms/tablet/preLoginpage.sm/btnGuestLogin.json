@@ -51,6 +51,7 @@
     "parent": "flxPreLogin",
     "pf": "preLoginpage",
     "texti18n": "ContinueAsGuest",
+    "showprogressindicator": false,
     "wType": "Button",
     "zindex": 1
 }
