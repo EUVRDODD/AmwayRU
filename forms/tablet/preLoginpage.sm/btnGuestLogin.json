@@ -41,11 +41,17 @@
     "displaytext": true,
     "id": "btnGuestLogin",
     "info": null,
+    "ipad": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
     "isvisible": true,
     "kuid": "b3d917fb06e54f75b806e89e4794a643",
     "name": "kony.ui.Button",
     "parent": "flxPreLogin",
     "pf": "preLoginpage",
+    "showprogressindicator": false,
     "wType": "Button",
     "zindex": 1
 }

@@ -76,11 +76,21 @@ define({
     }else if(this.view.Popup.isVisible){
       controllerReference.infoPopupOff();
     }else {
-      exitApp();  
+      this.view.flxExitUser.setVisibility(true);
+      this.view.flxExitUser.onTouchStart=function(){"clicked on exit user"};
+      this.view.btnExitYes.onClick= this.goToExitUserYes.bind(this);
+      this.view.btnExitNo.onClick=this.goToExitUserNo.bind(this);
+      //exitApp();  
     }
 
-
   },
+  goToExitUserYes : function(){
+      exitApp();
+    },
+  goToExitUserNo : function(){
+    this.view.flxExitUser.setVisibility(false);
+  },
+
   onClickBtnClose : function() {
     try{
       controllerReference.view.filterTabFilterCategory.isVisible = false;

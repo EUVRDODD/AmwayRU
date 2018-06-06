@@ -41,6 +41,11 @@
     "displaytext": true,
     "id": "btnGuestLogin",
     "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
     "isvisible": true,
     "kuid": "bbf1b97f49f44be79bba303ff9159915",
     "name": "kony.ui.Button",

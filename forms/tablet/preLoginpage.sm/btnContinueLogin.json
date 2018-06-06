@@ -41,11 +41,17 @@
     "displaytext": true,
     "id": "btnContinueLogin",
     "info": null,
+    "ipad": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
     "isvisible": true,
     "kuid": "i1ee5d5ed97f42f0bd8014a18bb44545",
     "name": "kony.ui.Button",
     "parent": "flxPreLogin",
     "pf": "preLoginpage",
+    "showprogressindicator": false,
     "wType": "Button",
     "zindex": 1
 }
