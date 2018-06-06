@@ -5,7 +5,11 @@
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "17%"
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -20,36 +24,33 @@
         0
     ],
     "_skin_": "s5989cfd8ced47f783d2ad0d38fdc1c3",
-    "_src_": "imagedrag.png",
+    "_src_": "icon_chevron_left.jpg",
     "_top_": {
         "type": "string",
-        "value": "5%"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "90%"
+        "value": "100%"
     },
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
     "containerweight": 100,
     "context": {
-        "channel": "tablet",
-        "formID": "preLoginpage",
-        "platform": "ipad",
+        "channel": "mobile",
+        "formID": "loginpage",
+        "platform": "android",
         "templateType": "forms",
         "topLevelBox": null
     },
-    "id": "imgAmway",
+    "id": "imgBack",
     "imagescalemode": 1,
     "info": null,
+    "invokedProperty": "src",
     "isvisible": true,
-    "kuid": "jf1693259cb249c3b9daca40ec20e747",
+    "kuid": "h38bc2dc88444f578a0bd7b31c973554",
     "name": "kony.ui.Image2",
-    "parent": "flxMain",
-    "pf": "preLoginpage",
+    "parent": "flxBack",
+    "pf": "loginpage",
     "srcType": 1,
     "wType": "Image",
     "widgetalignment": 5,

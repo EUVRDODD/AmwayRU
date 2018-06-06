@@ -38,7 +38,8 @@
     "children": [
         "languageListBox",
         "flxPreLogin",
-        "imgAmway"
+        "imgAmway",
+        "flxToast"
     ],
     "clipbounds": true,
     "containerweight": 100,
@@ -46,7 +47,7 @@
     "id": "flxMain",
     "info": null,
     "isvisible": true,
-    "kuid": "fe77f76560974b0c90062d2b1c8b6a86",
+    "kuid": "g3c146ca8a60418db7449585614cea62",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
     "parent": "preLoginpage",

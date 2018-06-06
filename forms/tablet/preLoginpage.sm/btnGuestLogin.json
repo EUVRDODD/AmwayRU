@@ -19,7 +19,7 @@
         0
     ],
     "_skin_": "s227371dfe9240f9b17927a8b0f2413c",
-    "_text_": "Guest Login",
+    "_text_": "Continue as Guest",
     "_top_": {
         "type": "string",
         "value": "116dp"
@@ -35,17 +35,22 @@
     },
     "containerweight": 100,
     "contentalignment": 5,
-    "disabledSkins": {
-        "focusSkin": "s638c3ece2f248b88c14c8a919ca43be"
-    },
+    "disabledSkins": {},
     "displaytext": true,
+    "focusskin": "s227371dfe9240f9b17927a8b0f2413c",
     "id": "btnGuestLogin",
     "info": null,
+    "ipad": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
     "isvisible": true,
-    "kuid": "b3d917fb06e54f75b806e89e4794a643",
+    "kuid": "f102834a053a473da0a1a5f63c960473",
     "name": "kony.ui.Button",
     "parent": "flxPreLogin",
     "pf": "preLoginpage",
+    "texti18n": "ContinueAsGuest",
     "wType": "Button",
     "zindex": 1
 }

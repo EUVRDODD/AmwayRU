@@ -38,7 +38,7 @@
     "context": {
         "channel": "mobile",
         "formID": "preLoginpage",
-        "platform": "android",
+        "platform": "iphone",
         "templateType": "forms",
         "topLevelBox": null
     },
