@@ -35,10 +35,9 @@
     },
     "containerweight": 100,
     "contentalignment": 5,
-    "disabledSkins": {
-        "focusSkin": "s638c3ece2f248b88c14c8a919ca43be"
-    },
+    "disabledSkins": {},
     "displaytext": true,
+    "focusskin": "s1d564328e564091a176900c2e9d21d1",
     "id": "btnContinueLogin",
     "info": null,
     "ipad": {
@@ -47,10 +46,11 @@
         }
     },
     "isvisible": true,
-    "kuid": "i1ee5d5ed97f42f0bd8014a18bb44545",
+    "kuid": "eeef3c3163e545bc830b7e618fb17f68",
     "name": "kony.ui.Button",
     "parent": "flxPreLogin",
     "pf": "preLoginpage",
+    "texti18n": "ContinueAsLogin",
     "showprogressindicator": false,
     "wType": "Button",
     "zindex": 1

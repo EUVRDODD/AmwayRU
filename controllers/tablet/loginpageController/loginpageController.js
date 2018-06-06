@@ -99,6 +99,7 @@ define({
     this.view.flxTermsPoliciesInfo.isVisible = false;
     this.view.acceptOk.onClick = this.goToAcceptOk.bind(this);
     this.view.flxTermsPoliciesInfo.onTouchEnd = this.goToDismissInfo.bind(this);
+    this.view.flxBack.onTouchEnd = this.goToBackpage.bind(this);
     pageComponents = ["Popup","Popup2"];
 
     //       	var getValue = kony.store.getItem("CheckTerms&Policies");
@@ -150,6 +151,11 @@ define({
     }
 
 
+  },
+  
+  goToBackpage : function(){
+    var nav = new kony.mvc.Navigation("preLoginpage");
+    nav.navigate();
   },
 
   loginPagePostshow : function(){

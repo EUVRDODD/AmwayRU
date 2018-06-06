@@ -38,7 +38,8 @@
     "children": [
         "languageListBox",
         "flxPreLogin",
-        "imgAmway"
+        "imgAmway",
+        "flxToast"
     ],
     "clipbounds": true,
     "containerweight": 100,

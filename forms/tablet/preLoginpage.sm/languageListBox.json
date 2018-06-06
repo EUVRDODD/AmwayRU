@@ -31,6 +31,13 @@
         "type": "string",
         "value": "40%"
     },
+    "android": {
+        "psp": {
+            "popupIcon": null,
+            "popupTitle": ""
+        },
+        "viewType": 0
+    },
     "canUpdateUI": true,
     "centerx": {
         "type": "string",
@@ -45,41 +52,21 @@
         "templateType": "forms",
         "topLevelBox": null
     },
+    "dropdownimage": "icon_chevron_down.png",
     "groupcells": false,
     "id": "languageListBox",
     "info": null,
     "isvisible": true,
-    "kuid": "cedaadcdf0da43218d6da9cbd1d419b7",
-    "masterdata": [
-        [
-            "select",
-            "Select Country"
-        ],
-        [
-            "ru",
-            "Russia"
-        ],
-        [
-            "kz",
-            "Kazakhstan"
-        ]
-    ],
+    "kuid": "i6d3a17c3a8248b9ad95d5a0f683efde",
+    "masterdata": [],
     "name": "kony.ui.ListBox",
     "parent": "flxMain",
     "pf": "preLoginpage",
-    "selectedkey": "select",
+    "popupicon": null,
     "selectedkeys": null,
-    "selectedkeyvalue": [
-        "select",
-        "Select Country"
-    ],
+    "selectedkeyvalue": null,
     "selectedkeyvalues": null,
     "size": 18,
-    "viewconfig": {
-        "toggleViewConfig": {
-            "viewStyle": 0
-        }
-    },
     "viewtype": 0,
     "wType": "ListBox",
     "zindex": 1
