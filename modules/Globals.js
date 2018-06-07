@@ -268,7 +268,11 @@ var mobileFabricConfiguration =
         {
           service :"MenuHamburger",
           operations:["fetchMenuList"]
-        }
+        },
+        {
+          service:"AOLComposite",
+          operations:["login"]
+        }, 
       ],
       konysdkObject: null,
       authClient: null,

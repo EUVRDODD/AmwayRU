@@ -49,7 +49,7 @@
     "info": null,
     "iphone": {},
     "isvisible": true,
-    "keyboardstyle": "digitpad",
+    "keyboardstyle": "A",
     "keyboardtype": "A",
     "kuid": "abdf378c5fce44e1a1933d6889dfd24c",
     "mode": "N",
@@ -58,7 +58,7 @@
     "parent": "FlexContainer0dd65a57c202948",
     "pf": "loginpage",
     "securetextentry": false,
-    "textinputmode": "N",
+    "textinputmode": "A",
     "viewtype": "default",
     "wType": "TextField",
     "zindex": 1
