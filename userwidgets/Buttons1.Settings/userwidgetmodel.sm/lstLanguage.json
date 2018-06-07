@@ -20,7 +20,7 @@
     ],
     "_right_": {
         "type": "string",
-        "value": "0%"
+        "value": "2%"
     },
     "_skin_": "s43bcb2f6cb341369716ca23cd70fc10",
     "_top_": {
@@ -51,7 +51,7 @@
         "templateType": "userwidgets",
         "topLevelBox": null
     },
-    "dropdownimage": "options.png",
+    "dropdownimage": "icon_chevron_down.png",
     "focusskin": "s43bcb2f6cb341369716ca23cd70fc10",
     "groupcells": false,
     "id": "lstLanguage",
