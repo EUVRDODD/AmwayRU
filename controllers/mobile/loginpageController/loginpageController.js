@@ -254,7 +254,9 @@ define({
       storeJson("Hresponse", Hresponse);
       kony.print(JSON.stringify(Hresponse));
       
-      controllerReference.getAccessToken();
+      //controllerReference.getAccessToken();
+      controllerReference.getLoginService();
+      
     }catch(e){
 
     }
@@ -384,7 +386,7 @@ define({
   },
 
 
-  getAccessToken: function() {
+  /*getAccessToken: function() {
     kony.print(" ********** Entering into getToken ********** ");
 
     function getTokenSuccessCallback(getTokenResponse) {
@@ -410,7 +412,7 @@ define({
       }
       kony.print(" ********** Exiting out of getTokenSuccessCallback ********** ");
     }
-
+  
     function getTokenErrorCallback(errormsg) {
       kony.print(" ********** Entering into getTokenErrorCallback ********** ");
       //controllerReference.view.Popup.flxConfirmation.isVisible = true;
@@ -482,7 +484,7 @@ define({
       }catch (e) {}
     }
 
-  },
+  },*/
 
   getLoginService: function() {
     kony.print("**************** Entering into getLoginSerive **********************");
@@ -500,9 +502,11 @@ define({
         }
         kony.print("**************** Entering into LoginServiceSuccessCallback **********************");
         kony.print("Response : " + JSON.stringify(LoginServiceResponse));
-        if (LoginServiceResponse.userGroup === "ABO") {
+        kony.print("login type of user is"+LoginServiceResponse.userType);
+        
+        if (LoginServiceResponse.userType === "ibo" || LoginServiceResponse.userType === "member_plus_plus" || LoginServiceResponse.userType === "iep" ) {
 
-
+		kony.print("type of user is"+LoginServiceResponse.userType);
           //TODO:FetchContentservice
           gblABOID=controllerReference.view.textUsername.text;
           registerForKMS();
@@ -524,6 +528,7 @@ define({
             }
 
           }
+          
           else{
             var frmHome1 = new kony.mvc.Navigation("homepage");
             frmHome1.navigate();
@@ -541,6 +546,8 @@ define({
         kony.print("Exception in getLoginService "+e);
       }
     }
+    
+      
 
     function LoginServiceErrorCallback(errormsg) {
       kony.print(" ********** Entering into LoginServiceErrorCallback ********** ");
@@ -550,7 +557,7 @@ define({
       controllerReference.infoPopupOn(getI18Value("ServiceFailureMessage"));
       kony.print(" ********** Exiting out of LoginServiceErrorCallback ********** ");
     }
-    if (isNetworkAvailable()) {
+    /*if (isNetworkAvailable()) {
 
       mobileFabricConfiguration.integrationObj = mobileFabricConfiguration.konysdkObject.getIntegrationService(mobileFabricConfiguration.integrationServices[1].service);
       var operationName = mobileFabricConfiguration.integrationServices[1].operations[0];
@@ -570,6 +577,34 @@ define({
         "deviceId": kony.os.deviceInfo().deviceid
       };
 
+      mobileFabricConfiguration.integrationObj.invokeOperation(operationName, headers, data, LoginServiceSuccessCallback, LoginServiceErrorCallback);
+    }
+    else {
+    }*/
+    if (isNetworkAvailable()) {
+	kony.print("Login network available");
+      mobileFabricConfiguration.integrationObj = mobileFabricConfiguration.konysdkObject.getIntegrationService(mobileFabricConfiguration.integrationServices[10].service);
+      var operationName = mobileFabricConfiguration.integrationServices[10].operations[0];
+      var headers = {	
+       
+      };
+      var userName =  controllerReference.view.textUsername.text;
+      var password = controllerReference.view.textPassword.text;
+      var checksum = "da39a3ee5e6b4b0d3255bfef95601890afd80709";
+      var timestamp = "2018-06-06 00:32:21";
+      var apiKey = "123456";
+      if(isBlankOrNull(userName) || isBlankOrNull(password)){
+        controllerReference.infoPopupOn(getI18Value("RequestCredentialsMessage"));
+        return;
+      }
+      data = {
+        "apiKey": apiKey,
+        "username": userName,
+        "password": password,
+        "timestamp": timestamp,
+        "checksum": checksum
+      };
+		kony.print("Login data"+JSON.stringify(data));
       mobileFabricConfiguration.integrationObj.invokeOperation(operationName, headers, data, LoginServiceSuccessCallback, LoginServiceErrorCallback);
     }
     else {
