@@ -37,6 +37,7 @@
     "canUpdateUI": true,
     "children": [
         "lblContentLanguage",
+        "flxLangSettings",
         "lstBoxLangSettings"
     ],
     "clipbounds": true,

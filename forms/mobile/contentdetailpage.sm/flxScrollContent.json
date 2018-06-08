@@ -62,5 +62,5 @@
     "verticalscrollindicator": true,
     "wType": "FlexScrollContainer",
     "widgetalignment": 1,
-    "zindex": 1
+    "zindex": 10
 }

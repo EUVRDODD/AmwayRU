@@ -48,6 +48,8 @@
     "name": "kony.ui.UserWidgetInstance",
     "parent": "flxScrollContent",
     "pf": "contentdetailpage",
+    "snaptogrid": true,
     "sourceUserWidget": "c7bb89f7aacb44a086137f55a8aaac5b",
-    "wType": "UserWidgetInstance"
+    "wType": "UserWidgetInstance",
+    "zindex": 10
 }

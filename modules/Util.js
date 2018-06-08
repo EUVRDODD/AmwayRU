@@ -1,3 +1,4 @@
+var conDetailCardData ;
 //Uncaught Reference Handler
 function uncaughtExceptionHandler(exceptionObject) {
     // Converting exception object into a readable string

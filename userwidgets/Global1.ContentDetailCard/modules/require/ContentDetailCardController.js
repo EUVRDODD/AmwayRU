@@ -14,24 +14,87 @@ define(function() {
         
         this.view.imgContentDetail.onTouchStart = this.contentImageOnTouchStart.bind(this);
         
-        this.view.lstBoxLangSettings.onSelection = this.goToLanguageContent.bind(this, data);
-
+        //this.view.lstBoxLangSettings.onSelection = this.goToLanguageContent.bind(this);
+		this.view.flxLangSettings.onClick = this.goToContentLangSeg.bind(this);
+        kony.print("this--"+this);
+        kony.print("this.view--"+this.view);
+        this.view.segContentLang.onRowClick = this.setSelectedContentLang;
         this.view.downloadOverlay.onTouchStart = function() {
           kony.print("waiting for someone to write something amazing.Why not you?");
         };
+        this.view.flxContentLang.onClick = function(){
+          contentDetailRefObj.view.flxContentLang.isVisible = false;
+          controllerReference.view.flxTopOverlay.isVisible = false;
+          controllerReference.view.flxBottomOverlay.isVisible = false;
+        };
+      },
+      
+      
+      setSegConLangData: function(){
+        kony.print("***inside set data for conLang segment***");
+        contentDetailRefObj.view.segContentLang.removeAll();
+        contentDetailRefObj.view.segContentLang.setData([]);
+        var segData = []; 
+        var imgsrc = "icon_heart.png";
+        kony.print("segConLangData.length -- "+segConLangData.length+" and segConLangData -- "+JSON.stringify(segConLangData));
+        for(var i=0;i<segConLangData.length;i++){
+          var lang = segConLangData[i][1];
+          if(lang === contentDetailRefObj.lstBoxSelOption()){
+            imgsrc = "icon_check_green.png";
+          }else{
+            imgsrc = "icon_check.png";          
+          }
+          var langOption = {
+            "flxBackground":{
+
+              onClick: contentDetailRefObj.setSelectedContentLang
+            },
+            "lblContentLang":{
+              text: lang
+            },
+            "imgContentLangSel":{
+              src: imgsrc
+            }
+          };
+          segData.push(langOption);
+        }
+        contentDetailRefObj.view.segContentLang.setData(segData);
+        contentDetailRefObj.view.segContentLang.setEnabled(true);
+      },
+      setSelectedContentLang: function(){
+        kony.print("entered segConLang onrowclick func");
+        var selectedRow = contentDetailRefObj.view.segContentLang.selectedIndex[1];    
+        kony.print("selected lang index = "+selectedRow);
+        var selcLang = segConLangData[selectedRow][1];
+        contentDetailRefObj.view.flxContentLang.isVisible = false;
+        controllerReference.view.flxTopOverlay.isVisible = false;
+        controllerReference.view.flxBottomOverlay.isVisible = false;
+        kony.print("selected content lang = "+selcLang);
+        contentDetailRefObj.view.lblSelectedLang.text = selcLang;
+        contentDetailRefObj.goToSegLanguageContent(selcLang);
       },
       
       lstBoxSelOption: function(){
-      	return contentDetailRefObj.view.lstBoxLangSettings.selectedKey;
+      	return contentDetailRefObj.view.lblSelectedLang.text;//contentDetailRefObj.view.lstBoxLangSettings.selectedKey;//
       },
       setLstBoxSelOption: function(op){
-       contentDetailRefObj.view.lstBoxLangSettings.selectedKey = op;
+       //contentDetailRefObj.view.lstBoxLangSettings.selectedKey = op;
+        contentDetailRefObj.view.lblSelectedLang.text = op;
       },
       imgConDetBase64: function(){
-        return contentDetailRefObj.view.ContentDetailCard.imgContentDetail.base64;
+        return contentDetailRefObj.view.imgContentDetail.base64;
       },
       setImgConDetBase64: function(base64val){
-        contentDetailRefObj.view.ContentDetailCard.imgContentDetail.base64 = base64val;
+        kony.print("entered setImgConDetBase64");
+        contentDetailRefObj.view.imgContentDetail.base64 = base64val;
+      },
+      goToContentLangSeg: function(){
+        kony.print("flxLangSettings clicked");
+        contentDetailRefObj.setSegConLangData();
+      	contentDetailRefObj.view.flxContentLang.isVisible = true;
+        controllerReference.view.flxTopOverlay.isVisible = true;
+        controllerReference.view.flxBottomOverlay.isVisible = true;
+        contentDetailRefObj.view.segContentLang.setEnabled(true);
       },
       onCloseOverlay: function() {
         try {
@@ -331,7 +394,7 @@ define(function() {
         var data = JSON.parse(JSON.stringify(gblAppData));
 
 
-        var selLanguage = contentDetailRefObj.view.lstBoxLangSettings.selectedKey;
+        var selLanguage = contentDetailRefObj.lstBoxSelOption();//contentDetailRefObj.view.lstBoxLangSettings.selectedKey;//
         var contentType = data["contentType"];
         var languageUrls = [];
         var contentId = data.FullTitle;
@@ -397,7 +460,7 @@ define(function() {
         var selVersion=0;
         kony.print(">>>>>>"+ selLanguage +"     "+languageUrls);
         if (languageUrls !== null && languageUrls !== undefined && languageUrls.length > 0) {
-
+		  kony.print(">>>>> languageUrls not null");
           for (var i = 0; i < languageUrls.length; i++) {
             if (selLanguage === languageUrls[i]["language"]) {
               selUrl = languageUrls[i]["url"];
@@ -568,7 +631,95 @@ define(function() {
         }
       },
       
-      goToLanguageContent: function(data) {
+      goToSegLanguageContent: function(Lang) {
+        var data = conDetailCardData;
+        kony.print("data is - "+data);
+        kony.print("conDetailCardData in comp - "+conDetailCardData);
+        try{
+          var contentType = gblContentType;
+          kony.print("Inside goToLanguageContent\n\n\n "+contentType);
+          var selectedLanguage = Lang;//contentDetailRefObj.view.lstBoxLangSettings.selectedKey;//
+
+          if(kony.os.deviceInfo().name=="iPad"){
+
+            this.view.ContentDetailCard.lstBoxLangSettings.left="24%";
+          }
+
+          selLan=selectedLanguage;
+          kony.print("selectedKey is : " + selectedLanguage);
+          var languageUrlList = {};
+          if (contentType === "pdf") {
+            languageUrlList = gblAppData["pdfLanguageUrls"];
+          } else if (contentType === "video") {
+            languageUrlList = gblAppData["videoLanguageUrls"];
+          } else if (contentType === "ebook") {
+            languageUrlList = gblAppData["ebookLanguageUrls"];
+          } else if (contentType === "brightCoveVideo") {
+            languageUrlList = gblAppData["brightCoveLanguageUrls"];
+          }
+          kony.print("jani >>> contentdetail page languages : " + JSON.stringify(languageUrlList));
+          var contentUrl = "";
+          if (languageUrlList !== null && languageUrlList !== undefined && languageUrlList.length > 0) {
+            for (var i = 0; i < languageUrlList.length; i++) {
+              var langRecord = languageUrlList[i];
+              if (langRecord["language"] === selectedLanguage) {
+                contentUrl = langRecord["url"];
+                break;
+              }
+            }
+          }
+          kony.print("jani >>> contentdetail page contentUrl : " + contentUrl);
+          data["url"] = contentUrl;
+          kony.print("data[UID] :: "+data["UID"]);
+          data["UID"] = getUidWithoutLang(data["UID"])+selectedLanguage;
+          kony.print("data[UID] after sel op :: "+data["UID"]);
+          gblAppData = data;
+          var record = null;
+          var offlineContent = retrieveJsonAllLanguages("offlineContent");
+          kony.print("Offline content for all languages::"+JSON.stringify(offlineContent)+"\n\n\n");
+          if (!isBlankOrNull(offlineContent)&& undefined != offlineContent[gblAppData["UID"]] && null != offlineContent[gblAppData["UID"]] ) {
+            record = offlineContent[gblAppData["UID"]];
+          }
+          if(null != record ){
+            kony.print("NSR changing lang #1")
+            gblAppData["isDownloaded"] = record["isDownloaded"];
+            if(gblAppData["isDownloaded"]){
+              gblAppData.btnDownload.skin = "sknBtnDownloadActive";
+            }
+            gblAppData["isPaused"] = record["isPaused"];
+            gblAppData["PausedPercent"] = record["PausedPercent"];
+            gblAppData["isDownloading"] = record["isDownloading"];
+            gblAppData["url"] = record["url"];
+            gblAppData["isBookmarked"] = record["isBookmarked"];
+          }else{
+            kony.print("NSR changing lang #2")
+            gblAppData["isDownloaded"] = false;
+            if(gblAppData["isDownloaded"]){
+              gblAppData.btnDownload.skin = "sknBtnDownload";
+            }
+            gblAppData["isPaused"] = false;
+            gblAppData["PausedPercent"] = "";
+            gblAppData["isDownloading"] = false;
+            gblAppData["isBookmarked"] = false;
+          }
+          controllerReference.assignData(gblAppData);
+        }catch(e){
+          kony.print("Exception in goToLanguageContent::"+e);
+        }
+
+
+        if(kony.os.deviceInfo().model=="iPhone 7 Plus"){
+
+
+          contentDetailRefObj.view.lstBoxLangSettings.left="35.2%";
+        }
+
+      },
+      
+      goToLanguageContent: function() {
+        var data = conDetailCardData;
+        kony.print("data is - "+data);
+        kony.print("conDetailCardData in comp - "+conDetailCardData);
         try{
           var contentType = gblContentType;
           kony.print("Inside goToLanguageContent\n\n\n "+contentType);
@@ -604,7 +755,9 @@ define(function() {
           }
           kony.print("jani >>> contentdetail page contentUrl : " + contentUrl);
           data["url"] = contentUrl;
+          kony.print("data[UID] :: "+data["UID"]);
           data["UID"] = getUidWithoutLang(data["UID"])+selectedLanguage;
+          kony.print("data[UID] after sel op :: "+data["UID"]);
           gblAppData = data;
           var record = null;
           var offlineContent = retrieveJsonAllLanguages("offlineContent");

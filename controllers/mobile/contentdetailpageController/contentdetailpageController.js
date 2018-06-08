@@ -1,10 +1,20 @@
 define({
+  onNavigate: function(context) {
+    gblAppData=context;
+    conDetailCardData=context;
+    kony.print("conDetailCardData initialized"+JSON.stringify(conDetailCardData));
+    this.applyBindings(context);
+    //this.assignData(context);
+  },
   applyBindings: function(data) {
     //gblAppData = null;
     try {
-     
+      
       controllerReference = this;
       controllerreference = this;
+      
+      this.view.flxBottomOverlay.onClick = function(){};
+      this.view.flxTopOverlay.onClick = function(){};
       controllerreference.view.flxToast.setVisibility(false);
       this.view.flxContentDetails.setEnabled(true);
       DownloadingBrightCove = false; // When downloading brightcove make this as true so that user will not navigate to video page.
@@ -19,6 +29,8 @@ define({
       this.view.preShow = this.contentDetailsPreShow.bind(this, data);
       this.view.postShow = this.contentDetailsPostShow.bind(this, data);
       
+      //this.view.segContentLang.onRowClick = this.setSelectedContentLang.bind(this);
+      
       controllerReference.view.flxMainPopup.isVisible=false;
       controllerReference.view.btnNoDelete.onClick=this.dismissPopup.bind(this);
       pageComponents = ["ContentDetailCard","MoreOptions","Popup","Popup2"];
@@ -27,7 +39,10 @@ define({
       };
       controllerReference.view.Popup.onTouchStart=function(){
         kony.print("");
-      }
+      };
+      /*controllerReference.view.flxContentLang.onClick = function(){
+        controllerReference.view.flxContentLang.isVisible = false;
+      }*/
       
       kony.print("In End of apply Bindings");
     } catch (e) {
@@ -50,8 +65,43 @@ define({
     } catch (e) {}
   },
   
-  
-  
+  setSegConLangData: function(){
+    kony.print("***inside set data for conLang segment***");
+    var segData = []; 
+    var imgsrc = "icon_heart.png";
+    for(var i=0;i<segConLangData.length;i++){
+        var lang = segConLangData[i][1];
+        if(lang === controllerReference.view.ContentDetailCard.lstBoxSelOption()){
+          imgsrc = "icon_heart_active.png";
+        }else{
+          imgsrc = "icon_heart.png";          
+        }
+        var langOption = {
+          "flxBackground":{
+            
+            onClick: function(){}
+          },
+          "lblContentLang":{
+            text: lang
+          },
+          "imgContentLangSel":{
+            src: imgsrc
+          }
+        };
+        segData.push(langOption);
+      }
+    controllerReference.view.segContentLang.setData(segData);
+  },
+  setSelectedContentLang: function(){
+    kony.print("entered segConLang onrowclick func");
+    var selectedRow = controllerReference.view.segContentLang.selectedIndex[1];    
+    kony.print("selected lang index = "+selectedRow);
+    var selcLang = segConLangData[selectedRow][1];
+    controllerReference.view.flxContentLang.isVisible = false;
+    kony.print("selected content lang = "+selcLang);
+    controllerReference.view.ContentDetailCard.lblSelLangText = selcLang;
+    controllerReference.view.ContentDetailCard.goToSegLanguageContent(selcLang);
+  },
   
   UpdateContent:function(){
       if(!isNetworkAvailable()){
@@ -228,7 +278,9 @@ define({
         kony.print("@@NSR languages : "+JSON.stringify(languageUrls));
         var plainUID = getUidWithoutLang(data["UID"]);
         var offlineContent = retrieveJsonAllLanguages("offlineContent");
+        
         if(!isBlankOrNull(offlineContent)){
+          kony.print("@@NSR offlineContent : "+JSON.stringify(offlineContent));
           if (languages !== null && languages !== undefined && languages.length > 0) {
             	var len = languages.length;
             	while(len--){
@@ -276,7 +328,13 @@ define({
         }
       }
       kony.print("Before setting default language : " + defaultLanguage);
+      kony.print("@@Ana languages : "+JSON.stringify(languages));
       this.view.ContentDetailCard.lstBoxLangMasterData = languages;
+      segConLangData = languages;
+      /*if(segConLangData === null || segConLangData === undefined || segConLangData.length === 0){
+        segConLangData = [[defaultLanguage,defaultLanguage]];
+      }*/
+      this.view.ContentDetailCard.lblSelLangText = segConLangData[0][1];
       if (selLan == "") {
         this.view.ContentDetailCard.setLstBoxSelOption(defaultLanguage);
       } else {
@@ -338,6 +396,7 @@ define({
         gblAppData["isBookmarked"] = false;
         gblAppData["isDownload"] = "true";
       }
+      kony.print("assigned data = "+JSON.stringify(gblAppData));
       this.assignData(gblAppData);
 
     }catch(e){
@@ -893,6 +952,7 @@ define({
          this.view.ContentDetailCard.imgContDetailSrc = data.imgContent;
       }
       //this.view.ContentDetailCard.imgContentDetail.src = data.imgContent;
+      kony.print("after setImgConDetBase64");
       if (!isBlankOrNull(data.profileSub))
         this.view.ContentDetailCard.lblPublisherText = data.profileSub + " - " + data.profileName;
       else
@@ -911,7 +971,7 @@ define({
       }
       if (data.isPaused) {
         controllerReference.view.ContentDetailCard.dwOverlayIsVisible = true;
-        controllerReference.setOverlayView(2);
+        controllerReference.view.ContentDetailCard.setOverlayView(2);
         if (isIOS()) {
           controllerReference.view.ContentDetailCard.lblDwProgressText = "Downloading... " + data.PausedPercent;
         } else {
@@ -920,13 +980,13 @@ define({
 
       } else if (data.isDownloading) {
         controllerReference.view.ContentDetailCard.dwOverlayIsVisible = true;
-        controllerReference.setOverlayView(1);
+        controllerReference.view.ContentDetailCard.setOverlayView(1);
         controllerReference.view.ContentDetailCard.lblDwProgressText = "Downloading... ";
       } else { //default case
         kony.print("entered default case");
         controllerReference.view.ContentDetailCard.dwOverlayIsVisible = true;
         controllerReference.view.ContentDetailCard.lblDwProgressText = "Downloading... ";
-        controllerReference.setOverlayView(1); //set the overlay and hide
+        controllerReference.view.ContentDetailCard.setOverlayView(1); //set the overlay and hide
         controllerReference.view.ContentDetailCard.dwOverlayIsVisible = false;
       }
       //#ifdef iphone
@@ -1433,9 +1493,5 @@ define({
   Tealium.trackEvent("button_clicked",JSON.stringify(data),"eia-hub-app");
   kony.print("track event called : "+JSON.stringify(data));
 },
-  onNavigate: function(context) {
-    gblAppData=context;
-    this.applyBindings(context);
-    //this.assignData(context);
-  }
+  
 });
