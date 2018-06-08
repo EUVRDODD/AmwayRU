@@ -5,11 +5,7 @@
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "100%"
-    },
-    "_left_": {
-        "type": "string",
-        "value": "0dp"
+        "value": "45dp"
     },
     "_margin_": [
         0,
@@ -23,34 +19,41 @@
         0,
         0
     ],
+    "_right_": {
+        "type": "string",
+        "value": "3%"
+    },
     "_skin_": "s5989cfd8ced47f783d2ad0d38fdc1c3",
-    "_src_": "wheel.png",
+    "_src_": "imagedrag.png",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "6dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "45dp"
     },
     "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerId": true,
     "containerweight": 100,
     "context": {
         "channel": "mobile",
-        "formID": "uw4d8e8baea19f44e88adb863161619e18",
-        "platform": "android",
-        "templateType": "userwidgets",
+        "platform": "iphone",
+        "templateType": "segments",
         "topLevelBox": null
     },
-    "id": "loaderInactive",
+    "id": "imgContentLangSel",
     "imagescalemode": 1,
     "info": null,
-    "invokedProperty": "src",
-    "isvisible": false,
-    "kuid": "6848ff4e9d95466598b795363a387c68",
+    "isvisible": true,
+    "kuid": "b222c47581b9498684feec85214bd910",
     "name": "kony.ui.Image2",
-    "parent": "FlexContainer0ddbf0755d4b943",
-    "pf": "userwidgetmodel",
+    "parent": "flxBackground",
+    "pf": "tempSegmentContentLang",
     "srcType": 1,
     "wType": "Image",
     "widgetalignment": 5,

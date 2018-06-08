@@ -98,6 +98,20 @@
                     },
                     "srcWgtKUID": "c7bb89f7aacb44a086137f55a8aaac5b",
                     "type": "event"
+                },
+                {
+                    "paramList": [
+                        {
+                            "name": "Lang"
+                        }
+                    ],
+                    "propertyKey": "goToSegLanguageContent",
+                    "pw": {
+                        "displayName": "goToSegLanguageContent",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "c7bb89f7aacb44a086137f55a8aaac5b",
+                    "type": "event"
                 }
             ],
             "passthrough": [
@@ -265,6 +279,21 @@
                         "wType": "RichText"
                     },
                     "srcWgtKUID": "668b6f49810245d4affddf3955979e39"
+                },
+                {
+                    "access": "Enable",
+                    "originalPropertyKey": "text",
+                    "propertyKey": "lblSelLangText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "lblSelLangText",
+                        "srcWidget": "lblSelectedLang",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "hb2b271ca9844052a5a1112e7d19c21a"
                 }
             ]
         }

@@ -1333,7 +1333,8 @@
         "Popup",
         "Popup2",
         "flxMainPopup",
-        "flxContentVersion"
+        "flxContentVersion",
+        "flxContentLang"
     ],
     "containerweight": 100,
     "controllerInfo": {

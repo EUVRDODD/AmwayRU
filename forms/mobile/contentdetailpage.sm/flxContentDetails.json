@@ -39,7 +39,9 @@
         "FlexContainer0ad6cc568b4cd4e",
         "FlexContainer0a4b8007b4dff42",
         "flxBottombarDetailsPage",
-        "hiddenOptionsContainer"
+        "hiddenOptionsContainer",
+        "flxBottomOverlay",
+        "flxTopOverlay"
     ],
     "clipbounds": true,
     "containerweight": 100,
