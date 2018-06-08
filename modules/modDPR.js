@@ -28,7 +28,8 @@ function getDprObj(cid) {
 }
 function androidSpecificOtherLangDownloadFinish(contentObject){
   try{
-    	var plainUid = getUidWithoutLang(contentObject["UID"]);
+    	//var plainUid = getUidWithoutLang(contentObject["UID"]);
+      	var plainUid = contentObj.UIDPlain;
         var isEnglishContent = (contentObject["UID"].split(plainUid)[1]).toLowerCase() === gblLanguage.toLowerCase();
         //If downloaded content is not in english then also we need to send it to offline as per requirement
         if(!isEnglishContent){
