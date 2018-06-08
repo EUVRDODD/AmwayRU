@@ -28,7 +28,11 @@ var UIApplication = objc.import("UIApplication");
 var AVContoller = AVPlayerViewController.alloc().jsinit();
 //#endif
 
+//App Related Globals
 
+var gblAppDefaultCountry = "";
+var gblAppDefaultLanguage = "English";
+var gblAppUserType = ""; //Guest (or) User
 
 
 flag=true;

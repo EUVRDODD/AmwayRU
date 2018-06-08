@@ -139,7 +139,8 @@ function finishDownloadCallBackObj(object,filePath){
       if(null != controller)
           controller.finishDownloadCallBackObj(object,filePath);
     	
-    	var plainUid = getUidWithoutLang(object["UID"]);
+    	//var plainUid = getUidWithoutLang(object["UID"]);
+      	var plainUid = object.UIDPlain;
         var isEnglishContent = (object["UID"].split(plainUid)[1]).toLowerCase() === gblLanguage.toLowerCase();
         //If downloaded content is not in english then also we need to send it to offline as per requirement
         if(!isEnglishContent){

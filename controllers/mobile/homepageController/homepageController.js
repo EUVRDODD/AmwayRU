@@ -852,7 +852,7 @@ define({
                   var language = pdfUrlList[j]["pdfLanguage"];
                   var version = pdfUrlList[j]["pdfVersion"];
                   if (language === null || language === "null") {
-                    language = gblLanguage.toLowerCase();
+                    language = gblAppDefaultLanguage.toLowerCase();
                   }
 
                   if(version===null || version ==="null"){
@@ -868,7 +868,7 @@ define({
                   record["language"] = language;
                   record["url"] = pdfUrlValue;
                   record["version"]=version;
-                  if (language !== null && language !== undefined && language.toLowerCase() === gblLanguage.toLowerCase()) {
+                  if (language !== null && language !== undefined && language.toLowerCase() === gblAppDefaultLanguage.toLowerCase()) {
                     pdfUrl = pdfUrlValue;
                   }
                   pdfLanguageUrls.push(record);
@@ -967,7 +967,8 @@ define({
                   "lbltitle": pdfTitle,
                   "FullTitle":FullTitle,
                   "contentId": contentId,
-                  "UID": contentId+data[i]["pdfUid"]+"English",
+                  "UIDPlain": contentId+data[i]["pdfUid"],
+                  "UID": gblAppUserType+contentId+data[i]["pdfUid"]+gblAppDefaultCountry+gblAppDefaultLanguage,
                   "contentType": "pdf",
                   "lblSeeMore": pdfSeemoreText,
                   "lblLine":{
@@ -1022,7 +1023,7 @@ define({
                   record["language"] = language;
                   record["url"] = videoUrlValue;
                   record["version"]=version;
-                  if (language !== null && language !== undefined && language.toLowerCase() === gblLanguage.toLowerCase()) {
+                  if (language !== null && language !== undefined && language.toLowerCase() === gblAppDefaultLanguage.toLowerCase()) {
                     videoUrl = videoUrlValue;
                   }
                   videoLanguageUrls.push(record);
@@ -1120,7 +1121,8 @@ define({
                   "lbltitle": videoTitle,
                   "FullTitle":FullTitle,
                   "contentId": contentId,
-                  "UID": contentId+data[i]["videoUid"]+"English",
+                  "UIDPlain": contentId+data[i]["videoUid"],
+                  "UID": gblAppUserType+contentId+data[i]["videoUid"]+gblAppDefaultCountry+gblAppDefaultLanguage,
                   "contentType": "video",
                   "lblSeeMore": videoSeemoreText,
                   "lblLine":{
@@ -1266,7 +1268,8 @@ define({
                   "lbltitle": htmlTitle,
                   "FullTitle":FullTitle,
                   "contentId": contentId,
-                  "UID": data[i]["htmlUid"]+"English",
+                  "UIDPlain": contentId+data[i]["htmlUid"],
+                  "UID": gblAppUserType+contentId+data[i]["htmlUid"]+gblAppDefaultCountry+gblAppDefaultLanguage,
                   "contentType": "html",
                   "lblSeeMore": htmlSeemoreText,
                   "lblLine":{
@@ -1316,7 +1319,7 @@ define({
                   var ebookUrlValue = ebookUrlList[j]["ebookUrl"];
                   record["language"] = language;
                   record["url"] = ebookUrlValue;
-                  if (language !== null && language !== undefined && language.toLowerCase() === gblLanguage.toLowerCase()) {
+                  if (language !== null && language !== undefined && language.toLowerCase() === gblAppDefaultLanguage.toLowerCase()) {
                     ebookUrl = ebookUrlValue;
                   }
                   ebookLanguageUrls.push(record);
@@ -1382,7 +1385,8 @@ define({
                   "lbltitle": ebookTitle,
                   "FullTitle":FullTitle,
                   "contentId": contentId,
-                  "UID": contentId+data[i]["ebookUid"]+"English",
+                  "UIDPlain": contentId+data[i]["ebookUid"],
+                  "UID": gblAppUserType+contentId+data[i]["ebookUid"]+gblAppDefaultCountry+gblAppDefaultLanguage,
                   "contentType": "ebook",
                   "lblSeeMore": eBookSeemoreText,
                   "lblLine":{
@@ -1448,7 +1452,7 @@ define({
                   record["language"] = language;
                   record["url"] = pdfUrlValue;
                   record["version"] = version;
-                  if (language !== null && language !== undefined && language.toLowerCase() === gblLanguage.toLowerCase()) {
+                  if (language !== null && language !== undefined && language.toLowerCase() === gblAppDefaultLanguage.toLowerCase()) {
                     pdfUrl = pdfUrlValue;
                   }
                   pdfLanguageUrls.push(record);
@@ -1560,7 +1564,8 @@ define({
                   "lbltitle": pdfTitle,
                   "FullTitle":FullTitle,
                   "contentId": contentId,
-                  "UID": contentId+data[i]["pdfUid"]+"English",
+                  "UIDPlain": contentId+data[i]["pdfUid"],
+                  "UID": gblAppUserType+contentId+data[i]["pdfUid"]+gblAppDefaultCountry+gblAppDefaultLanguage,
                   "contentType": "pdf",
                   "lblSeeMore": pdfSeemoreText,
                   "lblLine":{
@@ -1614,7 +1619,7 @@ define({
                   record["language"] = language;
                   record["url"] = videoUrlValue;
                   record["version"] = version;
-                  if (language !== null && language !== undefined && language.toLowerCase() === gblLanguage.toLowerCase()) {
+                  if (language !== null && language !== undefined && language.toLowerCase() === gblAppDefaultLanguage.toLowerCase()) {
                     videoUrl = videoUrlValue;
                   }
                   videoLanguageUrls.push(record);
@@ -1723,7 +1728,8 @@ define({
                   "lbltitle": videoTitle,
                   "FullTitle":FullTitle,
                   "contentId": contentId,
-                  "UID": contentId+data[i]["videoUid"]+"English",
+                  "UIDPlain": contentId+data[i]["videoUid"],
+                  "UID": gblAppUserType+contentId+data[i]["videoUid"]+gblAppDefaultCountry+gblAppDefaultLanguage,
                   "contentType": "video",
                   "lblSeeMore": videoSeemoreText,
                   "lblLine":{
@@ -1814,7 +1820,8 @@ define({
                   "lbltitle": htmlTitle,
                   "FullTitle":FullTitle,
                   "contentId": contentId,
-                  "UID": data[i]["htmlUid"]+"English",
+                  "UIDPlain": contentId+data[i]["htmlUid"],
+                  "UID": gblAppUserType+contentId+data[i]["htmlUid"]+gblAppDefaultCountry+gblAppDefaultLanguage,
                   "contentType": "html",
                   "lblSeeMore": htmlSeemoreText,
                   "lblLine":{
@@ -1865,7 +1872,7 @@ define({
                   var ebookUrlValue = ebookUrlList[j]["ebookUrl"];
                   record["language"] = language;
                   record["url"] = ebookUrlValue;
-                  if (language !== null && language !== undefined && language.toLowerCase() === gblLanguage.toLowerCase()) {
+                  if (language !== null && language !== undefined && language.toLowerCase() === gblAppDefaultLanguage.toLowerCase()) {
                     ebookUrl = ebookUrlValue;
                   }
                   ebookLanguageUrls.push(record);
@@ -1931,7 +1938,8 @@ define({
                   "lbltitle": ebookTitle,
                   "FullTitle":FullTitle,
                   "contentId": contentId,
-                  "UID": contentId+data[i]["ebookUid"]+"English",
+                  "UIDPlain": contentId+data[i]["ebookUid"],
+                  "UID": gblAppUserType+contentId+data[i]["ebookUid"]+gblAppDefaultCountry+gblAppDefaultLanguage,
                   "contentType": "ebook",
                   "lblSeeMore": eBookSeemoreText,
                   "lblLine":{
@@ -2163,7 +2171,7 @@ define({
       }
       var contentShareable = contentObject.isShareable;
       kony.print("contentShareable :: " + contentShareable+"");
-      var selectedLanguage = gblLanguage;
+      var selectedLanguage = gblAppDefaultLanguage;
       var languageUrlList = {};
       var contentType = contentObject["contentType"];
       if (contentType === "pdf") {
@@ -2219,8 +2227,8 @@ define({
         contentObj.btnBookmark.skin = "sknBookmarkActive";
       }
       contentObj.flxDownloadOverlay = {onClick : function(){},isVisible:false};
-      kony.print("NSR current language is "+language +" gblLang "+gblLanguage);
-      if( language.toLowerCase() === gblLanguage.toLowerCase() ){
+      kony.print("NSR current language is "+language +" gblLang "+gblAppDefaultLanguage);
+      if( language.toLowerCase() === gblAppDefaultLanguage.toLowerCase() ){
         kony.print("mnb language matched");
         controllerReference.view.segHomePageContent.setDataAt(contentObj, selectedIndex);
         for(var i=0;i<gblContentList.length;i++){
@@ -2314,7 +2322,7 @@ define({
         kony.print("SR@ url becomes empty so setting it again"+JSON.stringify(langUrls));
         if(!isBlankOrNull(langUrls)){
           for(var k=0;k<langUrls.length;k++){
-            if(langUrls[k]["language"].toLowerCase() == gblLanguage.toLowerCase()){
+            if(langUrls[k]["language"].toLowerCase() == gblAppDefaultLanguage.toLowerCase()){
               kony.print("SR@ english URL is "+langUrls[k]["url"]);
               contentObj.url = langUrls[k]["url"];
               break;
@@ -2322,8 +2330,9 @@ define({
           }
         }
       }
-
-      var plainUid = getUidWithoutLang(contentObj["UID"]);
+	  kony.print("plainUid of the Content::"+contentObj.UIDPlain);
+      //var plainUid = getUidWithoutLang(contentObj["UID"]);
+      var plainUid = contentObj.UIDPlain;
       kony.print("selecte item is :: " + JSON.stringify(contentObj));
       var contentBookmarked = contentObj.isBookmarked;
 
@@ -2334,16 +2343,16 @@ define({
       if (languageUrls !== null && languageUrls !== undefined && languageUrls.length > 0) {
         for (var i = 0; i < languageUrls.length; i++) {
           var tempLang = languageUrls[i]["language"];
-          if (tempLang === gblLanguage) {
+          if (tempLang === gblAppDefaultLanguage) {
             langFound = true;
             break;
           }
         }
         //if english not found then also we need to update the UI
         if (!langFound) {
-          contentObj["UID"] = plainUid+gblLanguage;
+          contentObj["UID"] = plainUid+gblAppDefaultLanguage;
           contentObj["url"] = null;
-          controllerReference.bookMarkLanguageSpecificContent(contentObj, contentBookmarked,selectedIndex,gblLanguage);
+          controllerReference.bookMarkLanguageSpecificContent(contentObj, contentBookmarked,selectedIndex,gblAppDefaultLanguage);
         }
 
         //All languages
@@ -2574,7 +2583,7 @@ define({
               kony.print("SR@ url becomes empty so setting it again"+JSON.stringify(langUrls));
               if(!isBlankOrNull(langUrls)){
                 for(var k=0;k<langUrls.length;k++){
-                  if(langUrls[k]["language"].toLowerCase() == gblLanguage.toLowerCase()){
+                  if(langUrls[k]["language"].toLowerCase() == gblAppDefaultLanguage.toLowerCase()){
                     kony.print("SR@ english URL is "+langUrls[k]["url"]);
                     contentObject.url = langUrls[k]["url"];
                     break;
@@ -3145,7 +3154,7 @@ define({
               kony.print("Sreeni >>>>> updating online data :"+JSON.stringify(gblData));
               segmentData[i].url = gblData.url;
               for(var m=0;m<segmentData[i].videoLanguageUrls.length;m++){
-                if(segmentData[i].videoLanguageUrls[m]["language"].toLowerCase() === gblLanguage.toLowerCase()){
+                if(segmentData[i].videoLanguageUrls[m]["language"].toLowerCase() === gblAppDefaultLanguage.toLowerCase()){
                   kony.print("Setting language for language support");
                   segmentData[i].videoLanguageUrls[m]["url"] = gblData.url;
                   break;

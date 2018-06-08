@@ -34,6 +34,8 @@ define({
   languageSelection : function(){
     var currentLocale = kony.i18n.getCurrentLocale();
     var countryKey = this.view.languageListBox.selectedKey;
+    gblAppDefaultCountry = this.view.languageListBox.selectedKeyValue[1];
+    kony.print("gblAppDefaultCountry::"+gblAppDefaultCountry);
     kony.store.setItem("countryKey", countryKey);
     this.getSelectedLocale(countryKey);
     this.countrySelectAnimation(countryKey);	// Move animation from bottom to top to see the prelogin buttons
@@ -88,6 +90,7 @@ define({
   },
   continueLogin : function(){
     kony.store.setItem("guest", "false");
+    gblAppUserType = "user";
     showLoading();
     var nav = new kony.mvc.Navigation("loginpage");
     nav.navigate();
@@ -95,6 +98,7 @@ define({
   guestLogin : function(){
     showLoading();
     kony.store.setItem("guest", "true");
+    gblAppUserType = "guest";
       var nav = new kony.mvc.Navigation("homepage");
       nav.navigate();
   },
@@ -176,7 +180,7 @@ define({
         //kony.print("jani >>> jsondata :: "+jsondata);		// output : [object, object]
         var resultArray = [];
         resultArray.push(["select","Select Country"]);
-        resultArray.push(["en_IN","English"]);
+        resultArray.push(["en_IN","India"]);
         for(var key in jsondata){
           kony.print("jani >>> key :: "+key);
           resultArray.push([key, jsondata[key]]);
